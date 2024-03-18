@@ -32,7 +32,7 @@ const RiskScorecard = (globalConfig) => {
         }
 
         console.log("risk color: " + riskColor);
-        return riskColor;
+        return {['risk-color']: riskColor};;
     }
 
     return {
