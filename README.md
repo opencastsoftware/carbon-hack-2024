@@ -1,4 +1,4 @@
-# if-plugin-template
+# if-risk-scorecard
 
 `risk-scorecard` is an ........(Description goes here)
 
