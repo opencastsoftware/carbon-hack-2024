@@ -3,6 +3,10 @@ description: example impl invoking Cloud Instance Metadata plugin
 tags:
 initialize:
   plugins:
+    sci:
+        kind: plugin
+        method: Sci
+        path: "@grnsft/if-plugins"
     risk-scorecard:
       method: RiskScorecard
       path: 'risk-scorecard'
@@ -10,12 +14,19 @@ initialize:
         keep-exisiting: true
 tree:
   pipeline:
+    - sci
     - risk-scorecard
   config:
+    sci:
+      functional-unit-time: 1 sec
+      functional-unit: requests # factor to convert per time to per f.unit
     risk-scorecard:
       upper-value: 10
       lower-value: 5
   inputs:
-    - timestamp: 2024-04-01T00:00 
-      duration: 100
-      sci: 12
+        - timestamp: 2023-07-06T00:00
+          duration: 3600
+          energy: 5
+          carbon-operational: 5
+          carbon-embodied: 0.02
+          requests: 100
