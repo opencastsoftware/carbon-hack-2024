@@ -1,4 +1,4 @@
-name: test-manifest
+name: cloud-instance-metadata
 description: example impl invoking Cloud Instance Metadata plugin
 tags:
 initialize:
