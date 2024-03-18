@@ -26,8 +26,8 @@ npm link risk-scorecard
 2. Use the linked model in impl by specifying `name`, `method`, `path` in initialize models section. 
 
 ```yaml
-name: cloud-instance-metadata
-description: example impl invoking Cloud Instance Metadata plugin
+name: risk-scorecard
+description: simple demo invoking risk-scorecard plugin
 tags:
 initialize:
   plugins:
