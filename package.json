@@ -1,0 +1,19 @@
+{
+  "name": "risk-scorecard",
+  "version": "1.0.0",
+  "description": "We plan to create a YAML or possibly an exhaust plugin that produces a rating for processes or services running on known cloud VMs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gsf",
+    "green-software-foundation",
+    "plugin"
+  ],
+  "author": "Opecast Software",
+  "license": "MIT",
+  "dependencies": {
+    "@grnsft/if": "^0.3.1"
+  }
+}
