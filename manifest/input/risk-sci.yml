@@ -21,7 +21,7 @@ tree:
       functional-unit-time: 1 sec
       functional-unit: requests # factor to convert per time to per f.unit
     risk-scorecard:
-      upper-value: 10
+      upper-value: 6
       lower-value: 5
   inputs:
         - timestamp: 2023-07-06T00:00

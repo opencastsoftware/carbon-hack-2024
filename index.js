@@ -4,14 +4,17 @@ const RiskScorecard = (globalConfig) => {
         kind: 'execute',
     };
 
+    var lower_value = 'lower-value';
+    var upper_value = 'upper-value';
+
     
     const validateConfig = (config) => {
         // Example validation: Check if upper-value and lower-value are numbers
-        if (typeof config['upper-value'] !== 'number' || typeof config['lower-value'] !== 'number') {
+        if (typeof config[upper_value] !== 'number' || typeof config[lower_value] !== 'number') {
             throw new Error('upper-value and lower-value must be numbers');
         }
         // check if lower value is greater than upper value
-        if ( config['lower-value'] >= config['upper-value']) {
+        if ( config[lower_value] >= config[upper_value]) {
             throw new Error('lower-value can not be greater than or equal to upper value');
         }
 
@@ -23,8 +26,8 @@ const RiskScorecard = (globalConfig) => {
         console.log("inputs");
         console.log(inputs);
         var safeConfig = validateConfig(config);
-        const upperValue = safeConfig['upper-value'];
-        const lowerValue = safeConfig['lower-value'];
+        const upperValue = safeConfig[upper_value];
+        const lowerValue = safeConfig[lower_value];
 
         console.log("upper value: " + upperValue);
         console.log("lower value: " + lowerValue);
