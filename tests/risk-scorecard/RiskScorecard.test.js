@@ -11,9 +11,15 @@ describe('RiskScorecard', () => {
             await expect(riskScorecard.execute(inputs, config)).rejects.toThrow('upper-value and lower-value must be numbers');
         });
 
-        test('should throw error if config is invalid', async () => {
+        test('should throw error if lower-value greater than upper value', async () => {
             const inputs = [{ sci: 15 }];
             const config = { 'upper-value': 5, 'lower-value': 10 };
+            await expect(riskScorecard.execute(inputs, config)).rejects.toThrow('lower-value can not be greater than or equal to upper value');
+        });
+
+        test('should throw error if lower-value equal to upper value', async () => {
+            const inputs = [{ sci: 15 }];
+            const config = { 'upper-value': 10, 'lower-value': 10 };
             await expect(riskScorecard.execute(inputs, config)).rejects.toThrow('lower-value can not be greater than or equal to upper value');
         });
 
