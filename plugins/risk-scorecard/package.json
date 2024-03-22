@@ -14,6 +14,7 @@
   "author": "Opecast Software",
   "license": "MIT",
   "dependencies": {
-    "@grnsft/if": "^0.3.1"
+    "@grnsft/if": "^0.3.1",
+    "@grnsft/if-plugins": "^0.3.0"
   }
 }

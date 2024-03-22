@@ -1,12 +1,12 @@
-const RiskScorecard = (globalConfig) => {
+const SWI = (globalConfig) => {
     console.log(globalConfig);
     const metadata = {
         kind: 'execute',
     };
 
     const execute = async (inputs, config) => {
-        console.log(inputs);
         console.log(config);
+        console.log(inputs);
     }
 
     return {
@@ -15,4 +15,4 @@ const RiskScorecard = (globalConfig) => {
     };
 };
 
-exports.RiskScorecard = RiskScorecard; 
+exports.SWI = SWI; 

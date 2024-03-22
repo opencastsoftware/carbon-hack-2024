@@ -1,0 +1,21 @@
+name: test-manifest-for-swi
+description: example impl invoking Cloud Instance Metadata plugin
+tags:
+initialize:
+  plugins:
+    risk-scorecard:
+      method: SWI
+      path: 'swi'
+      global-config:
+        keep-exisiting: true
+tree:
+  pipeline:
+    - swi
+  config:
+    swi:
+      upper-value: 10
+      lower-value: 5
+  inputs:
+    - timestamp: 2024-04-01T00:00 
+      duration: 100
+      sci: 12
