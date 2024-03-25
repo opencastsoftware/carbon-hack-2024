@@ -7,36 +7,40 @@ const SWI = (globalConfig) => {
         kind: 'execute',
     };
 
-    const getRecord = (config, callback) => {
-        
-        const csvFilePath = 'data/min_water_consumption_per_country_year 1.csv';
-        const data = [];
+    const getRecord = (config) => {
+        return new Promise((resolve, reject) => {
+            const csvFilePath = 'data/min_water_consumption_per_country_year 1.csv';
+            const data = [];
 
-        fs.createReadStream(csvFilePath).pipe(csv()).on('data', (row) => {
-            data.push(row);
-        })
-        .on('end', ()=> {
-            const country = config['country'];
-            const year = config['year'];
+            const readStream = fs.createReadStream(csvFilePath);
 
-            for (let i = 0; i < data.length; i++) {
-                if(data[i].country == country && data[i].year == year){
-                    result = {
-                        country: data[i].country,
-                        year: data[i].year,
-                        min_water: data[i].min_water,
-                        max_water: data[i].max_water,
-                        estimate_water: data[i].estimate_water
-                    };
-                    break;
-                }
-            }
+            readStream
+                .on('error', (error) => {
+                    reject(error);
+                })
+                .pipe(csv())
+                .on('data', (row) => {
+                    data.push(row);
+                })
+                .on('end', () => {
+                    const country = config['country'];
+                    const year = config['year'];
 
-            callback(null, result);
-        })
-        .on('error', (error) => {
-            console.error(error);
-            callback(error, null);
+                    for (let i = 0; i < data.length; i++) {
+                        if (data[i].country == country && data[i].year == year) {
+                            const result = {
+                                country: data[i].country,
+                                year: data[i].year,
+                                min_water: data[i].min_water,
+                                max_water: data[i].max_water,
+                                estimate_water: data[i].estimate_water
+                            };
+                            resolve(result);
+                            return; // Exit loop once the result is found
+                        }
+                    }
+                    reject(new Error('Record not found')); // Reject promise if record is not found
+                });
         });
     };
 
@@ -52,17 +56,15 @@ const SWI = (globalConfig) => {
 
         var energyConsumption = serverUtilization * numberOfHours * numberOfCores * tdp * tdpCoefficient;
         
-        await getRecord(config, (error, result)=> {
-            // Water Consumption (liters) = 23.946 kWh * (1.8 liters/kWh + 7.6 liters/kWh) = 225.4 liters
-            var waterConsumption = energyConsumption * (WATER_AVARAGE + parseFloat(result.estimate_water));
+        try {
+            const result = await getRecord(config);
+            const waterConsumption = energyConsumption * (WATER_AVARAGE + parseFloat(result.estimate_water));
             console.log(waterConsumption);
-
-            return {['waterConsumption']: waterConsumption};
-        });
-
-        //console.log(config);
-        //console.log(inputs);
-        //return {['energyConsumption']: energyConsumption};
+            return { ['waterConsumption']: waterConsumption };
+        } catch (error) {
+            console.error(error);
+            return { error: error.message };
+        }
     }
 
     return {
