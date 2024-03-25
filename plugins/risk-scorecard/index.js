@@ -20,6 +20,7 @@ const RiskScorecard = (globalConfig) => {
 
         return config;
     };
+    
     const execute = async (inputs, config) => {
         console.log("config");
         console.log(config);
