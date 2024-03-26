@@ -1,3 +1,6 @@
+const fs = require('fs');
+const csv = require('csv-parser');
+
 const RiskScorecard = (globalConfig) => {
     console.log(globalConfig);
     const metadata = {
@@ -20,37 +23,62 @@ const RiskScorecard = (globalConfig) => {
 
         return config;
     };
+
+    const getBands = (country, hours) => {
+        return new Promise((resolve, reject) => {
+            const csvFilePath = 'data/rag_bands_ranges 1.csv';
+            const data = [];
+    
+            const readStream = fs.createReadStream(csvFilePath);
+
+            readStream
+                .on('error', (error) => {
+                    reject(error);
+                })
+                .pipe(csv())
+                .on('data', (row) => {
+                    data.push(row);
+                })
+                .on('end', () => {
+                    for (let i = 0; i < data.length; i++) {
+                        if (data[i].country == country && data[i].number_of_hours == hours) {
+                            const result = {
+                                country: data[i].country,
+                                number_of_hours: data[i].number_of_hours,
+                                low_upper_band: data[i].low_upper_band,
+                                medium_upper_band: data[i].medium_upper_band
+                            };
+                            resolve(result);
+                            return; // Exit loop once the result is found
+                        }
+                    }
+                    reject(new Error('Band record not found')); // Reject promise if record is not found
+                });
+        });
+    };
     
     const execute = async (inputs, config) => {
-        console.log("config");
-        console.log(config);
-        console.log("inputs");
-        console.log(inputs);
-        var safeConfig = validateConfig(config);
-        const upperValue = safeConfig[upper_value];
-        const lowerValue = safeConfig[lower_value];
+        try {
+            const bands = await getBands(inputs[0].country, inputs[0].numberOfHours);
+            waterConsumption = inputs.waterConsumption;
+            console.log(bands)
+            var riskColor = '';
+            if(waterConsumption < parseFloat(bands.low_upper_band)){
+                riskColor = 'green';
+            }
+            else if(waterConsumption < parseFloat(bands.medium_upper_band)) {
+                riskColor = "amber";
+            }
+            else
+            {
+                riskColor = 'red';
+            }
 
-        console.log("upper value: " + upperValue);
-        console.log("lower value: " + lowerValue);
-
-        var sci = inputs[0].sci
-
-        console.log(sci);
-        
-        var riskColor = '';
-        if(sci < lowerValue){
-            riskColor = 'green';
+            return {['risk-color']: riskColor};
+        } catch (error) {
+            console.error(error);
+            return { error: error.message };
         }
-        else if(sci < upperValue) {
-            riskColor = "amber";
-        }
-        else
-        {
-            riskColor = 'red';
-        }
-
-        console.log("risk color: " + riskColor);
-        return {['risk-color']: riskColor};
     }
 
     return {

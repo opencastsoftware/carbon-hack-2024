@@ -1,8 +1,11 @@
-name: test-manifest
+name: cloud-instance-metadata
 description: example impl invoking Cloud Instance Metadata plugin
 tags:
 initialize:
   plugins:
+    swi:
+      method: SWI
+      path: 'swi'
     risk-scorecard:
       method: RiskScorecard
       path: 'risk-scorecard'
@@ -10,12 +13,17 @@ initialize:
         keep-exisiting: true
 tree:
   pipeline:
+    - swi
     - risk-scorecard
   config:
+    swi:
     risk-scorecard:
   inputs:
     - timestamp: 2024-04-01T00:00 
-      country: Brazil
       duration: 100
+      country: Brazil
+      serverUtilization: 10
       numberOfHours: 1
-      waterConsumption: 167.24706060235152
+      numberOfCores: 2
+      tdp: 10
+      tdpCoefficient: 0.4

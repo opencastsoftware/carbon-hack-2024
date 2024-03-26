@@ -59,5 +59,5 @@ npm install -g "@grnsft/if"
 Now, when you run the `manifest` using the IF CLI, it will load the model automatically. Run using:
 
 ```sh
-ie --manifest ./manifest/input/test.yml --output ./manifest/output/test.yml
+ie --manifest ./risk-scorecard/risk-swi.yml
 ```

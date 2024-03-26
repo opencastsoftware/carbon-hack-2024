@@ -7,7 +7,7 @@ const SWI = (globalConfig) => {
         kind: 'execute',
     };
 
-    const getRecord = (config) => {
+    const getRecord = (country) => {
         return new Promise((resolve, reject) => {
             const csvFilePath = 'data/min_water_consumption_per_country_year 1.csv';
             const data = [];
@@ -23,11 +23,8 @@ const SWI = (globalConfig) => {
                     data.push(row);
                 })
                 .on('end', () => {
-                    const country = config['country'];
-                    const year = config['year'];
-
                     for (let i = 0; i < data.length; i++) {
-                        if (data[i].country == country && data[i].year == year) {
+                        if (data[i].country == country) {
                             const result = {
                                 country: data[i].country,
                                 year: data[i].year,
@@ -48,19 +45,24 @@ const SWI = (globalConfig) => {
 
         const WATER_AVARAGE = 1.8; //+ 0.29058825752939393
 
+        console.log(inputs);
+
         var serverUtilization = inputs[0].serverUtilization;
         var numberOfHours = inputs[0].numberOfHours;
         var numberOfCores = inputs[0].numberOfCores;
         var tdp = inputs[0].tdp;
         var tdpCoefficient = inputs[0].tdpCoefficient;
+        var country = inputs[0].country;
+        
 
         var energyConsumption = serverUtilization * numberOfHours * numberOfCores * tdp * tdpCoefficient;
         
         try {
-            const result = await getRecord(config);
+            const result = await getRecord(country);
             const waterConsumption = energyConsumption * (WATER_AVARAGE + parseFloat(result.estimate_water));
             console.log(waterConsumption);
-            return { ['waterConsumption']: waterConsumption };
+
+            return [{ ['country']: country, ['waterConsumption']: waterConsumption,  ['numberOfHours']: numberOfHours}];
         } catch (error) {
             console.error(error);
             return { error: error.message };

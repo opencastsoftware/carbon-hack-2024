@@ -1,0 +1,5281 @@
+country,number_of_hours,low_upper_band,medium_upper_band,high_upper_band
+ASEAN (Ember),1,195,393,586
+ASEAN (Ember),2,389,786,1171
+ASEAN (Ember),3,583,1179,1756
+ASEAN (Ember),4,778,1571,2342
+ASEAN (Ember),5,972,1964,2927
+ASEAN (Ember),6,1166,2357,3512
+ASEAN (Ember),7,1360,2749,4098
+ASEAN (Ember),8,1555,3142,4683
+ASEAN (Ember),9,1749,3535,5268
+ASEAN (Ember),10,1943,3928,5854
+ASEAN (Ember),11,2137,4320,6439
+ASEAN (Ember),12,2332,4713,7024
+ASEAN (Ember),13,2526,5106,7610
+ASEAN (Ember),14,2720,5498,8195
+ASEAN (Ember),15,2914,5891,8780
+ASEAN (Ember),16,3109,6284,9366
+ASEAN (Ember),17,3303,6677,9951
+ASEAN (Ember),18,3497,7069,10536
+ASEAN (Ember),19,3691,7462,11122
+ASEAN (Ember),20,3886,7855,11707
+ASEAN (Ember),21,4080,8247,12292
+ASEAN (Ember),22,4274,8640,12878
+ASEAN (Ember),23,4468,9033,13463
+ASEAN (Ember),24,4663,9426,14048
+Afghanistan,1,49,98,146
+Afghanistan,2,97,196,292
+Afghanistan,3,146,294,438
+Afghanistan,4,194,392,583
+Afghanistan,5,242,489,729
+Afghanistan,6,291,587,875
+Afghanistan,7,339,685,1020
+Afghanistan,8,387,783,1166
+Afghanistan,9,436,880,1312
+Afghanistan,10,484,978,1458
+Afghanistan,11,532,1076,1603
+Afghanistan,12,581,1174,1749
+Afghanistan,13,629,1271,1895
+Afghanistan,14,678,1369,2040
+Afghanistan,15,726,1467,2186
+Afghanistan,16,774,1565,2332
+Afghanistan,17,823,1662,2478
+Afghanistan,18,871,1760,2623
+Afghanistan,19,919,1858,2769
+Afghanistan,20,968,1956,2915
+Afghanistan,21,1016,2053,3060
+Afghanistan,22,1064,2151,3206
+Afghanistan,23,1113,2249,3352
+Afghanistan,24,1161,2347,3498
+Africa,1,172,347,517
+Africa,2,343,694,1033
+Africa,3,515,1040,1550
+Africa,4,686,1387,2066
+Africa,5,858,1733,2583
+Africa,6,1029,2080,3099
+Africa,7,1200,2426,3616
+Africa,8,1372,2773,4132
+Africa,9,1543,3119,4649
+Africa,10,1715,3466,5165
+Africa,11,1886,3812,5682
+Africa,12,2057,4159,6198
+Africa,13,2229,4505,6715
+Africa,14,2400,4852,7231
+Africa,15,2572,5198,7747
+Africa,16,2743,5545,8264
+Africa,17,2914,5891,8780
+Africa,18,3086,6238,9297
+Africa,19,3257,6584,9813
+Africa,20,3429,6931,10330
+Africa,21,3600,7277,10846
+Africa,22,3771,7624,11363
+Africa,23,3943,7970,11879
+Africa,24,4114,8317,12396
+Africa (EI),1,172,347,517
+Africa (EI),2,343,694,1033
+Africa (EI),3,515,1040,1550
+Africa (EI),4,686,1387,2066
+Africa (EI),5,858,1733,2583
+Africa (EI),6,1029,2080,3099
+Africa (EI),7,1200,2426,3616
+Africa (EI),8,1372,2773,4132
+Africa (EI),9,1543,3119,4649
+Africa (EI),10,1715,3466,5165
+Africa (EI),11,1886,3812,5682
+Africa (EI),12,2057,4159,6198
+Africa (EI),13,2229,4505,6715
+Africa (EI),14,2400,4852,7231
+Africa (EI),15,2572,5198,7747
+Africa (EI),16,2743,5545,8264
+Africa (EI),17,2914,5891,8780
+Africa (EI),18,3086,6238,9297
+Africa (EI),19,3257,6584,9813
+Africa (EI),20,3429,6931,10330
+Africa (EI),21,3600,7277,10846
+Africa (EI),22,3771,7624,11363
+Africa (EI),23,3943,7970,11879
+Africa (EI),24,4114,8317,12396
+Africa (Ember),1,178,359,535
+Africa (Ember),2,355,718,1069
+Africa (Ember),3,533,1076,1604
+Africa (Ember),4,710,1435,2138
+Africa (Ember),5,887,1794,2673
+Africa (Ember),6,1065,2152,3207
+Africa (Ember),7,1242,2511,3742
+Africa (Ember),8,1420,2869,4276
+Africa (Ember),9,1597,3228,4811
+Africa (Ember),10,1774,3587,5345
+Africa (Ember),11,1952,3945,5880
+Africa (Ember),12,2129,4304,6414
+Africa (Ember),13,2307,4662,6949
+Africa (Ember),14,2484,5021,7483
+Africa (Ember),15,2661,5380,8018
+Africa (Ember),16,2839,5738,8552
+Africa (Ember),17,3016,6097,9087
+Africa (Ember),18,3194,6455,9621
+Africa (Ember),19,3371,6814,10156
+Africa (Ember),20,3548,7173,10690
+Africa (Ember),21,3726,7531,11225
+Africa (Ember),22,3903,7890,11759
+Africa (Ember),23,4080,8249,12294
+Africa (Ember),24,4258,8607,12828
+Albania,1,2,4,6
+Albania,2,4,7,11
+Albania,3,5,11,16
+Albania,4,7,14,21
+Albania,5,9,17,26
+Albania,6,10,21,31
+Albania,7,12,24,36
+Albania,8,14,27,41
+Albania,9,15,31,46
+Albania,10,17,34,51
+Albania,11,19,37,56
+Albania,12,20,41,61
+Albania,13,22,44,66
+Albania,14,24,48,71
+Albania,15,25,51,76
+Albania,16,27,54,81
+Albania,17,29,58,86
+Albania,18,30,61,91
+Albania,19,32,64,96
+Albania,20,34,68,101
+Albania,21,35,71,106
+Albania,22,37,74,111
+Albania,23,39,78,116
+Albania,24,40,81,121
+Algeria,1,2,4,5
+Algeria,2,4,7,10
+Algeria,3,5,10,15
+Algeria,4,7,13,20
+Algeria,5,8,16,24
+Algeria,6,10,20,29
+Algeria,7,12,23,34
+Algeria,8,13,26,39
+Algeria,9,15,29,43
+Algeria,10,16,32,48
+Algeria,11,18,36,53
+Algeria,12,19,39,58
+Algeria,13,21,42,62
+Algeria,14,23,45,67
+Algeria,15,24,48,72
+Algeria,16,26,52,77
+Algeria,17,27,55,81
+Algeria,18,29,58,86
+Algeria,19,30,61,91
+Algeria,20,32,64,96
+Algeria,21,34,67,100
+Algeria,22,35,71,105
+Algeria,23,37,74,110
+Algeria,24,38,77,115
+American Samoa,1,178,359,536
+American Samoa,2,356,718,1071
+American Samoa,3,533,1077,1606
+American Samoa,4,711,1436,2141
+American Samoa,5,888,1795,2676
+American Samoa,6,1066,2154,3211
+American Samoa,7,1244,2513,3746
+American Samoa,8,1421,2872,4281
+American Samoa,9,1599,3231,4816
+American Samoa,10,1776,3590,5351
+American Samoa,11,1954,3949,5886
+American Samoa,12,2131,4308,6421
+American Samoa,13,2309,4667,6956
+American Samoa,14,2487,5026,7491
+American Samoa,15,2664,5385,8026
+American Samoa,16,2842,5744,8562
+American Samoa,17,3019,6103,9097
+American Samoa,18,3197,6462,9632
+American Samoa,19,3375,6821,10167
+American Samoa,20,3552,7180,10702
+American Samoa,21,3730,7539,11237
+American Samoa,22,3907,7898,11772
+American Samoa,23,4085,8257,12307
+American Samoa,24,4262,8616,12842
+Antigua and Barbuda,1,180,364,542
+Antigua and Barbuda,2,360,727,1083
+Antigua and Barbuda,3,539,1090,1624
+Antigua and Barbuda,4,719,1453,2165
+Antigua and Barbuda,5,899,1816,2706
+Antigua and Barbuda,6,1078,2179,3248
+Antigua and Barbuda,7,1258,2542,3789
+Antigua and Barbuda,8,1437,2905,4330
+Antigua and Barbuda,9,1617,3268,4871
+Antigua and Barbuda,10,1797,3631,5412
+Antigua and Barbuda,11,1976,3995,5954
+Antigua and Barbuda,12,2156,4358,6495
+Antigua and Barbuda,13,2335,4721,7036
+Antigua and Barbuda,14,2515,5084,7577
+Antigua and Barbuda,15,2695,5447,8118
+Antigua and Barbuda,16,2874,5810,8660
+Antigua and Barbuda,17,3054,6173,9201
+Antigua and Barbuda,18,3234,6536,9742
+Antigua and Barbuda,19,3413,6899,10283
+Antigua and Barbuda,20,3593,7262,10824
+Antigua and Barbuda,21,3772,7626,11365
+Antigua and Barbuda,22,3952,7989,11907
+Antigua and Barbuda,23,4132,8352,12448
+Antigua and Barbuda,24,4311,8715,12989
+Argentina,1,145,293,436
+Argentina,2,290,585,871
+Argentina,3,434,877,1307
+Argentina,4,579,1169,1742
+Argentina,5,723,1461,2178
+Argentina,6,868,1753,2613
+Argentina,7,1012,2046,3049
+Argentina,8,1157,2338,3484
+Argentina,9,1301,2630,3919
+Argentina,10,1446,2922,4355
+Argentina,11,1590,3214,4790
+Argentina,12,1735,3506,5226
+Argentina,13,1879,3798,5661
+Argentina,14,2024,4091,6097
+Argentina,15,2168,4383,6532
+Argentina,16,2313,4675,6967
+Argentina,17,2457,4967,7403
+Argentina,18,2602,5259,7838
+Argentina,19,2746,5551,8274
+Argentina,20,2891,5843,8709
+Argentina,21,3035,6136,9145
+Argentina,22,3180,6428,9580
+Argentina,23,3324,6720,10015
+Argentina,24,3469,7012,10451
+Armenia,1,191,386,574
+Armenia,2,381,771,1148
+Armenia,3,572,1156,1722
+Armenia,4,762,1541,2296
+Armenia,5,953,1926,2870
+Armenia,6,1143,2311,3444
+Armenia,7,1334,2696,4018
+Armenia,8,1524,3081,4592
+Armenia,9,1715,3466,5166
+Armenia,10,1905,3851,5740
+Armenia,11,2096,4236,6314
+Armenia,12,2286,4621,6888
+Armenia,13,2477,5006,7462
+Armenia,14,2667,5391,8036
+Armenia,15,2858,5777,8610
+Armenia,16,3048,6162,9183
+Armenia,17,3239,6547,9757
+Armenia,18,3429,6932,10331
+Armenia,19,3620,7317,10905
+Armenia,20,3810,7702,11479
+Armenia,21,4001,8087,12053
+Armenia,22,4191,8472,12627
+Armenia,23,4382,8857,13201
+Armenia,24,4572,9242,13775
+Aruba,1,152,306,456
+Aruba,2,303,612,912
+Aruba,3,454,918,1368
+Aruba,4,605,1223,1823
+Aruba,5,757,1529,2279
+Aruba,6,908,1835,2735
+Aruba,7,1059,2141,3190
+Aruba,8,1210,2446,3646
+Aruba,9,1362,2752,4102
+Aruba,10,1513,3058,4557
+Aruba,11,1664,3364,5013
+Aruba,12,1815,3669,5469
+Aruba,13,1967,3975,5925
+Aruba,14,2118,4281,6380
+Aruba,15,2269,4587,6836
+Aruba,16,2420,4892,7292
+Aruba,17,2572,5198,7747
+Aruba,18,2723,5504,8203
+Aruba,19,2874,5810,8659
+Aruba,20,3025,6115,9114
+Aruba,21,3177,6421,9570
+Aruba,22,3328,6727,10026
+Aruba,23,3479,7033,10482
+Aruba,24,3630,7338,10937
+Asia,1,210,424,631
+Asia,2,419,847,1262
+Asia,3,629,1271,1893
+Asia,4,838,1694,2524
+Asia,5,1048,2117,3155
+Asia,6,1257,2541,3786
+Asia,7,1466,2964,4417
+Asia,8,1676,3387,5048
+Asia,9,1885,3811,5679
+Asia,10,2095,4234,6310
+Asia,11,2304,4657,6941
+Asia,12,2513,5081,7572
+Asia,13,2723,5504,8203
+Asia,14,2932,5927,8834
+Asia,15,3142,6351,9465
+Asia,16,3351,6774,10096
+Asia,17,3560,7197,10727
+Asia,18,3770,7621,11358
+Asia,19,3979,8044,11989
+Asia,20,4189,8467,12620
+Asia,21,4398,8891,13251
+Asia,22,4607,9314,13882
+Asia,23,4817,9737,14513
+Asia,24,5026,10161,15144
+Asia (Ember),1,221,446,665
+Asia (Ember),2,442,892,1329
+Asia (Ember),3,662,1338,1994
+Asia (Ember),4,883,1784,2658
+Asia (Ember),5,1103,2230,3323
+Asia (Ember),6,1324,2675,3987
+Asia (Ember),7,1544,3121,4652
+Asia (Ember),8,1765,3567,5316
+Asia (Ember),9,1985,4013,5981
+Asia (Ember),10,2206,4459,6645
+Asia (Ember),11,2426,4904,7310
+Asia (Ember),12,2647,5350,7974
+Asia (Ember),13,2867,5796,8639
+Asia (Ember),14,3088,6242,9303
+Asia (Ember),15,3308,6688,9968
+Asia (Ember),16,3529,7133,10632
+Asia (Ember),17,3749,7579,11296
+Asia (Ember),18,3970,8025,11961
+Asia (Ember),19,4191,8471,12625
+Asia (Ember),20,4411,8917,13290
+Asia (Ember),21,4632,9363,13954
+Asia (Ember),22,4852,9808,14619
+Asia (Ember),23,5073,10254,15283
+Asia (Ember),24,5293,10700,15948
+Asia Pacific (EI),1,213,430,641
+Asia Pacific (EI),2,426,860,1282
+Asia Pacific (EI),3,638,1290,1923
+Asia Pacific (EI),4,851,1720,2564
+Asia Pacific (EI),5,1064,2150,3204
+Asia Pacific (EI),6,1276,2580,3845
+Asia Pacific (EI),7,1489,3010,4486
+Asia Pacific (EI),8,1702,3440,5127
+Asia Pacific (EI),9,1914,3870,5768
+Asia Pacific (EI),10,2127,4300,6408
+Asia Pacific (EI),11,2340,4730,7049
+Asia Pacific (EI),12,2552,5160,7690
+Asia Pacific (EI),13,2765,5589,8331
+Asia Pacific (EI),14,2978,6019,8971
+Asia Pacific (EI),15,3190,6449,9612
+Asia Pacific (EI),16,3403,6879,10253
+Asia Pacific (EI),17,3616,7309,10894
+Asia Pacific (EI),18,3828,7739,11535
+Asia Pacific (EI),19,4041,8169,12175
+Asia Pacific (EI),20,4254,8599,12816
+Asia Pacific (EI),21,4466,9029,13457
+Asia Pacific (EI),22,4679,9459,14098
+Asia Pacific (EI),23,4892,9889,14739
+Asia Pacific (EI),24,5104,10319,15379
+Australia,1,204,412,614
+Australia,2,408,823,1227
+Australia,3,611,1235,1840
+Australia,4,815,1646,2454
+Australia,5,1018,2058,3067
+Australia,6,1222,2469,3680
+Australia,7,1425,2881,4294
+Australia,8,1629,3292,4907
+Australia,9,1832,3704,5520
+Australia,10,2036,4115,6134
+Australia,11,2240,4527,6747
+Australia,12,2443,4938,7360
+Australia,13,2647,5350,7974
+Australia,14,2850,5761,8587
+Australia,15,3054,6173,9200
+Australia,16,3257,6584,9814
+Australia,17,3461,6996,10427
+Australia,18,3664,7407,11040
+Australia,19,3868,7819,11654
+Australia,20,4072,8230,12267
+Australia,21,4275,8642,12880
+Australia,22,4479,9053,13494
+Australia,23,4682,9465,14107
+Australia,24,4886,9876,14720
+Austria,1,69,139,207
+Austria,2,138,278,414
+Austria,3,206,417,621
+Austria,4,275,556,828
+Austria,5,344,694,1035
+Austria,6,412,833,1241
+Austria,7,481,972,1448
+Austria,8,550,1111,1655
+Austria,9,618,1249,1862
+Austria,10,687,1388,2069
+Austria,11,756,1527,2276
+Austria,12,824,1666,2482
+Austria,13,893,1804,2689
+Austria,14,962,1943,2896
+Austria,15,1030,2082,3103
+Austria,16,1099,2221,3310
+Austria,17,1167,2360,3517
+Austria,18,1236,2498,3723
+Austria,19,1305,2637,3930
+Austria,20,1373,2776,4137
+Austria,21,1442,2915,4344
+Austria,22,1511,3053,4551
+Austria,23,1579,3192,4758
+Austria,24,1648,3331,4964
+Azerbaijan,1,1,1,2
+Azerbaijan,2,1,2,3
+Azerbaijan,3,2,3,5
+Azerbaijan,4,2,4,6
+Azerbaijan,5,3,5,7
+Azerbaijan,6,3,6,9
+Azerbaijan,7,4,7,10
+Azerbaijan,8,4,8,11
+Azerbaijan,9,5,9,13
+Azerbaijan,10,5,10,14
+Azerbaijan,11,5,10,15
+Azerbaijan,12,6,11,17
+Azerbaijan,13,6,12,18
+Azerbaijan,14,7,13,19
+Azerbaijan,15,7,14,21
+Azerbaijan,16,8,15,22
+Azerbaijan,17,8,16,23
+Azerbaijan,18,9,17,25
+Azerbaijan,19,9,18,26
+Azerbaijan,20,9,19,27
+Azerbaijan,21,10,20,29
+Azerbaijan,22,10,20,30
+Azerbaijan,23,11,21,32
+Azerbaijan,24,11,22,33
+Bahamas,1,178,359,536
+Bahamas,2,356,718,1071
+Bahamas,3,533,1077,1606
+Bahamas,4,711,1436,2141
+Bahamas,5,888,1795,2676
+Bahamas,6,1066,2154,3211
+Bahamas,7,1244,2513,3746
+Bahamas,8,1421,2872,4281
+Bahamas,9,1599,3231,4816
+Bahamas,10,1776,3590,5351
+Bahamas,11,1954,3949,5886
+Bahamas,12,2131,4308,6421
+Bahamas,13,2309,4667,6956
+Bahamas,14,2487,5026,7491
+Bahamas,15,2664,5385,8026
+Bahamas,16,2842,5744,8562
+Bahamas,17,3019,6103,9097
+Bahamas,18,3197,6462,9632
+Bahamas,19,3375,6821,10167
+Bahamas,20,3552,7180,10702
+Bahamas,21,3730,7539,11237
+Bahamas,22,3907,7898,11772
+Bahamas,23,4085,8257,12307
+Bahamas,24,4262,8616,12842
+Bangladesh,1,186,375,559
+Bangladesh,2,371,750,1117
+Bangladesh,3,556,1124,1675
+Bangladesh,4,742,1499,2234
+Bangladesh,5,927,1873,2792
+Bangladesh,6,1112,2248,3350
+Bangladesh,7,1298,2623,3909
+Bangladesh,8,1483,2997,4467
+Bangladesh,9,1668,3372,5025
+Bangladesh,10,1853,3746,5583
+Bangladesh,11,2039,4121,6142
+Bangladesh,12,2224,4495,6700
+Bangladesh,13,2409,4870,7258
+Bangladesh,14,2595,5245,7817
+Bangladesh,15,2780,5619,8375
+Bangladesh,16,2965,5994,8933
+Bangladesh,17,3150,6368,9491
+Bangladesh,18,3336,6743,10050
+Bangladesh,19,3521,7117,10608
+Bangladesh,20,3706,7492,11166
+Bangladesh,21,3892,7867,11725
+Bangladesh,22,4077,8241,12283
+Bangladesh,23,4262,8616,12841
+Bangladesh,24,4447,8990,13399
+Barbados,1,181,365,544
+Barbados,2,361,729,1087
+Barbados,3,541,1094,1630
+Barbados,4,721,1458,2173
+Barbados,5,902,1822,2716
+Barbados,6,1082,2187,3259
+Barbados,7,1262,2551,3802
+Barbados,8,1442,2915,4345
+Barbados,9,1623,3280,4888
+Barbados,10,1803,3644,5431
+Barbados,11,1983,4009,5974
+Barbados,12,2163,4373,6518
+Barbados,13,2344,4737,7061
+Barbados,14,2524,5102,7604
+Barbados,15,2704,5466,8147
+Barbados,16,2884,5830,8690
+Barbados,17,3065,6195,9233
+Barbados,18,3245,6559,9776
+Barbados,19,3425,6924,10319
+Barbados,20,3605,7288,10862
+Barbados,21,3786,7652,11405
+Barbados,22,3966,8017,11948
+Barbados,23,4146,8381,12492
+Barbados,24,4326,8745,13035
+Belarus,1,54,108,161
+Belarus,2,107,216,322
+Belarus,3,161,324,483
+Belarus,4,214,432,644
+Belarus,5,267,540,804
+Belarus,6,321,648,965
+Belarus,7,374,756,1126
+Belarus,8,427,864,1287
+Belarus,9,481,971,1448
+Belarus,10,534,1079,1608
+Belarus,11,588,1187,1769
+Belarus,12,641,1295,1930
+Belarus,13,694,1403,2091
+Belarus,14,748,1511,2252
+Belarus,15,801,1619,2412
+Belarus,16,854,1727,2573
+Belarus,17,908,1835,2734
+Belarus,18,961,1942,2895
+Belarus,19,1014,2050,3056
+Belarus,20,1068,2158,3216
+Belarus,21,1121,2266,3377
+Belarus,22,1175,2374,3538
+Belarus,23,1228,2482,3699
+Belarus,24,1281,2590,3860
+Belgium,1,281,567,844
+Belgium,2,561,1133,1688
+Belgium,3,841,1699,2532
+Belgium,4,1121,2265,3376
+Belgium,5,1401,2831,4220
+Belgium,6,1681,3398,5064
+Belgium,7,1961,3964,5908
+Belgium,8,2241,4530,6752
+Belgium,9,2521,5096,7596
+Belgium,10,2801,5662,8439
+Belgium,11,3081,6229,9283
+Belgium,12,3361,6795,10127
+Belgium,13,3641,7361,10971
+Belgium,14,3922,7927,11815
+Belgium,15,4202,8493,12659
+Belgium,16,4482,9060,13503
+Belgium,17,4762,9626,14347
+Belgium,18,5042,10192,15191
+Belgium,19,5322,10758,16034
+Belgium,20,5602,11324,16878
+Belgium,21,5882,11891,17722
+Belgium,22,6162,12457,18566
+Belgium,23,6442,13023,19410
+Belgium,24,6722,13589,20254
+Belize,1,167,337,502
+Belize,2,333,673,1003
+Belize,3,500,1010,1505
+Belize,4,666,1346,2006
+Belize,5,833,1683,2508
+Belize,6,999,2019,3009
+Belize,7,1165,2356,3511
+Belize,8,1332,2692,4012
+Belize,9,1498,3028,4514
+Belize,10,1665,3365,5015
+Belize,11,1831,3701,5517
+Belize,12,1998,4038,6018
+Belize,13,2164,4374,6519
+Belize,14,2330,4711,7021
+Belize,15,2497,5047,7522
+Belize,16,2663,5384,8024
+Belize,17,2830,5720,8525
+Belize,18,2996,6056,9027
+Belize,19,3163,6393,9528
+Belize,20,3329,6729,10030
+Belize,21,3495,7066,10531
+Belize,22,3662,7402,11033
+Belize,23,3828,7739,11534
+Belize,24,3995,8075,12035
+Benin,1,180,362,540
+Benin,2,359,724,1080
+Benin,3,538,1086,1619
+Benin,4,717,1448,2159
+Benin,5,896,1810,2698
+Benin,6,1075,2172,3238
+Benin,7,1254,2534,3777
+Benin,8,1433,2896,4317
+Benin,9,1612,3258,4856
+Benin,10,1791,3620,5396
+Benin,11,1970,3982,5935
+Benin,12,2149,4344,6475
+Benin,13,2328,4706,7014
+Benin,14,2507,5068,7554
+Benin,15,2686,5430,8094
+Benin,16,2866,5792,8633
+Benin,17,3045,6154,9173
+Benin,18,3224,6516,9712
+Benin,19,3403,6878,10252
+Benin,20,3582,7240,10791
+Benin,21,3761,7602,11331
+Benin,22,3940,7964,11870
+Benin,23,4119,8326,12410
+Benin,24,4298,8688,12949
+Bhutan,1,0,0,0
+Bhutan,2,0,0,0
+Bhutan,3,0,0,0
+Bhutan,4,0,0,0
+Bhutan,5,0,0,0
+Bhutan,6,0,0,0
+Bhutan,7,0,0,0
+Bhutan,8,0,0,0
+Bhutan,9,0,0,0
+Bhutan,10,0,0,0
+Bhutan,11,0,0,0
+Bhutan,12,0,0,0
+Bhutan,13,0,0,0
+Bhutan,14,0,0,0
+Bhutan,15,0,0,0
+Bhutan,16,0,0,0
+Bhutan,17,0,0,0
+Bhutan,18,0,0,0
+Bhutan,19,0,0,0
+Bhutan,20,0,0,0
+Bhutan,21,0,0,0
+Bhutan,22,0,0,0
+Bhutan,23,0,0,0
+Bhutan,24,0,0,0
+Bolivia,1,128,259,385
+Bolivia,2,256,517,770
+Bolivia,3,384,775,1155
+Bolivia,4,511,1033,1540
+Bolivia,5,639,1291,1924
+Bolivia,6,767,1549,2309
+Bolivia,7,894,1808,2694
+Bolivia,8,1022,2066,3079
+Bolivia,9,1150,2324,3463
+Bolivia,10,1277,2582,3848
+Bolivia,11,1405,2840,4233
+Bolivia,12,1533,3098,4618
+Bolivia,13,1661,3356,5003
+Bolivia,14,1788,3615,5387
+Bolivia,15,1916,3873,5772
+Bolivia,16,2044,4131,6157
+Bolivia,17,2171,4389,6542
+Bolivia,18,2299,4647,6926
+Bolivia,19,2427,4905,7311
+Bolivia,20,2554,5164,7696
+Bolivia,21,2682,5422,8081
+Bolivia,22,2810,5680,8465
+Bolivia,23,2938,5938,8850
+Bolivia,24,3065,6196,9235
+Bosnia and Herzegovina,1,193,390,581
+Bosnia and Herzegovina,2,386,779,1161
+Bosnia and Herzegovina,3,578,1169,1742
+Bosnia and Herzegovina,4,771,1558,2322
+Bosnia and Herzegovina,5,964,1947,2902
+Bosnia and Herzegovina,6,1156,2337,3483
+Bosnia and Herzegovina,7,1349,2726,4063
+Bosnia and Herzegovina,8,1541,3116,4644
+Bosnia and Herzegovina,9,1734,3505,5224
+Bosnia and Herzegovina,10,1927,3894,5804
+Bosnia and Herzegovina,11,2119,4284,6385
+Bosnia and Herzegovina,12,2312,4673,6965
+Bosnia and Herzegovina,13,2505,5063,7545
+Bosnia and Herzegovina,14,2697,5452,8126
+Bosnia and Herzegovina,15,2890,5841,8706
+Bosnia and Herzegovina,16,3082,6231,9287
+Bosnia and Herzegovina,17,3275,6620,9867
+Bosnia and Herzegovina,18,3468,7010,10447
+Bosnia and Herzegovina,19,3660,7399,11028
+Bosnia and Herzegovina,20,3853,7788,11608
+Bosnia and Herzegovina,21,4045,8178,12188
+Bosnia and Herzegovina,22,4238,8567,12769
+Bosnia and Herzegovina,23,4431,8956,13349
+Bosnia and Herzegovina,24,4623,9346,13930
+Botswana,1,267,540,804
+Botswana,2,534,1079,1607
+Botswana,3,800,1618,2411
+Botswana,4,1067,2157,3214
+Botswana,5,1334,2696,4018
+Botswana,6,1600,3235,4821
+Botswana,7,1867,3774,5625
+Botswana,8,2134,4313,6428
+Botswana,9,2400,4852,7232
+Botswana,10,2667,5391,8035
+Botswana,11,2934,5930,8839
+Botswana,12,3200,6469,9642
+Botswana,13,3467,7008,10445
+Botswana,14,3734,7547,11249
+Botswana,15,4000,8086,12052
+Botswana,16,4267,8626,12856
+Botswana,17,4534,9165,13659
+Botswana,18,4800,9704,14463
+Botswana,19,5067,10243,15266
+Botswana,20,5334,10782,16070
+Botswana,21,5600,11321,16873
+Botswana,22,5867,11860,17677
+Botswana,23,6134,12399,18480
+Botswana,24,6400,12938,19284
+Brazil,1,59,118,176
+Brazil,2,117,236,352
+Brazil,3,175,354,528
+Brazil,4,234,472,703
+Brazil,5,292,590,879
+Brazil,6,350,708,1055
+Brazil,7,409,826,1231
+Brazil,8,467,944,1406
+Brazil,9,525,1062,1582
+Brazil,10,584,1180,1758
+Brazil,11,642,1298,1934
+Brazil,12,700,1415,2109
+Brazil,13,759,1533,2285
+Brazil,14,817,1651,2461
+Brazil,15,875,1769,2637
+Brazil,16,934,1887,2812
+Brazil,17,992,2005,2988
+Brazil,18,1050,2123,3164
+Brazil,19,1109,2241,3340
+Brazil,20,1167,2359,3515
+Brazil,21,1225,2477,3691
+Brazil,22,1284,2595,3867
+Brazil,23,1342,2713,4043
+Brazil,24,1400,2830,4218
+British Virgin Islands,1,178,359,536
+British Virgin Islands,2,356,718,1071
+British Virgin Islands,3,533,1077,1606
+British Virgin Islands,4,711,1436,2141
+British Virgin Islands,5,888,1795,2676
+British Virgin Islands,6,1066,2154,3211
+British Virgin Islands,7,1244,2513,3746
+British Virgin Islands,8,1421,2872,4281
+British Virgin Islands,9,1599,3231,4816
+British Virgin Islands,10,1776,3590,5351
+British Virgin Islands,11,1954,3949,5886
+British Virgin Islands,12,2131,4308,6421
+British Virgin Islands,13,2309,4667,6956
+British Virgin Islands,14,2487,5026,7491
+British Virgin Islands,15,2664,5385,8026
+British Virgin Islands,16,2842,5744,8562
+British Virgin Islands,17,3019,6103,9097
+British Virgin Islands,18,3197,6462,9632
+British Virgin Islands,19,3375,6821,10167
+British Virgin Islands,20,3552,7180,10702
+British Virgin Islands,21,3730,7539,11237
+British Virgin Islands,22,3907,7898,11772
+British Virgin Islands,23,4085,8257,12307
+British Virgin Islands,24,4262,8616,12842
+Bulgaria,1,294,595,886
+Bulgaria,2,588,1189,1772
+Bulgaria,3,882,1783,2657
+Bulgaria,4,1176,2377,3543
+Bulgaria,5,1470,2971,4428
+Bulgaria,6,1764,3565,5314
+Bulgaria,7,2058,4159,6199
+Bulgaria,8,2352,4753,7085
+Bulgaria,9,2645,5347,7970
+Bulgaria,10,2939,5942,8856
+Bulgaria,11,3233,6536,9741
+Bulgaria,12,3527,7130,10627
+Bulgaria,13,3821,7724,11512
+Bulgaria,14,4115,8318,12398
+Bulgaria,15,4409,8912,13283
+Bulgaria,16,4703,9506,14169
+Bulgaria,17,4997,10100,15054
+Bulgaria,18,5290,10694,15940
+Bulgaria,19,5584,11289,16825
+Bulgaria,20,5878,11883,17711
+Bulgaria,21,6172,12477,18596
+Bulgaria,22,6466,13071,19482
+Bulgaria,23,6760,13665,20367
+Bulgaria,24,7054,14259,21253
+Burkina Faso,1,169,342,509
+Burkina Faso,2,338,683,1018
+Burkina Faso,3,507,1025,1527
+Burkina Faso,4,676,1366,2036
+Burkina Faso,5,845,1707,2545
+Burkina Faso,6,1014,2049,3053
+Burkina Faso,7,1183,2390,3562
+Burkina Faso,8,1351,2732,4071
+Burkina Faso,9,1520,3073,4580
+Burkina Faso,10,1689,3414,5089
+Burkina Faso,11,1858,3756,5598
+Burkina Faso,12,2027,4097,6106
+Burkina Faso,13,2196,4438,6615
+Burkina Faso,14,2365,4780,7124
+Burkina Faso,15,2534,5121,7633
+Burkina Faso,16,2702,5463,8142
+Burkina Faso,17,2871,5804,8650
+Burkina Faso,18,3040,6145,9159
+Burkina Faso,19,3209,6487,9668
+Burkina Faso,20,3378,6828,10177
+Burkina Faso,21,3547,7170,10686
+Burkina Faso,22,3716,7511,11195
+Burkina Faso,23,3884,7852,11703
+Burkina Faso,24,4053,8194,12212
+Burundi,1,67,135,200
+Burundi,2,133,269,400
+Burundi,3,200,403,600
+Burundi,4,266,537,800
+Burundi,5,332,671,1000
+Burundi,6,399,806,1200
+Burundi,7,465,940,1400
+Burundi,8,531,1074,1600
+Burundi,9,598,1208,1800
+Burundi,10,664,1342,2000
+Burundi,11,731,1477,2200
+Burundi,12,797,1611,2400
+Burundi,13,863,1745,2600
+Burundi,14,930,1879,2800
+Burundi,15,996,2013,3000
+Burundi,16,1062,2147,3200
+Burundi,17,1129,2282,3400
+Burundi,18,1195,2416,3600
+Burundi,19,1262,2550,3800
+Burundi,20,1328,2684,4000
+Burundi,21,1394,2818,4200
+Burundi,22,1461,2953,4400
+Burundi,23,1527,3087,4600
+Burundi,24,1593,3221,4800
+CIS (EI),1,207,419,624
+CIS (EI),2,414,837,1247
+CIS (EI),3,621,1255,1870
+CIS (EI),4,828,1673,2493
+CIS (EI),5,1034,2091,3116
+CIS (EI),6,1241,2509,3739
+CIS (EI),7,1448,2927,4362
+CIS (EI),8,1655,3345,4985
+CIS (EI),9,1862,3763,5608
+CIS (EI),10,2068,4181,6232
+CIS (EI),11,2275,4599,6855
+CIS (EI),12,2482,5017,7478
+CIS (EI),13,2689,5435,8101
+CIS (EI),14,2896,5853,8724
+CIS (EI),15,3102,6271,9347
+CIS (EI),16,3309,6689,9970
+CIS (EI),17,3516,7107,10593
+CIS (EI),18,3723,7526,11216
+CIS (EI),19,3930,7944,11839
+CIS (EI),20,4136,8362,12463
+CIS (EI),21,4343,8780,13086
+CIS (EI),22,4550,9198,13709
+CIS (EI),23,4757,9616,14332
+CIS (EI),24,4964,10034,14955
+Cambodia,1,145,293,436
+Cambodia,2,290,585,872
+Cambodia,3,434,878,1308
+Cambodia,4,579,1170,1743
+Cambodia,5,724,1462,2179
+Cambodia,6,868,1755,2615
+Cambodia,7,1013,2047,3051
+Cambodia,8,1157,2339,3486
+Cambodia,9,1302,2632,3922
+Cambodia,10,1447,2924,4358
+Cambodia,11,1591,3216,4794
+Cambodia,12,1736,3509,5229
+Cambodia,13,1881,3801,5665
+Cambodia,14,2025,4093,6101
+Cambodia,15,2170,4386,6537
+Cambodia,16,2314,4678,6972
+Cambodia,17,2459,4970,7408
+Cambodia,18,2604,5263,7844
+Cambodia,19,2748,5555,8280
+Cambodia,20,2893,5848,8715
+Cambodia,21,3037,6140,9151
+Cambodia,22,3182,6432,9587
+Cambodia,23,3327,6725,10023
+Cambodia,24,3471,7017,10458
+Cameroon,1,68,137,204
+Cameroon,2,135,273,407
+Cameroon,3,203,409,610
+Cameroon,4,270,545,813
+Cameroon,5,337,682,1016
+Cameroon,6,405,818,1219
+Cameroon,7,472,954,1422
+Cameroon,8,539,1090,1625
+Cameroon,9,607,1226,1828
+Cameroon,10,674,1363,2031
+Cameroon,11,742,1499,2234
+Cameroon,12,809,1635,2437
+Cameroon,13,876,1771,2640
+Cameroon,14,944,1907,2843
+Cameroon,15,1011,2044,3046
+Cameroon,16,1078,2180,3249
+Cameroon,17,1146,2316,3452
+Cameroon,18,1213,2452,3655
+Cameroon,19,1281,2588,3858
+Cameroon,20,1348,2725,4061
+Cameroon,21,1415,2861,4264
+Cameroon,22,1483,2997,4467
+Cameroon,23,1550,3133,4670
+Cameroon,24,1617,3269,4873
+Canada,1,99,200,297
+Canada,2,198,399,594
+Canada,3,296,598,891
+Canada,4,395,798,1188
+Canada,5,493,997,1485
+Canada,6,592,1196,1782
+Canada,7,690,1395,2079
+Canada,8,789,1595,2376
+Canada,9,888,1794,2673
+Canada,10,986,1993,2970
+Canada,11,1085,2192,3267
+Canada,12,1183,2392,3564
+Canada,13,1282,2591,3861
+Canada,14,1380,2790,4158
+Canada,15,1479,2989,4455
+Canada,16,1578,3189,4752
+Canada,17,1676,3388,5049
+Canada,18,1775,3587,5346
+Canada,19,1873,3786,5643
+Canada,20,1972,3986,5940
+Canada,21,2070,4185,6237
+Canada,22,2169,4384,6534
+Canada,23,2268,4583,6831
+Canada,24,2366,4783,7128
+Cape Verde,1,155,313,467
+Cape Verde,2,310,626,933
+Cape Verde,3,465,939,1399
+Cape Verde,4,619,1251,1865
+Cape Verde,5,774,1564,2331
+Cape Verde,6,929,1877,2797
+Cape Verde,7,1083,2189,3263
+Cape Verde,8,1238,2502,3729
+Cape Verde,9,1393,2815,4195
+Cape Verde,10,1547,3127,4661
+Cape Verde,11,1702,3440,5127
+Cape Verde,12,1857,3753,5593
+Cape Verde,13,2011,4066,6059
+Cape Verde,14,2166,4378,6525
+Cape Verde,15,2321,4691,6992
+Cape Verde,16,2475,5004,7458
+Cape Verde,17,2630,5316,7924
+Cape Verde,18,2785,5629,8390
+Cape Verde,19,2939,5942,8856
+Cape Verde,20,3094,6254,9322
+Cape Verde,21,3249,6567,9788
+Cape Verde,22,3403,6880,10254
+Cape Verde,23,3558,7193,10720
+Cape Verde,24,3713,7505,11186
+Cayman Islands,1,179,361,539
+Cayman Islands,2,358,722,1077
+Cayman Islands,3,536,1083,1615
+Cayman Islands,4,715,1444,2153
+Cayman Islands,5,893,1805,2691
+Cayman Islands,6,1072,2166,3229
+Cayman Islands,7,1250,2527,3767
+Cayman Islands,8,1429,2888,4305
+Cayman Islands,9,1607,3249,4843
+Cayman Islands,10,1786,3610,5381
+Cayman Islands,11,1965,3971,5919
+Cayman Islands,12,2143,4332,6457
+Cayman Islands,13,2322,4693,6995
+Cayman Islands,14,2500,5054,7533
+Cayman Islands,15,2679,5415,8071
+Cayman Islands,16,2857,5776,8609
+Cayman Islands,17,3036,6137,9147
+Cayman Islands,18,3214,6498,9685
+Cayman Islands,19,3393,6859,10223
+Cayman Islands,20,3572,7220,10761
+Cayman Islands,21,3750,7581,11299
+Cayman Islands,22,3929,7942,11837
+Cayman Islands,23,4107,8303,12375
+Cayman Islands,24,4286,8664,12913
+Central African Republic,1,0,0,0
+Central African Republic,2,0,0,0
+Central African Republic,3,0,0,0
+Central African Republic,4,0,0,0
+Central African Republic,5,0,0,0
+Central African Republic,6,0,0,0
+Central African Republic,7,0,0,0
+Central African Republic,8,0,0,0
+Central African Republic,9,0,0,0
+Central African Republic,10,0,0,0
+Central African Republic,11,0,0,0
+Central African Republic,12,0,0,0
+Central African Republic,13,0,0,0
+Central African Republic,14,0,0,0
+Central African Republic,15,0,0,0
+Central African Republic,16,0,0,0
+Central African Republic,17,0,0,0
+Central African Republic,18,0,0,0
+Central African Republic,19,0,0,0
+Central African Republic,20,0,0,0
+Central African Republic,21,0,0,0
+Central African Republic,22,0,0,0
+Central African Republic,23,0,0,0
+Central African Republic,24,0,0,0
+Central America (EI),1,10,21,31
+Central America (EI),2,20,41,61
+Central America (EI),3,30,61,91
+Central America (EI),4,40,81,121
+Central America (EI),5,50,102,151
+Central America (EI),6,60,122,181
+Central America (EI),7,70,142,211
+Central America (EI),8,80,162,241
+Central America (EI),9,90,182,272
+Central America (EI),10,100,203,302
+Central America (EI),11,110,223,332
+Central America (EI),12,120,243,362
+Central America (EI),13,130,263,392
+Central America (EI),14,140,283,422
+Central America (EI),15,150,304,452
+Central America (EI),16,160,324,482
+Central America (EI),17,170,344,513
+Central America (EI),18,180,364,543
+Central America (EI),19,190,385,573
+Central America (EI),20,200,405,603
+Central America (EI),21,210,425,633
+Central America (EI),22,220,445,663
+Central America (EI),23,230,465,693
+Central America (EI),24,240,486,723
+Chile,1,148,299,445
+Chile,2,295,597,889
+Chile,3,443,895,1333
+Chile,4,590,1193,1777
+Chile,5,738,1491,2221
+Chile,6,885,1789,2666
+Chile,7,1032,2087,3110
+Chile,8,1180,2385,3554
+Chile,9,1327,2683,3998
+Chile,10,1475,2981,4442
+Chile,11,1622,3279,4887
+Chile,12,1770,3577,5331
+Chile,13,1917,3875,5775
+Chile,14,2064,4173,6219
+Chile,15,2212,4471,6663
+Chile,16,2359,4769,7108
+Chile,17,2507,5067,7552
+Chile,18,2654,5365,7996
+Chile,19,2801,5663,8440
+Chile,20,2949,5961,8884
+Chile,21,3096,6259,9329
+Chile,22,3244,6557,9773
+Chile,23,3391,6855,10217
+Chile,24,3539,7153,10661
+China,1,218,440,655
+China,2,435,879,1310
+China,3,653,1319,1965
+China,4,870,1758,2620
+China,5,1087,2198,3275
+China,6,1305,2637,3930
+China,7,1522,3076,4585
+China,8,1739,3516,5240
+China,9,1957,3955,5895
+China,10,2174,4395,6550
+China,11,2392,4834,7205
+China,12,2609,5274,7860
+China,13,2826,5713,8515
+China,14,3044,6152,9170
+China,15,3261,6592,9825
+China,16,3478,7031,10480
+China,17,3696,7471,11135
+China,18,3913,7910,11790
+China,19,4130,8349,12444
+China,20,4348,8789,13099
+China,21,4565,9228,13754
+China,22,4783,9668,14409
+China,23,5000,10107,15064
+China,24,5217,10547,15719
+Colombia,1,54,109,163
+Colombia,2,108,218,325
+Colombia,3,162,327,487
+Colombia,4,216,436,650
+Colombia,5,270,545,812
+Colombia,6,324,654,974
+Colombia,7,378,763,1137
+Colombia,8,431,872,1299
+Colombia,9,485,981,1461
+Colombia,10,539,1089,1624
+Colombia,11,593,1198,1786
+Colombia,12,647,1307,1948
+Colombia,13,701,1416,2110
+Colombia,14,755,1525,2273
+Colombia,15,809,1634,2435
+Colombia,16,862,1743,2597
+Colombia,17,916,1852,2760
+Colombia,18,970,1961,2922
+Colombia,19,1024,2070,3084
+Colombia,20,1078,2178,3247
+Colombia,21,1132,2287,3409
+Colombia,22,1186,2396,3571
+Colombia,23,1239,2505,3734
+Colombia,24,1293,2614,3896
+Comoros,1,178,359,536
+Comoros,2,356,718,1071
+Comoros,3,533,1077,1606
+Comoros,4,711,1436,2141
+Comoros,5,888,1795,2676
+Comoros,6,1066,2154,3211
+Comoros,7,1244,2513,3746
+Comoros,8,1421,2872,4281
+Comoros,9,1599,3231,4816
+Comoros,10,1776,3590,5351
+Comoros,11,1954,3949,5886
+Comoros,12,2131,4308,6421
+Comoros,13,2309,4667,6956
+Comoros,14,2487,5026,7491
+Comoros,15,2664,5385,8026
+Comoros,16,2842,5744,8562
+Comoros,17,3019,6103,9097
+Comoros,18,3197,6462,9632
+Comoros,19,3375,6821,10167
+Comoros,20,3552,7180,10702
+Comoros,21,3730,7539,11237
+Comoros,22,3907,7898,11772
+Comoros,23,4085,8257,12307
+Comoros,24,4262,8616,12842
+Cook Islands,1,192,388,578
+Cook Islands,2,384,776,1156
+Cook Islands,3,576,1164,1734
+Cook Islands,4,768,1552,2312
+Cook Islands,5,960,1939,2890
+Cook Islands,6,1151,2327,3468
+Cook Islands,7,1343,2715,4046
+Cook Islands,8,1535,3103,4624
+Cook Islands,9,1727,3490,5202
+Cook Islands,10,1919,3878,5780
+Cook Islands,11,2110,4266,6358
+Cook Islands,12,2302,4654,6936
+Cook Islands,13,2494,5041,7514
+Cook Islands,14,2686,5429,8092
+Cook Islands,15,2878,5817,8670
+Cook Islands,16,3070,6205,9248
+Cook Islands,17,3261,6593,9826
+Cook Islands,18,3453,6980,10404
+Cook Islands,19,3645,7368,10982
+Cook Islands,20,3837,7756,11560
+Cook Islands,21,4029,8144,12138
+Cook Islands,22,4220,8531,12716
+Cook Islands,23,4412,8919,13294
+Cook Islands,24,4604,9307,13872
+Costa Rica,1,44,89,133
+Costa Rica,2,88,178,265
+Costa Rica,3,132,267,398
+Costa Rica,4,176,356,530
+Costa Rica,5,220,445,662
+Costa Rica,6,264,533,795
+Costa Rica,7,308,622,927
+Costa Rica,8,352,711,1060
+Costa Rica,9,396,800,1192
+Costa Rica,10,440,889,1324
+Costa Rica,11,484,978,1457
+Costa Rica,12,528,1066,1589
+Costa Rica,13,572,1155,1722
+Costa Rica,14,616,1244,1854
+Costa Rica,15,660,1333,1986
+Costa Rica,16,703,1422,2119
+Costa Rica,17,747,1510,2251
+Costa Rica,18,791,1599,2383
+Costa Rica,19,835,1688,2516
+Costa Rica,20,879,1777,2648
+Costa Rica,21,923,1866,2781
+Costa Rica,22,967,1955,2913
+Costa Rica,23,1011,2043,3045
+Costa Rica,24,1055,2132,3178
+Cote d'Ivoire,1,125,252,375
+Cote d'Ivoire,2,249,503,749
+Cote d'Ivoire,3,373,754,1123
+Cote d'Ivoire,4,497,1005,1498
+Cote d'Ivoire,5,622,1256,1872
+Cote d'Ivoire,6,746,1507,2246
+Cote d'Ivoire,7,870,1758,2621
+Cote d'Ivoire,8,994,2010,2995
+Cote d'Ivoire,9,1119,2261,3369
+Cote d'Ivoire,10,1243,2512,3744
+Cote d'Ivoire,11,1367,2763,4118
+Cote d'Ivoire,12,1491,3014,4492
+Cote d'Ivoire,13,1616,3265,4867
+Cote d'Ivoire,14,1740,3516,5241
+Cote d'Ivoire,15,1864,3768,5615
+Cote d'Ivoire,16,1988,4019,5990
+Cote d'Ivoire,17,2112,4270,6364
+Cote d'Ivoire,18,2237,4521,6738
+Cote d'Ivoire,19,2361,4772,7113
+Cote d'Ivoire,20,2485,5023,7487
+Cote d'Ivoire,21,2609,5274,7861
+Cote d'Ivoire,22,2734,5526,8236
+Cote d'Ivoire,23,2858,5777,8610
+Cote d'Ivoire,24,2982,6028,8984
+Croatia,1,98,198,295
+Croatia,2,196,395,589
+Croatia,3,293,593,883
+Croatia,4,391,790,1177
+Croatia,5,489,987,1472
+Croatia,6,586,1185,1766
+Croatia,7,684,1382,2060
+Croatia,8,782,1580,2354
+Croatia,9,879,1777,2648
+Croatia,10,977,1974,2943
+Croatia,11,1075,2172,3237
+Croatia,12,1172,2369,3531
+Croatia,13,1270,2567,3825
+Croatia,14,1368,2764,4120
+Croatia,15,1465,2961,4414
+Croatia,16,1563,3159,4708
+Croatia,17,1660,3356,5002
+Croatia,18,1758,3554,5296
+Croatia,19,1856,3751,5591
+Croatia,20,1953,3948,5885
+Croatia,21,2051,4146,6179
+Croatia,22,2149,4343,6473
+Croatia,23,2246,4541,6768
+Croatia,24,2344,4738,7062
+Cyprus,1,175,354,527
+Cyprus,2,350,707,1054
+Cyprus,3,525,1061,1581
+Cyprus,4,700,1414,2107
+Cyprus,5,874,1767,2634
+Cyprus,6,1049,2121,3161
+Cyprus,7,1224,2474,3687
+Cyprus,8,1399,2827,4214
+Cyprus,9,1574,3181,4741
+Cyprus,10,1748,3534,5267
+Cyprus,11,1923,3887,5794
+Cyprus,12,2098,4241,6321
+Cyprus,13,2273,4594,6847
+Cyprus,14,2448,4948,7374
+Cyprus,15,2622,5301,7901
+Cyprus,16,2797,5654,8427
+Cyprus,17,2972,6008,8954
+Cyprus,18,3147,6361,9481
+Cyprus,19,3322,6714,10007
+Cyprus,20,3496,7068,10534
+Cyprus,21,3671,7421,11061
+Cyprus,22,3846,7774,11587
+Cyprus,23,4021,8128,12114
+Cyprus,24,4196,8481,12641
+Czechia,1,319,644,959
+Czechia,2,637,1287,1918
+Czechia,3,955,1931,2877
+Czechia,4,1273,2574,3836
+Czechia,5,1592,3217,4795
+Czechia,6,1910,3861,5754
+Czechia,7,2228,4504,6713
+Czechia,8,2546,5147,7672
+Czechia,9,2865,5791,8631
+Czechia,10,3183,6434,9590
+Czechia,11,3501,7077,10548
+Czechia,12,3819,7721,11507
+Czechia,13,4138,8364,12466
+Czechia,14,4456,9007,13425
+Czechia,15,4774,9651,14384
+Czechia,16,5092,10294,15343
+Czechia,17,5411,10938,16302
+Czechia,18,5729,11581,17261
+Czechia,19,6047,12224,18220
+Czechia,20,6365,12868,19179
+Czechia,21,6684,13511,20137
+Czechia,22,7002,14154,21096
+Czechia,23,7320,14798,22055
+Czechia,24,7638,15441,23014
+Denmark,1,104,210,313
+Denmark,2,208,420,625
+Denmark,3,312,629,938
+Denmark,4,415,839,1250
+Denmark,5,519,1048,1562
+Denmark,6,623,1258,1875
+Denmark,7,726,1468,2187
+Denmark,8,830,1677,2500
+Denmark,9,934,1887,2812
+Denmark,10,1037,2096,3124
+Denmark,11,1141,2306,3437
+Denmark,12,1245,2516,3749
+Denmark,13,1348,2725,4062
+Denmark,14,1452,2935,4374
+Denmark,15,1556,3144,4686
+Denmark,16,1659,3354,4999
+Denmark,17,1763,3564,5311
+Denmark,18,1867,3773,5624
+Denmark,19,1970,3983,5936
+Denmark,20,2074,4192,6248
+Denmark,21,2178,4402,6561
+Denmark,22,2281,4612,6873
+Denmark,23,2385,4821,7186
+Denmark,24,2489,5031,7498
+Djibouti,1,178,359,536
+Djibouti,2,356,718,1071
+Djibouti,3,533,1077,1606
+Djibouti,4,711,1436,2141
+Djibouti,5,888,1795,2676
+Djibouti,6,1066,2154,3211
+Djibouti,7,1244,2513,3746
+Djibouti,8,1421,2872,4281
+Djibouti,9,1599,3231,4816
+Djibouti,10,1776,3590,5351
+Djibouti,11,1954,3949,5886
+Djibouti,12,2131,4308,6421
+Djibouti,13,2309,4667,6956
+Djibouti,14,2487,5026,7491
+Djibouti,15,2664,5385,8026
+Djibouti,16,2842,5744,8562
+Djibouti,17,3019,6103,9097
+Djibouti,18,3197,6462,9632
+Djibouti,19,3375,6821,10167
+Djibouti,20,3552,7180,10702
+Djibouti,21,3730,7539,11237
+Djibouti,22,3907,7898,11772
+Djibouti,23,4085,8257,12307
+Djibouti,24,4262,8616,12842
+Dominica,1,136,275,410
+Dominica,2,272,550,819
+Dominica,3,408,824,1228
+Dominica,4,544,1099,1637
+Dominica,5,679,1373,2046
+Dominica,6,815,1648,2455
+Dominica,7,951,1922,2865
+Dominica,8,1087,2197,3274
+Dominica,9,1223,2471,3683
+Dominica,10,1358,2746,4092
+Dominica,11,1494,3020,4501
+Dominica,12,1630,3295,4910
+Dominica,13,1766,3569,5320
+Dominica,14,1902,3844,5729
+Dominica,15,2037,4118,6138
+Dominica,16,2173,4393,6547
+Dominica,17,2309,4667,6956
+Dominica,18,2445,4942,7365
+Dominica,19,2581,5216,7775
+Dominica,20,2716,5491,8184
+Dominica,21,2852,5765,8593
+Dominica,22,2988,6040,9002
+Dominica,23,3124,6314,9411
+Dominica,24,3260,6589,9820
+Dominican Republic,1,178,359,535
+Dominican Republic,2,356,718,1070
+Dominican Republic,3,533,1077,1605
+Dominican Republic,4,711,1436,2140
+Dominican Republic,5,888,1795,2675
+Dominican Republic,6,1066,2154,3210
+Dominican Republic,7,1243,2513,3745
+Dominican Republic,8,1421,2872,4280
+Dominican Republic,9,1598,3231,4815
+Dominican Republic,10,1776,3590,5350
+Dominican Republic,11,1954,3949,5885
+Dominican Republic,12,2131,4308,6420
+Dominican Republic,13,2309,4667,6955
+Dominican Republic,14,2486,5025,7490
+Dominican Republic,15,2664,5384,8025
+Dominican Republic,16,2841,5743,8560
+Dominican Republic,17,3019,6102,9095
+Dominican Republic,18,3196,6461,9630
+Dominican Republic,19,3374,6820,10165
+Dominican Republic,20,3551,7179,10700
+Dominican Republic,21,3729,7538,11235
+Dominican Republic,22,3907,7897,11770
+Dominican Republic,23,4084,8256,12305
+Dominican Republic,24,4262,8615,12840
+East Timor,1,178,359,536
+East Timor,2,356,718,1071
+East Timor,3,533,1077,1606
+East Timor,4,711,1436,2141
+East Timor,5,888,1795,2676
+East Timor,6,1066,2154,3211
+East Timor,7,1244,2513,3746
+East Timor,8,1421,2872,4281
+East Timor,9,1599,3231,4816
+East Timor,10,1776,3590,5351
+East Timor,11,1954,3949,5886
+East Timor,12,2131,4308,6421
+East Timor,13,2309,4667,6956
+East Timor,14,2487,5026,7491
+East Timor,15,2664,5385,8026
+East Timor,16,2842,5744,8562
+East Timor,17,3019,6103,9097
+East Timor,18,3197,6462,9632
+East Timor,19,3375,6821,10167
+East Timor,20,3552,7180,10702
+East Timor,21,3730,7539,11237
+East Timor,22,3907,7898,11772
+East Timor,23,4085,8257,12307
+East Timor,24,4262,8616,12842
+Eastern Africa (EI),1,4,8,11
+Eastern Africa (EI),2,8,15,22
+Eastern Africa (EI),3,11,22,32
+Eastern Africa (EI),4,15,29,43
+Eastern Africa (EI),5,18,36,54
+Eastern Africa (EI),6,22,43,64
+Eastern Africa (EI),7,25,51,75
+Eastern Africa (EI),8,29,58,86
+Eastern Africa (EI),9,32,65,96
+Eastern Africa (EI),10,36,72,107
+Eastern Africa (EI),11,39,79,118
+Eastern Africa (EI),12,43,86,128
+Eastern Africa (EI),13,47,93,139
+Eastern Africa (EI),14,50,101,150
+Eastern Africa (EI),15,54,108,160
+Eastern Africa (EI),16,57,115,171
+Eastern Africa (EI),17,61,122,182
+Eastern Africa (EI),18,64,129,192
+Eastern Africa (EI),19,68,136,203
+Eastern Africa (EI),20,71,144,214
+Eastern Africa (EI),21,75,151,224
+Eastern Africa (EI),22,78,158,235
+Eastern Africa (EI),23,82,165,246
+Eastern Africa (EI),24,85,172,256
+Ecuador,1,46,93,138
+Ecuador,2,92,185,276
+Ecuador,3,138,278,414
+Ecuador,4,183,370,552
+Ecuador,5,229,463,690
+Ecuador,6,275,555,827
+Ecuador,7,321,648,965
+Ecuador,8,366,740,1103
+Ecuador,9,412,833,1241
+Ecuador,10,458,925,1379
+Ecuador,11,504,1018,1517
+Ecuador,12,549,1110,1654
+Ecuador,13,595,1203,1792
+Ecuador,14,641,1295,1930
+Ecuador,15,687,1388,2068
+Ecuador,16,732,1480,2206
+Ecuador,17,778,1573,2344
+Ecuador,18,824,1665,2481
+Ecuador,19,870,1757,2619
+Ecuador,20,915,1850,2757
+Ecuador,21,961,1942,2895
+Ecuador,22,1007,2035,3033
+Ecuador,23,1053,2127,3171
+Ecuador,24,1098,2220,3308
+Egypt,1,163,330,491
+Egypt,2,326,659,982
+Egypt,3,489,988,1472
+Egypt,4,652,1317,1963
+Egypt,5,815,1646,2454
+Egypt,6,978,1976,2944
+Egypt,7,1140,2305,3435
+Egypt,8,1303,2634,3926
+Egypt,9,1466,2963,4416
+Egypt,10,1629,3292,4907
+Egypt,11,1792,3622,5398
+Egypt,12,1955,3951,5888
+Egypt,13,2117,4280,6379
+Egypt,14,2280,4609,6869
+Egypt,15,2443,4938,7360
+Egypt,16,2606,5267,7851
+Egypt,17,2769,5597,8341
+Egypt,18,2932,5926,8832
+Egypt,19,3094,6255,9323
+Egypt,20,3257,6584,9813
+Egypt,21,3420,6913,10304
+Egypt,22,3583,7243,10795
+Egypt,23,3746,7572,11285
+Egypt,24,3909,7901,11776
+El Salvador,1,155,313,466
+El Salvador,2,310,626,932
+El Salvador,3,464,938,1398
+El Salvador,4,619,1251,1864
+El Salvador,5,774,1563,2330
+El Salvador,6,928,1876,2796
+El Salvador,7,1083,2189,3262
+El Salvador,8,1237,2501,3728
+El Salvador,9,1392,2814,4194
+El Salvador,10,1547,3126,4659
+El Salvador,11,1701,3439,5125
+El Salvador,12,1856,3751,5591
+El Salvador,13,2011,4064,6057
+El Salvador,14,2165,4377,6523
+El Salvador,15,2320,4689,6989
+El Salvador,16,2474,5002,7455
+El Salvador,17,2629,5314,7921
+El Salvador,18,2784,5627,8387
+El Salvador,19,2938,5940,8853
+El Salvador,20,3093,6252,9318
+El Salvador,21,3248,6565,9784
+El Salvador,22,3402,6877,10250
+El Salvador,23,3557,7190,10716
+El Salvador,24,3711,7502,11182
+Eritrea,1,179,361,538
+Eritrea,2,357,722,1075
+Eritrea,3,536,1082,1613
+Eritrea,4,714,1443,2150
+Eritrea,5,892,1803,2688
+Eritrea,6,1071,2164,3225
+Eritrea,7,1249,2525,3763
+Eritrea,8,1427,2885,4300
+Eritrea,9,1606,3246,4838
+Eritrea,10,1784,3606,5375
+Eritrea,11,1963,3967,5912
+Eritrea,12,2141,4328,6450
+Eritrea,13,2319,4688,6987
+Eritrea,14,2498,5049,7525
+Eritrea,15,2676,5409,8062
+Eritrea,16,2854,5770,8600
+Eritrea,17,3033,6130,9137
+Eritrea,18,3211,6491,9675
+Eritrea,19,3390,6852,10212
+Eritrea,20,3568,7212,10749
+Eritrea,21,3746,7573,11287
+Eritrea,22,3925,7933,11824
+Eritrea,23,4103,8294,12362
+Eritrea,24,4281,8655,12899
+Estonia,1,180,364,542
+Estonia,2,360,727,1083
+Estonia,3,539,1090,1624
+Estonia,4,719,1453,2166
+Estonia,5,899,1816,2707
+Estonia,6,1078,2179,3248
+Estonia,7,1258,2543,3789
+Estonia,8,1438,2906,4331
+Estonia,9,1617,3269,4872
+Estonia,10,1797,3632,5413
+Estonia,11,1977,3995,5954
+Estonia,12,2156,4358,6496
+Estonia,13,2336,4721,7037
+Estonia,14,2515,5085,7578
+Estonia,15,2695,5448,8120
+Estonia,16,2875,5811,8661
+Estonia,17,3054,6174,9202
+Estonia,18,3234,6537,9743
+Estonia,19,3414,6900,10285
+Estonia,20,3593,7264,10826
+Estonia,21,3773,7627,11367
+Estonia,22,3953,7990,11908
+Estonia,23,4132,8353,12450
+Estonia,24,4312,8716,12991
+Eswatini,1,145,293,437
+Eswatini,2,290,586,873
+Eswatini,3,435,879,1309
+Eswatini,4,580,1171,1746
+Eswatini,5,725,1464,2182
+Eswatini,6,869,1757,2618
+Eswatini,7,1014,2050,3055
+Eswatini,8,1159,2342,3491
+Eswatini,9,1304,2635,3927
+Eswatini,10,1449,2928,4363
+Eswatini,11,1593,3220,4800
+Eswatini,12,1738,3513,5236
+Eswatini,13,1883,3806,5672
+Eswatini,14,2028,4099,6109
+Eswatini,15,2173,4391,6545
+Eswatini,16,2317,4684,6981
+Eswatini,17,2462,4977,7418
+Eswatini,18,2607,5270,7854
+Eswatini,19,2752,5562,8290
+Eswatini,20,2897,5855,8726
+Eswatini,21,3041,6148,9163
+Eswatini,22,3186,6440,9599
+Eswatini,23,3331,6733,10035
+Eswatini,24,3476,7026,10472
+Ethiopia,1,2,3,4
+Ethiopia,2,3,5,7
+Ethiopia,3,4,7,11
+Ethiopia,4,5,10,14
+Ethiopia,5,6,12,18
+Ethiopia,6,7,14,21
+Ethiopia,7,9,17,25
+Ethiopia,8,10,19,28
+Ethiopia,9,11,21,32
+Ethiopia,10,12,24,35
+Ethiopia,11,13,26,38
+Ethiopia,12,14,28,42
+Ethiopia,13,15,31,45
+Ethiopia,14,17,33,49
+Ethiopia,15,18,35,52
+Ethiopia,16,19,38,56
+Ethiopia,17,20,40,59
+Ethiopia,18,21,42,63
+Ethiopia,19,22,44,66
+Ethiopia,20,23,47,69
+Ethiopia,21,25,49,73
+Ethiopia,22,26,51,76
+Ethiopia,23,27,54,80
+Ethiopia,24,28,56,83
+Europe,1,191,386,575
+Europe,2,382,772,1150
+Europe,3,573,1157,1725
+Europe,4,764,1543,2300
+Europe,5,954,1929,2874
+Europe,6,1145,2314,3449
+Europe,7,1336,2700,4024
+Europe,8,1527,3086,4599
+Europe,9,1717,3471,5174
+Europe,10,1908,3857,5748
+Europe,11,2099,4243,6323
+Europe,12,2290,4628,6898
+Europe,13,2480,5014,7473
+Europe,14,2671,5400,8048
+Europe,15,2862,5785,8622
+Europe,16,3053,6171,9197
+Europe,17,3243,6556,9772
+Europe,18,3434,6942,10347
+Europe,19,3625,7328,10922
+Europe,20,3816,7713,11496
+Europe,21,4007,8099,12071
+Europe,22,4197,8485,12646
+Europe,23,4388,8870,13221
+Europe,24,4579,9256,13796
+Europe (EI),1,182,368,548
+Europe (EI),2,364,736,1096
+Europe (EI),3,546,1103,1644
+Europe (EI),4,728,1471,2192
+Europe (EI),5,910,1838,2740
+Europe (EI),6,1091,2206,3288
+Europe (EI),7,1273,2574,3836
+Europe (EI),8,1455,2941,4383
+Europe (EI),9,1637,3309,4931
+Europe (EI),10,1819,3676,5479
+Europe (EI),11,2001,4044,6027
+Europe (EI),12,2182,4411,6575
+Europe (EI),13,2364,4779,7123
+Europe (EI),14,2546,5147,7671
+Europe (EI),15,2728,5514,8218
+Europe (EI),16,2910,5882,8766
+Europe (EI),17,3092,6249,9314
+Europe (EI),18,3273,6617,9862
+Europe (EI),19,3455,6984,10410
+Europe (EI),20,3637,7352,10958
+Europe (EI),21,3819,7720,11506
+Europe (EI),22,4001,8087,12054
+Europe (EI),23,4183,8455,12601
+Europe (EI),24,4364,8822,13149
+Europe (Ember),1,204,411,613
+Europe (Ember),2,407,822,1225
+Europe (Ember),3,610,1233,1838
+Europe (Ember),4,814,1644,2450
+Europe (Ember),5,1017,2055,3063
+Europe (Ember),6,1220,2466,3675
+Europe (Ember),7,1423,2877,4288
+Europe (Ember),8,1627,3288,4900
+Europe (Ember),9,1830,3699,5513
+Europe (Ember),10,2033,4110,6125
+Europe (Ember),11,2236,4521,6738
+Europe (Ember),12,2440,4932,7350
+Europe (Ember),13,2643,5342,7963
+Europe (Ember),14,2846,5753,8575
+Europe (Ember),15,3050,6164,9188
+Europe (Ember),16,3253,6575,9800
+Europe (Ember),17,3456,6986,10412
+Europe (Ember),18,3659,7397,11025
+Europe (Ember),19,3863,7808,11637
+Europe (Ember),20,4066,8219,12250
+Europe (Ember),21,4269,8630,12862
+Europe (Ember),22,4472,9041,13475
+Europe (Ember),23,4676,9452,14087
+Europe (Ember),24,4879,9863,14700
+European Union (27),1,196,395,589
+European Union (27),2,391,790,1178
+European Union (27),3,587,1185,1767
+European Union (27),4,782,1580,2355
+European Union (27),5,977,1975,2944
+European Union (27),6,1173,2370,3533
+European Union (27),7,1368,2765,4121
+European Union (27),8,1564,3160,4710
+European Union (27),9,1759,3555,5299
+European Union (27),10,1954,3950,5887
+European Union (27),11,2150,4345,6476
+European Union (27),12,2345,4740,7065
+European Union (27),13,2540,5135,7654
+European Union (27),14,2736,5530,8242
+European Union (27),15,2931,5925,8831
+European Union (27),16,3127,6320,9420
+European Union (27),17,3322,6715,10008
+European Union (27),18,3517,7110,10597
+European Union (27),19,3713,7505,11186
+European Union (27),20,3908,7900,11774
+European Union (27),21,4103,8295,12363
+European Union (27),22,4299,8690,12952
+European Union (27),23,4494,9085,13540
+European Union (27),24,4690,9480,14129
+Falkland Islands,1,89,180,268
+Falkland Islands,2,178,359,536
+Falkland Islands,3,267,539,803
+Falkland Islands,4,356,718,1071
+Falkland Islands,5,444,898,1338
+Falkland Islands,6,533,1077,1606
+Falkland Islands,7,622,1257,1873
+Falkland Islands,8,711,1436,2141
+Falkland Islands,9,800,1616,2408
+Falkland Islands,10,888,1795,2676
+Falkland Islands,11,977,1975,2943
+Falkland Islands,12,1066,2154,3211
+Falkland Islands,13,1155,2334,3478
+Falkland Islands,14,1244,2513,3746
+Falkland Islands,15,1332,2693,4013
+Falkland Islands,16,1421,2872,4281
+Falkland Islands,17,1510,3052,4549
+Falkland Islands,18,1599,3231,4816
+Falkland Islands,19,1688,3411,5084
+Falkland Islands,20,1776,3590,5351
+Falkland Islands,21,1865,3770,5619
+Falkland Islands,22,1954,3949,5886
+Falkland Islands,23,2043,4129,6154
+Falkland Islands,24,2131,4308,6421
+Faroe Islands,1,110,223,332
+Faroe Islands,2,220,445,663
+Faroe Islands,3,330,667,994
+Faroe Islands,4,440,889,1325
+Faroe Islands,5,550,1112,1657
+Faroe Islands,6,660,1334,1988
+Faroe Islands,7,770,1556,2319
+Faroe Islands,8,880,1778,2650
+Faroe Islands,9,990,2000,2981
+Faroe Islands,10,1100,2223,3313
+Faroe Islands,11,1210,2445,3644
+Faroe Islands,12,1320,2667,3975
+Faroe Islands,13,1429,2889,4306
+Faroe Islands,14,1539,3112,4637
+Faroe Islands,15,1649,3334,4969
+Faroe Islands,16,1759,3556,5300
+Faroe Islands,17,1869,3778,5631
+Faroe Islands,18,1979,4000,5962
+Faroe Islands,19,2089,4223,6293
+Faroe Islands,20,2199,4445,6625
+Faroe Islands,21,2309,4667,6956
+Faroe Islands,22,2419,4889,7287
+Faroe Islands,23,2529,5111,7618
+Faroe Islands,24,2639,5334,7949
+Fiji,1,95,193,287
+Fiji,2,190,385,573
+Fiji,3,285,577,859
+Fiji,4,380,769,1145
+Fiji,5,475,961,1432
+Fiji,6,570,1153,1718
+Fiji,7,665,1345,2004
+Fiji,8,760,1537,2290
+Fiji,9,855,1729,2576
+Fiji,10,950,1921,2863
+Fiji,11,1045,2113,3149
+Fiji,12,1140,2305,3435
+Fiji,13,1235,2497,3721
+Fiji,14,1330,2689,4008
+Fiji,15,1425,2881,4294
+Fiji,16,1520,3073,4580
+Fiji,17,1615,3265,4866
+Fiji,18,1710,3457,5152
+Fiji,19,1805,3649,5439
+Fiji,20,1900,3841,5725
+Fiji,21,1995,4033,6011
+Fiji,22,2090,4225,6297
+Fiji,23,2185,4417,6584
+Fiji,24,2280,4609,6870
+Finland,1,219,442,659
+Finland,2,438,884,1317
+Finland,3,656,1326,1976
+Finland,4,875,1767,2634
+Finland,5,1093,2209,3292
+Finland,6,1312,2651,3951
+Finland,7,1530,3093,4609
+Finland,8,1749,3534,5268
+Finland,9,1967,3976,5926
+Finland,10,2186,4418,6584
+Finland,11,2404,4860,7243
+Finland,12,2623,5301,7901
+Finland,13,2841,5743,8560
+Finland,14,3060,6185,9218
+Finland,15,3278,6626,9876
+Finland,16,3497,7068,10535
+Finland,17,3715,7510,11193
+Finland,18,3934,7952,11851
+Finland,19,4152,8393,12510
+Finland,20,4371,8835,13168
+Finland,21,4589,9277,13827
+Finland,22,4808,9719,14485
+Finland,23,5026,10160,15143
+Finland,24,5245,10602,15802
+France,1,315,636,947
+France,2,629,1271,1893
+France,3,943,1906,2840
+France,4,1257,2541,3786
+France,5,1571,3176,4733
+France,6,1885,3811,5679
+France,7,2199,4446,6626
+France,8,2514,5081,7572
+France,9,2828,5716,8519
+France,10,3142,6351,9465
+France,11,3456,6986,10412
+France,12,3770,7621,11358
+France,13,4084,8256,12305
+France,14,4398,8891,13251
+France,15,4712,9526,14198
+France,16,5027,10161,15144
+France,17,5341,10796,16091
+France,18,5655,11431,17037
+France,19,5969,12066,17984
+France,20,6283,12701,18930
+France,21,6597,13336,19877
+France,22,6911,13971,20823
+France,23,7225,14606,21770
+France,24,7540,15241,22716
+French Polynesia,1,135,272,406
+French Polynesia,2,269,544,811
+French Polynesia,3,404,816,1216
+French Polynesia,4,538,1088,1621
+French Polynesia,5,673,1359,2026
+French Polynesia,6,807,1631,2431
+French Polynesia,7,942,1903,2836
+French Polynesia,8,1076,2175,3241
+French Polynesia,9,1211,2447,3646
+French Polynesia,10,1345,2718,4052
+French Polynesia,11,1479,2990,4457
+French Polynesia,12,1614,3262,4862
+French Polynesia,13,1748,3534,5267
+French Polynesia,14,1883,3806,5672
+French Polynesia,15,2017,4077,6077
+French Polynesia,16,2152,4349,6482
+French Polynesia,17,2286,4621,6887
+French Polynesia,18,2421,4893,7292
+French Polynesia,19,2555,5165,7697
+French Polynesia,20,2689,5436,8103
+French Polynesia,21,2824,5708,8508
+French Polynesia,22,2958,5980,8913
+French Polynesia,23,3093,6252,9318
+French Polynesia,24,3227,6524,9723
+G20 (Ember),1,212,427,637
+G20 (Ember),2,423,854,1273
+G20 (Ember),3,634,1281,1909
+G20 (Ember),4,845,1708,2545
+G20 (Ember),5,1056,2134,3181
+G20 (Ember),6,1267,2561,3817
+G20 (Ember),7,1478,2988,4453
+G20 (Ember),8,1689,3415,5089
+G20 (Ember),9,1900,3841,5725
+G20 (Ember),10,2112,4268,6361
+G20 (Ember),11,2323,4695,6997
+G20 (Ember),12,2534,5122,7634
+G20 (Ember),13,2745,5548,8270
+G20 (Ember),14,2956,5975,8906
+G20 (Ember),15,3167,6402,9542
+G20 (Ember),16,3378,6829,10178
+G20 (Ember),17,3589,7256,10814
+G20 (Ember),18,3800,7682,11450
+G20 (Ember),19,4012,8109,12086
+G20 (Ember),20,4223,8536,12722
+G20 (Ember),21,4434,8963,13358
+G20 (Ember),22,4645,9389,13994
+G20 (Ember),23,4856,9816,14630
+G20 (Ember),24,5067,10243,15267
+G7 (Ember),1,210,424,631
+G7 (Ember),2,419,847,1262
+G7 (Ember),3,628,1270,1893
+G7 (Ember),4,838,1693,2523
+G7 (Ember),5,1047,2116,3154
+G7 (Ember),6,1256,2539,3785
+G7 (Ember),7,1466,2963,4415
+G7 (Ember),8,1675,3386,5046
+G7 (Ember),9,1884,3809,5677
+G7 (Ember),10,2094,4232,6308
+G7 (Ember),11,2303,4655,6938
+G7 (Ember),12,2512,5078,7569
+G7 (Ember),13,2722,5502,8200
+G7 (Ember),14,2931,5925,8830
+G7 (Ember),15,3140,6348,9461
+G7 (Ember),16,3350,6771,10092
+G7 (Ember),17,3559,7194,10723
+G7 (Ember),18,3768,7617,11353
+G7 (Ember),19,3978,8041,11984
+G7 (Ember),20,4187,8464,12615
+G7 (Ember),21,4396,8887,13245
+G7 (Ember),22,4606,9310,13876
+G7 (Ember),23,4815,9733,14507
+G7 (Ember),24,5024,10156,15138
+Gambia,1,178,359,536
+Gambia,2,356,718,1071
+Gambia,3,533,1077,1606
+Gambia,4,711,1436,2141
+Gambia,5,888,1795,2676
+Gambia,6,1066,2154,3211
+Gambia,7,1244,2513,3746
+Gambia,8,1421,2872,4281
+Gambia,9,1599,3231,4816
+Gambia,10,1776,3590,5351
+Gambia,11,1954,3949,5886
+Gambia,12,2131,4308,6421
+Gambia,13,2309,4667,6956
+Gambia,14,2487,5026,7491
+Gambia,15,2664,5385,8026
+Gambia,16,2842,5744,8562
+Gambia,17,3019,6103,9097
+Gambia,18,3197,6462,9632
+Gambia,19,3375,6821,10167
+Gambia,20,3552,7180,10702
+Gambia,21,3730,7539,11237
+Gambia,22,3907,7898,11772
+Gambia,23,4085,8257,12307
+Gambia,24,4262,8616,12842
+Georgia,1,43,86,128
+Georgia,2,85,171,255
+Georgia,3,127,257,383
+Georgia,4,170,342,510
+Georgia,5,212,428,637
+Georgia,6,254,513,765
+Georgia,7,296,599,892
+Georgia,8,339,684,1020
+Georgia,9,381,770,1147
+Georgia,10,423,855,1274
+Georgia,11,466,941,1402
+Georgia,12,508,1026,1529
+Georgia,13,550,1112,1657
+Georgia,14,592,1197,1784
+Georgia,15,635,1283,1911
+Georgia,16,677,1368,2039
+Georgia,17,719,1454,2166
+Georgia,18,762,1539,2294
+Georgia,19,804,1625,2421
+Georgia,20,846,1710,2548
+Georgia,21,888,1795,2676
+Georgia,22,931,1881,2803
+Georgia,23,973,1966,2931
+Georgia,24,1015,2052,3058
+Germany,1,192,387,577
+Germany,2,383,773,1153
+Germany,3,574,1160,1729
+Germany,4,765,1546,2305
+Germany,5,956,1933,2881
+Germany,6,1148,2319,3457
+Germany,7,1339,2706,4033
+Germany,8,1530,3092,4609
+Germany,9,1721,3479,5185
+Germany,10,1912,3865,5761
+Germany,11,2103,4252,6337
+Germany,12,2295,4638,6913
+Germany,13,2486,5025,7489
+Germany,14,2677,5411,8065
+Germany,15,2868,5798,8641
+Germany,16,3059,6184,9217
+Germany,17,3251,6571,9793
+Germany,18,3442,6957,10369
+Germany,19,3633,7344,10945
+Germany,20,3824,7730,11522
+Germany,21,4015,8117,12098
+Germany,22,4206,8503,12674
+Germany,23,4398,8890,13250
+Germany,24,4589,9276,13826
+Ghana,1,117,236,352
+Ghana,2,234,472,703
+Ghana,3,350,707,1054
+Ghana,4,467,943,1405
+Ghana,5,583,1179,1757
+Ghana,6,700,1414,2108
+Ghana,7,816,1650,2459
+Ghana,8,933,1886,2810
+Ghana,9,1050,2121,3162
+Ghana,10,1166,2357,3513
+Ghana,11,1283,2593,3864
+Ghana,12,1399,2828,4215
+Ghana,13,1516,3064,4567
+Ghana,14,1632,3300,4918
+Ghana,15,1749,3535,5269
+Ghana,16,1866,3771,5620
+Ghana,17,1982,4007,5972
+Ghana,18,2099,4242,6323
+Ghana,19,2215,4478,6674
+Ghana,20,2332,4714,7025
+Ghana,21,2448,4949,7376
+Ghana,22,2565,5185,7728
+Ghana,23,2682,5421,8079
+Ghana,24,2798,5656,8430
+Greece,1,141,285,425
+Greece,2,282,570,850
+Greece,3,423,855,1274
+Greece,4,564,1140,1699
+Greece,5,705,1425,2123
+Greece,6,846,1710,2548
+Greece,7,987,1995,2973
+Greece,8,1128,2279,3397
+Greece,9,1269,2564,3822
+Greece,10,1410,2849,4246
+Greece,11,1551,3134,4671
+Greece,12,1691,3419,5096
+Greece,13,1832,3704,5520
+Greece,14,1973,3989,5945
+Greece,15,2114,4274,6369
+Greece,16,2255,4558,6794
+Greece,17,2396,4843,7219
+Greece,18,2537,5128,7643
+Greece,19,2678,5413,8068
+Greece,20,2819,5698,8492
+Greece,21,2960,5983,8917
+Greece,22,3101,6268,9341
+Greece,23,3242,6552,9766
+Greece,24,3382,6837,10191
+Greenland,1,30,60,90
+Greenland,2,60,120,179
+Greenland,3,89,180,268
+Greenland,4,119,240,357
+Greenland,5,149,300,446
+Greenland,6,178,360,536
+Greenland,7,208,419,625
+Greenland,8,237,479,714
+Greenland,9,267,539,803
+Greenland,10,297,599,892
+Greenland,11,326,659,982
+Greenland,12,356,719,1071
+Greenland,13,385,778,1160
+Greenland,14,415,838,1249
+Greenland,15,445,898,1338
+Greenland,16,474,958,1428
+Greenland,17,504,1018,1517
+Greenland,18,533,1078,1606
+Greenland,19,563,1138,1695
+Greenland,20,593,1197,1784
+Greenland,21,622,1257,1874
+Greenland,22,652,1317,1963
+Greenland,23,681,1377,2052
+Greenland,24,711,1437,2141
+Grenada,1,178,359,536
+Grenada,2,356,718,1071
+Grenada,3,533,1077,1606
+Grenada,4,711,1436,2141
+Grenada,5,888,1795,2676
+Grenada,6,1066,2154,3211
+Grenada,7,1244,2513,3746
+Grenada,8,1421,2872,4281
+Grenada,9,1599,3231,4816
+Grenada,10,1776,3590,5351
+Grenada,11,1954,3949,5886
+Grenada,12,2131,4308,6421
+Grenada,13,2309,4667,6956
+Grenada,14,2487,5026,7491
+Grenada,15,2664,5385,8026
+Grenada,16,2842,5744,8562
+Grenada,17,3019,6103,9097
+Grenada,18,3197,6462,9632
+Grenada,19,3375,6821,10167
+Grenada,20,3552,7180,10702
+Grenada,21,3730,7539,11237
+Grenada,22,3907,7898,11772
+Grenada,23,4085,8257,12307
+Grenada,24,4262,8616,12842
+Guam,1,180,363,540
+Guam,2,359,725,1080
+Guam,3,538,1087,1620
+Guam,4,717,1449,2160
+Guam,5,896,1811,2699
+Guam,6,1075,2173,3239
+Guam,7,1255,2536,3779
+Guam,8,1434,2898,4319
+Guam,9,1613,3260,4859
+Guam,10,1792,3622,5398
+Guam,11,1971,3984,5938
+Guam,12,2150,4346,6478
+Guam,13,2329,4709,7018
+Guam,14,2509,5071,7557
+Guam,15,2688,5433,8097
+Guam,16,2867,5795,8637
+Guam,17,3046,6157,9177
+Guam,18,3225,6519,9717
+Guam,19,3404,6881,10256
+Guam,20,3583,7244,10796
+Guam,21,3763,7606,11336
+Guam,22,3942,7968,11876
+Guam,23,4121,8330,12416
+Guam,24,4300,8692,12955
+Guatemala,1,142,287,428
+Guatemala,2,284,574,855
+Guatemala,3,426,861,1282
+Guatemala,4,568,1147,1710
+Guatemala,5,710,1434,2137
+Guatemala,6,851,1721,2564
+Guatemala,7,993,2007,2992
+Guatemala,8,1135,2294,3419
+Guatemala,9,1277,2581,3846
+Guatemala,10,1419,2867,4273
+Guatemala,11,1560,3154,4701
+Guatemala,12,1702,3441,5128
+Guatemala,13,1844,3727,5555
+Guatemala,14,1986,4014,5983
+Guatemala,15,2128,4301,6410
+Guatemala,16,2269,4587,6837
+Guatemala,17,2411,4874,7264
+Guatemala,18,2553,5161,7692
+Guatemala,19,2695,5447,8119
+Guatemala,20,2837,5734,8546
+Guatemala,21,2978,6021,8974
+Guatemala,22,3120,6307,9401
+Guatemala,23,3262,6594,9828
+Guatemala,24,3404,6881,10255
+Guinea,1,51,102,151
+Guinea,2,101,203,302
+Guinea,3,151,304,453
+Guinea,4,201,406,604
+Guinea,5,251,507,755
+Guinea,6,301,608,906
+Guinea,7,351,709,1057
+Guinea,8,401,811,1208
+Guinea,9,451,912,1359
+Guinea,10,501,1013,1510
+Guinea,11,551,1114,1661
+Guinea,12,602,1216,1811
+Guinea,13,652,1317,1962
+Guinea,14,702,1418,2113
+Guinea,15,752,1519,2264
+Guinea,16,802,1621,2415
+Guinea,17,852,1722,2566
+Guinea,18,902,1823,2717
+Guinea,19,952,1924,2868
+Guinea,20,1002,2026,3019
+Guinea,21,1052,2127,3170
+Guinea,22,1102,2228,3321
+Guinea,23,1152,2329,3471
+Guinea,24,1203,2431,3622
+Guinea-Bissau,1,178,359,536
+Guinea-Bissau,2,356,718,1071
+Guinea-Bissau,3,533,1077,1606
+Guinea-Bissau,4,711,1436,2141
+Guinea-Bissau,5,888,1795,2676
+Guinea-Bissau,6,1066,2154,3211
+Guinea-Bissau,7,1244,2513,3746
+Guinea-Bissau,8,1421,2872,4281
+Guinea-Bissau,9,1599,3231,4816
+Guinea-Bissau,10,1776,3590,5351
+Guinea-Bissau,11,1954,3949,5886
+Guinea-Bissau,12,2131,4308,6421
+Guinea-Bissau,13,2309,4667,6956
+Guinea-Bissau,14,2487,5026,7491
+Guinea-Bissau,15,2664,5385,8026
+Guinea-Bissau,16,2842,5744,8562
+Guinea-Bissau,17,3019,6103,9097
+Guinea-Bissau,18,3197,6462,9632
+Guinea-Bissau,19,3375,6821,10167
+Guinea-Bissau,20,3552,7180,10702
+Guinea-Bissau,21,3730,7539,11237
+Guinea-Bissau,22,3907,7898,11772
+Guinea-Bissau,23,4085,8257,12307
+Guinea-Bissau,24,4262,8616,12842
+Guyana,1,183,370,551
+Guyana,2,366,739,1101
+Guyana,3,548,1108,1651
+Guyana,4,731,1477,2201
+Guyana,5,913,1846,2751
+Guyana,6,1096,2215,3302
+Guyana,7,1279,2584,3852
+Guyana,8,1461,2954,4402
+Guyana,9,1644,3323,4952
+Guyana,10,1826,3692,5502
+Guyana,11,2009,4061,6053
+Guyana,12,2192,4430,6603
+Guyana,13,2374,4799,7153
+Guyana,14,2557,5168,7703
+Guyana,15,2739,5538,8253
+Guyana,16,2922,5907,8803
+Guyana,17,3105,6276,9354
+Guyana,18,3287,6645,9904
+Guyana,19,3470,7014,10454
+Guyana,20,3652,7383,11004
+Guyana,21,3835,7752,11554
+Guyana,22,4018,8121,12105
+Guyana,23,4200,8491,12655
+Guyana,24,4383,8860,13205
+Haiti,1,155,312,465
+Haiti,2,309,624,930
+Haiti,3,463,936,1395
+Haiti,4,618,1248,1860
+Haiti,5,772,1560,2325
+Haiti,6,926,1872,2789
+Haiti,7,1080,2183,3254
+Haiti,8,1235,2495,3719
+Haiti,9,1389,2807,4184
+Haiti,10,1543,3119,4649
+Haiti,11,1697,3431,5113
+Haiti,12,1852,3743,5578
+Haiti,13,2006,4055,6043
+Haiti,14,2160,4366,6508
+Haiti,15,2314,4678,6973
+Haiti,16,2469,4990,7437
+Haiti,17,2623,5302,7902
+Haiti,18,2777,5614,8367
+Haiti,19,2932,5926,8832
+Haiti,20,3086,6238,9297
+Haiti,21,3240,6549,9762
+Haiti,22,3394,6861,10226
+Haiti,23,3549,7173,10691
+Haiti,24,3703,7485,11156
+High-income countries,1,187,378,563
+High-income countries,2,374,755,1125
+High-income countries,3,561,1133,1688
+High-income countries,4,747,1510,2250
+High-income countries,5,934,1887,2813
+High-income countries,6,1121,2265,3375
+High-income countries,7,1307,2642,3938
+High-income countries,8,1494,3020,4500
+High-income countries,9,1681,3397,5063
+High-income countries,10,1867,3774,5625
+High-income countries,11,2054,4152,6188
+High-income countries,12,2241,4529,6750
+High-income countries,13,2427,4907,7313
+High-income countries,14,2614,5284,7875
+High-income countries,15,2801,5661,8438
+High-income countries,16,2987,6039,9000
+High-income countries,17,3174,6416,9563
+High-income countries,18,3361,6794,10125
+High-income countries,19,3547,7171,10688
+High-income countries,20,3734,7548,11250
+High-income countries,21,3921,7926,11813
+High-income countries,22,4107,8303,12375
+High-income countries,23,4294,8680,12938
+High-income countries,24,4481,9058,13500
+Honduras,1,142,287,428
+Honduras,2,284,574,856
+Honduras,3,426,861,1283
+Honduras,4,568,1148,1711
+Honduras,5,710,1435,2138
+Honduras,6,852,1722,2566
+Honduras,7,994,2009,2993
+Honduras,8,1136,2295,3421
+Honduras,9,1278,2582,3849
+Honduras,10,1420,2869,4276
+Honduras,11,1561,3156,4704
+Honduras,12,1703,3443,5131
+Honduras,13,1845,3730,5559
+Honduras,14,1987,4017,5986
+Honduras,15,2129,4303,6414
+Honduras,16,2271,4590,6841
+Honduras,17,2413,4877,7269
+Honduras,18,2555,5164,7697
+Honduras,19,2697,5451,8124
+Honduras,20,2839,5738,8552
+Honduras,21,2980,6025,8979
+Honduras,22,3122,6311,9407
+Honduras,23,3264,6598,9834
+Honduras,24,3406,6885,10262
+Hong Kong,1,1,1,1
+Hong Kong,2,1,2,2
+Hong Kong,3,1,2,3
+Hong Kong,4,2,3,4
+Hong Kong,5,2,4,5
+Hong Kong,6,2,4,6
+Hong Kong,7,3,5,7
+Hong Kong,8,3,5,8
+Hong Kong,9,3,6,9
+Hong Kong,10,3,7,9
+Hong Kong,11,4,7,10
+Hong Kong,12,4,8,11
+Hong Kong,13,4,8,12
+Hong Kong,14,5,9,13
+Hong Kong,15,5,10,14
+Hong Kong,16,5,10,15
+Hong Kong,17,6,11,16
+Hong Kong,18,6,11,17
+Hong Kong,19,6,12,18
+Hong Kong,20,6,13,18
+Hong Kong,21,7,13,19
+Hong Kong,22,7,14,20
+Hong Kong,23,7,14,21
+Hong Kong,24,8,15,22
+Hungary,1,306,618,921
+Hungary,2,611,1236,1842
+Hungary,3,917,1853,2762
+Hungary,4,1222,2471,3683
+Hungary,5,1528,3088,4603
+Hungary,6,1833,3706,5524
+Hungary,7,2139,4324,6444
+Hungary,8,2444,4941,7365
+Hungary,9,2750,5559,8285
+Hungary,10,3055,6176,9206
+Hungary,11,3361,6794,10126
+Hungary,12,3666,7412,11047
+Hungary,13,3972,8029,11967
+Hungary,14,4277,8647,12888
+Hungary,15,4583,9264,13808
+Hungary,16,4888,9882,14729
+Hungary,17,5194,10500,15649
+Hungary,18,5499,11117,16570
+Hungary,19,5805,11735,17490
+Hungary,20,6110,12352,18411
+Hungary,21,6416,12970,19331
+Hungary,22,6721,13587,20252
+Hungary,23,7027,14205,21172
+Hungary,24,7332,14823,22093
+Iceland,1,0,0,0
+Iceland,2,0,0,0
+Iceland,3,0,0,0
+Iceland,4,0,0,0
+Iceland,5,0,0,0
+Iceland,6,0,0,0
+Iceland,7,0,0,0
+Iceland,8,0,0,0
+Iceland,9,0,0,0
+Iceland,10,0,0,0
+Iceland,11,0,0,0
+Iceland,12,0,0,0
+Iceland,13,0,0,0
+Iceland,14,0,0,0
+Iceland,15,0,0,0
+Iceland,16,0,0,0
+Iceland,17,0,0,0
+Iceland,18,0,0,0
+Iceland,19,0,0,0
+Iceland,20,0,0,0
+Iceland,21,0,0,0
+Iceland,22,0,0,0
+Iceland,23,0,0,0
+Iceland,24,0,0,0
+India,1,245,494,736
+India,2,489,988,1472
+India,3,733,1482,2208
+India,4,977,1975,2944
+India,5,1222,2469,3680
+India,6,1466,2963,4416
+India,7,1710,3457,5152
+India,8,1954,3950,5888
+India,9,2199,4444,6623
+India,10,2443,4938,7359
+India,11,2687,5431,8095
+India,12,2931,5925,8831
+India,13,3175,6419,9567
+India,14,3420,6913,10303
+India,15,3664,7406,11039
+India,16,3908,7900,11775
+India,17,4152,8394,12511
+India,18,4397,8888,13246
+India,19,4641,9381,13982
+India,20,4885,9875,14718
+India,21,5129,10369,15454
+India,22,5374,10862,16190
+India,23,5618,11356,16926
+India,24,5862,11850,17662
+Indonesia,1,239,483,720
+Indonesia,2,478,966,1439
+Indonesia,3,717,1448,2158
+Indonesia,4,955,1931,2878
+Indonesia,5,1194,2414,3597
+Indonesia,6,1433,2896,4316
+Indonesia,7,1672,3379,5036
+Indonesia,8,1910,3861,5755
+Indonesia,9,2149,4344,6474
+Indonesia,10,2388,4827,7194
+Indonesia,11,2627,5309,7913
+Indonesia,12,2865,5792,8632
+Indonesia,13,3104,6274,9352
+Indonesia,14,3343,6757,10071
+Indonesia,15,3581,7240,10790
+Indonesia,16,3820,7722,11510
+Indonesia,17,4059,8205,12229
+Indonesia,18,4298,8688,12948
+Indonesia,19,4536,9170,13668
+Indonesia,20,4775,9653,14387
+Indonesia,21,5014,10135,15106
+Indonesia,22,5253,10618,15826
+Indonesia,23,5491,11101,16545
+Indonesia,24,5730,11583,17264
+Iran,1,179,361,538
+Iran,2,357,722,1076
+Iran,3,536,1082,1613
+Iran,4,714,1443,2151
+Iran,5,893,1804,2688
+Iran,6,1071,2164,3226
+Iran,7,1249,2525,3763
+Iran,8,1428,2886,4301
+Iran,9,1606,3246,4838
+Iran,10,1785,3607,5376
+Iran,11,1963,3968,5913
+Iran,12,2141,4328,6451
+Iran,13,2320,4689,6989
+Iran,14,2498,5050,7526
+Iran,15,2677,5410,8064
+Iran,16,2855,5771,8601
+Iran,17,3033,6132,9139
+Iran,18,3212,6492,9676
+Iran,19,3390,6853,10214
+Iran,20,3569,7214,10751
+Iran,21,3747,7574,11289
+Iran,22,3925,7935,11826
+Iran,23,4104,8295,12364
+Iran,24,4282,8656,12901
+Iraq,1,1,2,3
+Iraq,2,2,4,5
+Iraq,3,3,5,7
+Iraq,4,4,7,10
+Iraq,5,4,8,12
+Iraq,6,5,10,14
+Iraq,7,6,11,17
+Iraq,8,7,13,19
+Iraq,9,7,14,21
+Iraq,10,8,16,24
+Iraq,11,9,18,26
+Iraq,12,10,19,28
+Iraq,13,10,21,31
+Iraq,14,11,22,33
+Iraq,15,12,24,35
+Iraq,16,13,25,37
+Iraq,17,14,27,40
+Iraq,18,14,28,42
+Iraq,19,15,30,44
+Iraq,20,16,32,47
+Iraq,21,17,33,49
+Iraq,22,17,35,51
+Iraq,23,18,36,54
+Iraq,24,19,38,56
+Ireland,1,125,252,375
+Ireland,2,249,503,749
+Ireland,3,373,754,1123
+Ireland,4,497,1005,1498
+Ireland,5,622,1256,1872
+Ireland,6,746,1507,2246
+Ireland,7,870,1758,2621
+Ireland,8,994,2010,2995
+Ireland,9,1119,2261,3369
+Ireland,10,1243,2512,3744
+Ireland,11,1367,2763,4118
+Ireland,12,1491,3014,4492
+Ireland,13,1615,3265,4867
+Ireland,14,1740,3516,5241
+Ireland,15,1864,3768,5615
+Ireland,16,1988,4019,5989
+Ireland,17,2112,4270,6364
+Ireland,18,2237,4521,6738
+Ireland,19,2361,4772,7112
+Ireland,20,2485,5023,7487
+Ireland,21,2609,5274,7861
+Ireland,22,2734,5525,8235
+Ireland,23,2858,5777,8610
+Ireland,24,2982,6028,8984
+Israel,1,20,40,60
+Israel,2,40,80,120
+Israel,3,60,120,179
+Israel,4,80,160,239
+Israel,5,99,200,299
+Israel,6,119,240,358
+Israel,7,139,280,418
+Israel,8,159,320,477
+Israel,9,179,360,537
+Israel,10,198,400,597
+Israel,11,218,440,656
+Israel,12,238,480,716
+Israel,13,258,520,775
+Israel,14,277,560,835
+Israel,15,297,600,895
+Israel,16,317,640,954
+Israel,17,337,680,1014
+Israel,18,357,720,1073
+Israel,19,376,760,1133
+Israel,20,396,800,1193
+Israel,21,416,840,1252
+Israel,22,436,880,1312
+Israel,23,455,920,1371
+Israel,24,475,960,1431
+Italy,1,163,330,491
+Italy,2,326,659,982
+Italy,3,489,989,1473
+Italy,4,652,1318,1964
+Italy,5,815,1647,2455
+Italy,6,978,1977,2946
+Italy,7,1141,2306,3437
+Italy,8,1304,2636,3928
+Italy,9,1467,2965,4419
+Italy,10,1630,3294,4910
+Italy,11,1793,3624,5401
+Italy,12,1956,3953,5892
+Italy,13,2119,4283,6383
+Italy,14,2282,4612,6874
+Italy,15,2445,4941,7365
+Italy,16,2607,5271,7856
+Italy,17,2770,5600,8347
+Italy,18,2933,5930,8838
+Italy,19,3096,6259,9329
+Italy,20,3259,6588,9819
+Italy,21,3422,6918,10310
+Italy,22,3585,7247,10801
+Italy,23,3748,7576,11292
+Italy,24,3911,7906,11783
+Jamaica,1,162,328,488
+Jamaica,2,324,655,975
+Jamaica,3,486,982,1463
+Jamaica,4,648,1309,1950
+Jamaica,5,809,1636,2438
+Jamaica,6,971,1963,2925
+Jamaica,7,1133,2290,3413
+Jamaica,8,1295,2617,3900
+Jamaica,9,1457,2944,4388
+Jamaica,10,1618,3271,4875
+Jamaica,11,1780,3598,5363
+Jamaica,12,1942,3925,5850
+Jamaica,13,2104,4252,6337
+Jamaica,14,2265,4579,6825
+Jamaica,15,2427,4906,7312
+Jamaica,16,2589,5233,7800
+Jamaica,17,2751,5560,8287
+Jamaica,18,2913,5887,8775
+Jamaica,19,3074,6214,9262
+Jamaica,20,3236,6542,9750
+Jamaica,21,3398,6869,10237
+Jamaica,22,3560,7196,10725
+Jamaica,23,3721,7523,11212
+Jamaica,24,3883,7850,11700
+Japan,1,219,442,658
+Japan,2,437,883,1316
+Japan,3,656,1325,1974
+Japan,4,874,1766,2632
+Japan,5,1092,2208,3290
+Japan,6,1311,2649,3948
+Japan,7,1529,3090,4606
+Japan,8,1747,3532,5264
+Japan,9,1966,3973,5922
+Japan,10,2184,4415,6580
+Japan,11,2402,4856,7237
+Japan,12,2621,5297,7895
+Japan,13,2839,5739,8553
+Japan,14,3057,6180,9211
+Japan,15,3276,6622,9869
+Japan,16,3494,7063,10527
+Japan,17,3712,7504,11185
+Japan,18,3931,7946,11843
+Japan,19,4149,8387,12501
+Japan,20,4367,8829,13159
+Japan,21,4586,9270,13817
+Japan,22,4804,9711,14474
+Japan,23,5023,10153,15132
+Japan,24,5241,10594,15790
+Jordan,1,171,345,514
+Jordan,2,341,689,1027
+Jordan,3,512,1034,1541
+Jordan,4,682,1378,2054
+Jordan,5,852,1723,2567
+Jordan,6,1023,2067,3081
+Jordan,7,1193,2411,3594
+Jordan,8,1363,2756,4107
+Jordan,9,1534,3100,4621
+Jordan,10,1704,3445,5134
+Jordan,11,1875,3789,5647
+Jordan,12,2045,4133,6161
+Jordan,13,2215,4478,6674
+Jordan,14,2386,4822,7187
+Jordan,15,2556,5167,7701
+Jordan,16,2726,5511,8214
+Jordan,17,2897,5855,8727
+Jordan,18,3067,6200,9241
+Jordan,19,3237,6544,9754
+Jordan,20,3408,6889,10267
+Jordan,21,3578,7233,10781
+Jordan,22,3749,7578,11294
+Jordan,23,3919,7922,11807
+Jordan,24,4089,8266,12321
+Kazakhstan,1,226,456,680
+Kazakhstan,2,451,912,1359
+Kazakhstan,3,677,1367,2038
+Kazakhstan,4,902,1823,2717
+Kazakhstan,5,1127,2279,3396
+Kazakhstan,6,1353,2734,4075
+Kazakhstan,7,1578,3190,4754
+Kazakhstan,8,1804,3646,5434
+Kazakhstan,9,2029,4101,6113
+Kazakhstan,10,2254,4557,6792
+Kazakhstan,11,2480,5013,7471
+Kazakhstan,12,2705,5468,8150
+Kazakhstan,13,2931,5924,8829
+Kazakhstan,14,3156,6380,9508
+Kazakhstan,15,3381,6835,10188
+Kazakhstan,16,3607,7291,10867
+Kazakhstan,17,3832,7747,11546
+Kazakhstan,18,4058,8202,12225
+Kazakhstan,19,4283,8658,12904
+Kazakhstan,20,4508,9114,13583
+Kazakhstan,21,4734,9569,14262
+Kazakhstan,22,4959,10025,14942
+Kazakhstan,23,5185,10480,15621
+Kazakhstan,24,5410,10936,16300
+Kenya,1,163,329,491
+Kenya,2,326,658,981
+Kenya,3,489,987,1471
+Kenya,4,651,1316,1962
+Kenya,5,814,1645,2452
+Kenya,6,977,1974,2942
+Kenya,7,1140,2303,3433
+Kenya,8,1302,2632,3923
+Kenya,9,1465,2961,4413
+Kenya,10,1628,3290,4904
+Kenya,11,1790,3619,5394
+Kenya,12,1953,3948,5884
+Kenya,13,2116,4277,6375
+Kenya,14,2279,4606,6865
+Kenya,15,2441,4935,7355
+Kenya,16,2604,5264,7845
+Kenya,17,2767,5593,8336
+Kenya,18,2930,5922,8826
+Kenya,19,3092,6251,9316
+Kenya,20,3255,6580,9807
+Kenya,21,3418,6909,10297
+Kenya,22,3580,7238,10787
+Kenya,23,3743,7567,11278
+Kenya,24,3906,7896,11768
+Kiribati,1,178,359,536
+Kiribati,2,356,718,1071
+Kiribati,3,533,1077,1606
+Kiribati,4,711,1436,2141
+Kiribati,5,888,1795,2676
+Kiribati,6,1066,2154,3211
+Kiribati,7,1244,2513,3746
+Kiribati,8,1421,2872,4281
+Kiribati,9,1599,3231,4816
+Kiribati,10,1776,3590,5351
+Kiribati,11,1954,3949,5886
+Kiribati,12,2131,4308,6421
+Kiribati,13,2309,4667,6956
+Kiribati,14,2487,5026,7491
+Kiribati,15,2664,5385,8026
+Kiribati,16,2842,5744,8562
+Kiribati,17,3019,6103,9097
+Kiribati,18,3197,6462,9632
+Kiribati,19,3375,6821,10167
+Kiribati,20,3552,7180,10702
+Kiribati,21,3730,7539,11237
+Kiribati,22,3907,7898,11772
+Kiribati,23,4085,8257,12307
+Kiribati,24,4262,8616,12842
+Kosovo,1,268,542,808
+Kosovo,2,536,1084,1615
+Kosovo,3,804,1626,2423
+Kosovo,4,1072,2168,3230
+Kosovo,5,1340,2709,4038
+Kosovo,6,1608,3251,4845
+Kosovo,7,1876,3793,5653
+Kosovo,8,2144,4335,6460
+Kosovo,9,2412,4876,7268
+Kosovo,10,2680,5418,8075
+Kosovo,11,2948,5960,8883
+Kosovo,12,3216,6502,9690
+Kosovo,13,3484,7044,10498
+Kosovo,14,3752,7585,11305
+Kosovo,15,4020,8127,12113
+Kosovo,16,4288,8669,12920
+Kosovo,17,4556,9211,13728
+Kosovo,18,4824,9752,14535
+Kosovo,19,5092,10294,15343
+Kosovo,20,5360,10836,16150
+Kosovo,21,5628,11378,16958
+Kosovo,22,5896,11919,17765
+Kosovo,23,6164,12461,18573
+Kosovo,24,6432,13003,19380
+Kuwait,1,178,359,535
+Kuwait,2,356,718,1070
+Kuwait,3,533,1077,1605
+Kuwait,4,711,1436,2140
+Kuwait,5,888,1795,2675
+Kuwait,6,1066,2154,3210
+Kuwait,7,1243,2513,3745
+Kuwait,8,1421,2871,4280
+Kuwait,9,1598,3230,4814
+Kuwait,10,1776,3589,5349
+Kuwait,11,1953,3948,5884
+Kuwait,12,2131,4307,6419
+Kuwait,13,2308,4666,6954
+Kuwait,14,2486,5025,7489
+Kuwait,15,2663,5384,8024
+Kuwait,16,2841,5742,8559
+Kuwait,17,3018,6101,9094
+Kuwait,18,3196,6460,9628
+Kuwait,19,3373,6819,10163
+Kuwait,20,3551,7178,10698
+Kuwait,21,3728,7537,11233
+Kuwait,22,3906,7896,11768
+Kuwait,23,4083,8254,12303
+Kuwait,24,4261,8613,12838
+Kyrgyzstan,1,29,59,88
+Kyrgyzstan,2,58,117,175
+Kyrgyzstan,3,87,176,262
+Kyrgyzstan,4,116,234,349
+Kyrgyzstan,5,145,293,436
+Kyrgyzstan,6,174,351,523
+Kyrgyzstan,7,203,410,610
+Kyrgyzstan,8,232,468,698
+Kyrgyzstan,9,261,527,785
+Kyrgyzstan,10,290,585,872
+Kyrgyzstan,11,319,644,959
+Kyrgyzstan,12,348,702,1046
+Kyrgyzstan,13,376,761,1133
+Kyrgyzstan,14,405,819,1220
+Kyrgyzstan,15,434,877,1308
+Kyrgyzstan,16,463,936,1395
+Kyrgyzstan,17,492,994,1482
+Kyrgyzstan,18,521,1053,1569
+Kyrgyzstan,19,550,1111,1656
+Kyrgyzstan,20,579,1170,1743
+Kyrgyzstan,21,608,1228,1830
+Kyrgyzstan,22,637,1287,1918
+Kyrgyzstan,23,666,1345,2005
+Kyrgyzstan,24,695,1404,2092
+Laos,1,82,164,245
+Laos,2,163,328,489
+Laos,3,244,492,733
+Laos,4,325,656,977
+Laos,5,406,819,1221
+Laos,6,487,983,1465
+Laos,7,568,1147,1709
+Laos,8,649,1311,1954
+Laos,9,730,1475,2198
+Laos,10,811,1638,2442
+Laos,11,892,1802,2686
+Laos,12,973,1966,2930
+Laos,13,1054,2130,3174
+Laos,14,1135,2294,3418
+Laos,15,1216,2457,3663
+Laos,16,1297,2621,3907
+Laos,17,1378,2785,4151
+Laos,18,1459,2949,4395
+Laos,19,1540,3113,4639
+Laos,20,1621,3276,4883
+Laos,21,1702,3440,5127
+Laos,22,1783,3604,5372
+Laos,23,1864,3768,5616
+Laos,24,1945,3932,5860
+Latin America and Caribbean (Ember),1,98,198,295
+Latin America and Caribbean (Ember),2,196,396,590
+Latin America and Caribbean (Ember),3,294,594,884
+Latin America and Caribbean (Ember),4,392,791,1179
+Latin America and Caribbean (Ember),5,489,989,1474
+Latin America and Caribbean (Ember),6,587,1187,1768
+Latin America and Caribbean (Ember),7,685,1384,2063
+Latin America and Caribbean (Ember),8,783,1582,2358
+Latin America and Caribbean (Ember),9,881,1780,2652
+Latin America and Caribbean (Ember),10,978,1977,2947
+Latin America and Caribbean (Ember),11,1076,2175,3242
+Latin America and Caribbean (Ember),12,1174,2373,3536
+Latin America and Caribbean (Ember),13,1272,2571,3831
+Latin America and Caribbean (Ember),14,1370,2768,4126
+Latin America and Caribbean (Ember),15,1467,2966,4420
+Latin America and Caribbean (Ember),16,1565,3164,4715
+Latin America and Caribbean (Ember),17,1663,3361,5010
+Latin America and Caribbean (Ember),18,1761,3559,5304
+Latin America and Caribbean (Ember),19,1859,3757,5599
+Latin America and Caribbean (Ember),20,1956,3954,5894
+Latin America and Caribbean (Ember),21,2054,4152,6188
+Latin America and Caribbean (Ember),22,2152,4350,6483
+Latin America and Caribbean (Ember),23,2250,4547,6778
+Latin America and Caribbean (Ember),24,2348,4745,7072
+Latvia,1,80,162,241
+Latvia,2,160,324,482
+Latvia,3,240,486,723
+Latvia,4,320,647,964
+Latvia,5,400,809,1205
+Latvia,6,480,971,1446
+Latvia,7,560,1132,1687
+Latvia,8,640,1294,1928
+Latvia,9,720,1456,2169
+Latvia,10,800,1617,2410
+Latvia,11,880,1779,2651
+Latvia,12,960,1941,2892
+Latvia,13,1040,2102,3133
+Latvia,14,1120,2264,3374
+Latvia,15,1200,2426,3615
+Latvia,16,1280,2587,3856
+Latvia,17,1360,2749,4097
+Latvia,18,1440,2911,4338
+Latvia,19,1520,3073,4579
+Latvia,20,1600,3234,4820
+Latvia,21,1680,3396,5061
+Latvia,22,1760,3558,5302
+Latvia,23,1840,3719,5543
+Latvia,24,1920,3881,5784
+Lebanon,1,170,343,511
+Lebanon,2,339,685,1021
+Lebanon,3,509,1028,1532
+Lebanon,4,678,1370,2042
+Lebanon,5,848,1713,2553
+Lebanon,6,1017,2055,3063
+Lebanon,7,1186,2398,3573
+Lebanon,8,1356,2740,4084
+Lebanon,9,1525,3083,4594
+Lebanon,10,1695,3425,5105
+Lebanon,11,1864,3768,5615
+Lebanon,12,2033,4110,6126
+Lebanon,13,2203,4452,6636
+Lebanon,14,2372,4795,7146
+Lebanon,15,2542,5137,7657
+Lebanon,16,2711,5480,8167
+Lebanon,17,2880,5822,8678
+Lebanon,18,3050,6165,9188
+Lebanon,19,3219,6507,9699
+Lebanon,20,3389,6850,10209
+Lebanon,21,3558,7192,10719
+Lebanon,22,3727,7535,11230
+Lebanon,23,3897,7877,11740
+Lebanon,24,4066,8219,12251
+Lesotho,1,0,0,0
+Lesotho,2,0,0,0
+Lesotho,3,0,0,0
+Lesotho,4,0,0,0
+Lesotho,5,0,0,0
+Lesotho,6,0,0,0
+Lesotho,7,0,0,0
+Lesotho,8,0,0,0
+Lesotho,9,0,0,0
+Lesotho,10,0,0,0
+Lesotho,11,0,0,0
+Lesotho,12,0,0,0
+Lesotho,13,0,0,0
+Lesotho,14,0,0,0
+Lesotho,15,0,0,0
+Lesotho,16,0,0,0
+Lesotho,17,0,0,0
+Lesotho,18,0,0,0
+Lesotho,19,0,0,0
+Lesotho,20,0,0,0
+Lesotho,21,0,0,0
+Lesotho,22,0,0,0
+Lesotho,23,0,0,0
+Lesotho,24,0,0,0
+Liberia,1,76,153,227
+Liberia,2,151,305,454
+Liberia,3,226,457,681
+Liberia,4,302,609,908
+Liberia,5,377,761,1135
+Liberia,6,452,914,1361
+Liberia,7,527,1066,1588
+Liberia,8,603,1218,1815
+Liberia,9,678,1370,2042
+Liberia,10,753,1522,2269
+Liberia,11,829,1674,2495
+Liberia,12,904,1827,2722
+Liberia,13,979,1979,2949
+Liberia,14,1054,2131,3176
+Liberia,15,1130,2283,3403
+Liberia,16,1205,2435,3630
+Liberia,17,1280,2587,3856
+Liberia,18,1355,2740,4083
+Liberia,19,1431,2892,4310
+Liberia,20,1506,3044,4537
+Liberia,21,1581,3196,4764
+Liberia,22,1657,3348,4990
+Liberia,23,1732,3501,5217
+Liberia,24,1807,3653,5444
+Lithuania,1,102,206,307
+Lithuania,2,204,412,614
+Lithuania,3,306,618,921
+Lithuania,4,408,824,1228
+Lithuania,5,510,1030,1534
+Lithuania,6,611,1235,1841
+Lithuania,7,713,1441,2148
+Lithuania,8,815,1647,2455
+Lithuania,9,917,1853,2761
+Lithuania,10,1019,2059,3068
+Lithuania,11,1120,2265,3375
+Lithuania,12,1222,2470,3682
+Lithuania,13,1324,2676,3989
+Lithuania,14,1426,2882,4295
+Lithuania,15,1528,3088,4602
+Lithuania,16,1630,3294,4909
+Lithuania,17,1731,3500,5216
+Lithuania,18,1833,3705,5522
+Lithuania,19,1935,3911,5829
+Lithuania,20,2037,4117,6136
+Lithuania,21,2139,4323,6443
+Lithuania,22,2240,4529,6750
+Lithuania,23,2342,4734,7056
+Lithuania,24,2444,4940,7363
+Lower-middle-income countries,1,189,382,569
+Lower-middle-income countries,2,378,763,1137
+Lower-middle-income countries,3,566,1145,1706
+Lower-middle-income countries,4,755,1526,2274
+Lower-middle-income countries,5,944,1907,2843
+Lower-middle-income countries,6,1132,2289,3411
+Lower-middle-income countries,7,1321,2670,3980
+Lower-middle-income countries,8,1510,3052,4548
+Lower-middle-income countries,9,1698,3433,5117
+Lower-middle-income countries,10,1887,3814,5685
+Lower-middle-income countries,11,2076,4196,6253
+Lower-middle-income countries,12,2264,4577,6822
+Lower-middle-income countries,13,2453,4959,7390
+Lower-middle-income countries,14,2642,5340,7959
+Lower-middle-income countries,15,2830,5721,8527
+Lower-middle-income countries,16,3019,6103,9096
+Lower-middle-income countries,17,3208,6484,9664
+Lower-middle-income countries,18,3396,6865,10233
+Lower-middle-income countries,19,3585,7247,10801
+Lower-middle-income countries,20,3774,7628,11369
+Lower-middle-income countries,21,3962,8010,11938
+Lower-middle-income countries,22,4151,8391,12506
+Lower-middle-income countries,23,4340,8772,13075
+Lower-middle-income countries,24,4528,9154,13643
+Luxembourg,1,144,290,433
+Luxembourg,2,287,580,865
+Luxembourg,3,431,870,1297
+Luxembourg,4,574,1160,1729
+Luxembourg,5,718,1450,2161
+Luxembourg,6,861,1740,2593
+Luxembourg,7,1004,2030,3025
+Luxembourg,8,1148,2320,3458
+Luxembourg,9,1291,2610,3890
+Luxembourg,10,1435,2900,4322
+Luxembourg,11,1578,3190,4754
+Luxembourg,12,1721,3480,5186
+Luxembourg,13,1865,3770,5618
+Luxembourg,14,2008,4059,6050
+Luxembourg,15,2152,4349,6482
+Luxembourg,16,2295,4639,6915
+Luxembourg,17,2439,4929,7347
+Luxembourg,18,2582,5219,7779
+Luxembourg,19,2725,5509,8211
+Luxembourg,20,2869,5799,8643
+Luxembourg,21,3012,6089,9075
+Luxembourg,22,3156,6379,9507
+Luxembourg,23,3299,6669,9939
+Luxembourg,24,3442,6959,10372
+Macao,1,178,359,536
+Macao,2,356,718,1071
+Macao,3,533,1077,1606
+Macao,4,711,1436,2141
+Macao,5,888,1795,2676
+Macao,6,1066,2154,3211
+Macao,7,1244,2513,3746
+Macao,8,1421,2872,4281
+Macao,9,1599,3231,4816
+Macao,10,1776,3590,5351
+Macao,11,1954,3949,5886
+Macao,12,2131,4308,6421
+Macao,13,2309,4667,6956
+Macao,14,2487,5026,7491
+Macao,15,2664,5385,8026
+Macao,16,2842,5744,8562
+Macao,17,3019,6103,9097
+Macao,18,3197,6462,9632
+Macao,19,3375,6821,10167
+Macao,20,3552,7180,10702
+Macao,21,3730,7539,11237
+Macao,22,3907,7898,11772
+Macao,23,4085,8257,12307
+Macao,24,4262,8616,12842
+Malawi,1,58,117,174
+Malawi,2,116,234,348
+Malawi,3,174,351,522
+Malawi,4,231,467,696
+Malawi,5,289,584,870
+Malawi,6,347,701,1044
+Malawi,7,404,817,1218
+Malawi,8,462,934,1392
+Malawi,9,520,1051,1566
+Malawi,10,578,1167,1739
+Malawi,11,635,1284,1913
+Malawi,12,693,1401,2087
+Malawi,13,751,1517,2261
+Malawi,14,808,1634,2435
+Malawi,15,866,1751,2609
+Malawi,16,924,1867,2783
+Malawi,17,982,1984,2957
+Malawi,18,1039,2101,3131
+Malawi,19,1097,2217,3305
+Malawi,20,1155,2334,3478
+Malawi,21,1212,2451,3652
+Malawi,22,1270,2567,3826
+Malawi,23,1328,2684,4000
+Malawi,24,1386,2801,4174
+Malaysia,1,195,393,585
+Malaysia,2,389,785,1170
+Malaysia,3,583,1178,1755
+Malaysia,4,777,1570,2340
+Malaysia,5,971,1963,2925
+Malaysia,6,1165,2355,3510
+Malaysia,7,1359,2748,4095
+Malaysia,8,1554,3140,4680
+Malaysia,9,1748,3533,5265
+Malaysia,10,1942,3925,5850
+Malaysia,11,2136,4318,6435
+Malaysia,12,2330,4710,7020
+Malaysia,13,2524,5102,7605
+Malaysia,14,2718,5495,8190
+Malaysia,15,2913,5887,8775
+Malaysia,16,3107,6280,9360
+Malaysia,17,3301,6672,9945
+Malaysia,18,3495,7065,10530
+Malaysia,19,3689,7457,11115
+Malaysia,20,3883,7850,11700
+Malaysia,21,4077,8242,12284
+Malaysia,22,4271,8635,12869
+Malaysia,23,4466,9027,13454
+Malaysia,24,4660,9420,14039
+Maldives,1,181,365,544
+Maldives,2,361,729,1087
+Maldives,3,541,1094,1630
+Maldives,4,722,1458,2173
+Maldives,5,902,1823,2716
+Maldives,6,1082,2187,3260
+Maldives,7,1262,2552,3803
+Maldives,8,1443,2916,4346
+Maldives,9,1623,3280,4889
+Maldives,10,1803,3645,5432
+Maldives,11,1984,4009,5976
+Maldives,12,2164,4374,6519
+Maldives,13,2344,4738,7062
+Maldives,14,2524,5103,7605
+Maldives,15,2705,5467,8148
+Maldives,16,2885,5832,8692
+Maldives,17,3065,6196,9235
+Maldives,18,3245,6560,9778
+Maldives,19,3426,6925,10321
+Maldives,20,3606,7289,10864
+Maldives,21,3786,7654,11408
+Maldives,22,3967,8018,11951
+Maldives,23,4147,8383,12494
+Maldives,24,4327,8747,13037
+Mali,1,129,260,387
+Mali,2,257,520,774
+Mali,3,386,779,1161
+Mali,4,514,1039,1548
+Mali,5,643,1298,1935
+Mali,6,771,1558,2322
+Mali,7,899,1818,2709
+Mali,8,1028,2077,3096
+Mali,9,1156,2337,3483
+Mali,10,1285,2596,3870
+Mali,11,1413,2856,4257
+Mali,12,1541,3116,4643
+Mali,13,1670,3375,5030
+Mali,14,1798,3635,5417
+Mali,15,1927,3894,5804
+Mali,16,2055,4154,6191
+Mali,17,2183,4414,6578
+Mali,18,2312,4673,6965
+Mali,19,2440,4933,7352
+Mali,20,2569,5192,7739
+Mali,21,2697,5452,8126
+Mali,22,2826,5712,8513
+Mali,23,2954,5971,8900
+Mali,24,3082,6231,9286
+Malta,1,183,370,551
+Malta,2,366,740,1102
+Malta,3,549,1109,1653
+Malta,4,732,1479,2204
+Malta,5,915,1848,2755
+Malta,6,1097,2218,3305
+Malta,7,1280,2587,3856
+Malta,8,1463,2957,4407
+Malta,9,1646,3327,4958
+Malta,10,1829,3696,5509
+Malta,11,2011,4066,6060
+Malta,12,2194,4435,6610
+Malta,13,2377,4805,7161
+Malta,14,2560,5174,7712
+Malta,15,2743,5544,8263
+Malta,16,2925,5914,8814
+Malta,17,3108,6283,9365
+Malta,18,3291,6653,9915
+Malta,19,3474,7022,10466
+Malta,20,3657,7392,11017
+Malta,21,3840,7761,11568
+Malta,22,4022,8131,12119
+Malta,23,4205,8501,12670
+Malta,24,4388,8870,13220
+Mauritania,1,147,296,441
+Mauritania,2,293,592,882
+Mauritania,3,439,887,1322
+Mauritania,4,585,1183,1763
+Mauritania,5,732,1479,2203
+Mauritania,6,878,1774,2644
+Mauritania,7,1024,2070,3085
+Mauritania,8,1170,2365,3525
+Mauritania,9,1317,2661,3966
+Mauritania,10,1463,2957,4406
+Mauritania,11,1609,3252,4847
+Mauritania,12,1755,3548,5288
+Mauritania,13,1901,3843,5728
+Mauritania,14,2048,4139,6169
+Mauritania,15,2194,4435,6609
+Mauritania,16,2340,4730,7050
+Mauritania,17,2486,5026,7491
+Mauritania,18,2633,5321,7931
+Mauritania,19,2779,5617,8372
+Mauritania,20,2925,5913,8812
+Mauritania,21,3071,6208,9253
+Mauritania,22,3217,6504,9693
+Mauritania,23,3364,6799,10134
+Mauritania,24,3510,7095,10575
+Mauritius,1,203,411,612
+Mauritius,2,406,821,1223
+Mauritius,3,609,1231,1834
+Mauritius,4,812,1641,2445
+Mauritius,5,1015,2051,3056
+Mauritius,6,1217,2461,3667
+Mauritius,7,1420,2871,4278
+Mauritius,8,1623,3281,4889
+Mauritius,9,1826,3691,5501
+Mauritius,10,2029,4101,6112
+Mauritius,11,2231,4511,6723
+Mauritius,12,2434,4921,7334
+Mauritius,13,2637,5331,7945
+Mauritius,14,2840,5741,8556
+Mauritius,15,3043,6151,9167
+Mauritius,16,3246,6561,9778
+Mauritius,17,3448,6971,10389
+Mauritius,18,3651,7381,11001
+Mauritius,19,3854,7791,11612
+Mauritius,20,4057,8201,12223
+Mauritius,21,4260,8611,12834
+Mauritius,22,4462,9021,13445
+Mauritius,23,4665,9431,14056
+Mauritius,24,4868,9841,14667
+Mexico,1,168,339,505
+Mexico,2,336,678,1010
+Mexico,3,503,1017,1515
+Mexico,4,671,1356,2020
+Mexico,5,838,1694,2525
+Mexico,6,1006,2033,3030
+Mexico,7,1173,2372,3535
+Mexico,8,1341,2711,4040
+Mexico,9,1509,3049,4545
+Mexico,10,1676,3388,5050
+Mexico,11,1844,3727,5554
+Mexico,12,2011,4066,6059
+Mexico,13,2179,4404,6564
+Mexico,14,2346,4743,7069
+Mexico,15,2514,5082,7574
+Mexico,16,2682,5421,8079
+Mexico,17,2849,5759,8584
+Mexico,18,3017,6098,9089
+Mexico,19,3184,6437,9594
+Mexico,20,3352,6776,10099
+Mexico,21,3519,7114,10603
+Mexico,22,3687,7453,11108
+Mexico,23,3855,7792,11613
+Mexico,24,4022,8131,12118
+Middle Africa (EI),1,3,5,7
+Middle Africa (EI),2,5,9,13
+Middle Africa (EI),3,7,14,20
+Middle Africa (EI),4,9,18,26
+Middle Africa (EI),5,11,22,33
+Middle Africa (EI),6,13,27,39
+Middle Africa (EI),7,16,31,46
+Middle Africa (EI),8,18,35,52
+Middle Africa (EI),9,20,40,59
+Middle Africa (EI),10,22,44,65
+Middle Africa (EI),11,24,48,72
+Middle Africa (EI),12,26,53,78
+Middle Africa (EI),13,28,57,85
+Middle Africa (EI),14,31,61,91
+Middle Africa (EI),15,33,66,98
+Middle Africa (EI),16,35,70,104
+Middle Africa (EI),17,37,74,111
+Middle Africa (EI),18,39,79,117
+Middle Africa (EI),19,41,83,124
+Middle Africa (EI),20,44,88,130
+Middle Africa (EI),21,46,92,137
+Middle Africa (EI),22,48,96,143
+Middle Africa (EI),23,50,101,150
+Middle Africa (EI),24,52,105,156
+Middle East (EI),1,183,370,551
+Middle East (EI),2,366,739,1101
+Middle East (EI),3,549,1109,1652
+Middle East (EI),4,731,1478,2202
+Middle East (EI),5,914,1847,2753
+Middle East (EI),6,1097,2217,3303
+Middle East (EI),7,1279,2586,3854
+Middle East (EI),8,1462,2955,4404
+Middle East (EI),9,1645,3325,4955
+Middle East (EI),10,1827,3694,5505
+Middle East (EI),11,2010,4063,6056
+Middle East (EI),12,2193,4433,6606
+Middle East (EI),13,2376,4802,7157
+Middle East (EI),14,2558,5171,7707
+Middle East (EI),15,2741,5541,8258
+Middle East (EI),16,2924,5910,8808
+Middle East (EI),17,3106,6279,9359
+Middle East (EI),18,3289,6649,9909
+Middle East (EI),19,3472,7018,10460
+Middle East (EI),20,3654,7387,11010
+Middle East (EI),21,3837,7757,11561
+Middle East (EI),22,4020,8126,12111
+Middle East (EI),23,4203,8495,12662
+Middle East (EI),24,4385,8865,13212
+Middle East (Ember),1,180,362,540
+Middle East (Ember),2,359,724,1080
+Middle East (Ember),3,538,1086,1619
+Middle East (Ember),4,717,1448,2159
+Middle East (Ember),5,896,1810,2698
+Middle East (Ember),6,1075,2172,3238
+Middle East (Ember),7,1254,2534,3777
+Middle East (Ember),8,1433,2896,4317
+Middle East (Ember),9,1612,3258,4856
+Middle East (Ember),10,1791,3620,5396
+Middle East (Ember),11,1970,3982,5935
+Middle East (Ember),12,2149,4344,6475
+Middle East (Ember),13,2328,4706,7014
+Middle East (Ember),14,2507,5068,7554
+Middle East (Ember),15,2686,5430,8093
+Middle East (Ember),16,2865,5792,8633
+Middle East (Ember),17,3044,6154,9172
+Middle East (Ember),18,3223,6516,9712
+Middle East (Ember),19,3402,6878,10251
+Middle East (Ember),20,3582,7240,10791
+Middle East (Ember),21,3761,7602,11330
+Middle East (Ember),22,3940,7964,11870
+Middle East (Ember),23,4119,8326,12409
+Middle East (Ember),24,4298,8688,12949
+Moldova,1,236,477,711
+Moldova,2,472,953,1421
+Moldova,3,708,1430,2131
+Moldova,4,943,1906,2841
+Moldova,5,1179,2383,3551
+Moldova,6,1415,2859,4261
+Moldova,7,1650,3336,4972
+Moldova,8,1886,3812,5682
+Moldova,9,2122,4289,6392
+Moldova,10,2357,4765,7102
+Moldova,11,2593,5242,7812
+Moldova,12,2829,5718,8522
+Moldova,13,3064,6195,9233
+Moldova,14,3300,6671,9943
+Moldova,15,3536,7148,10653
+Moldova,16,3772,7624,11363
+Moldova,17,4007,8100,12073
+Moldova,18,4243,8577,12783
+Moldova,19,4479,9053,13494
+Moldova,20,4714,9530,14204
+Moldova,21,4950,10006,14914
+Moldova,22,5186,10483,15624
+Moldova,23,5421,10959,16334
+Moldova,24,5657,11436,17044
+Mongolia,1,266,537,800
+Mongolia,2,531,1073,1599
+Mongolia,3,796,1609,2398
+Mongolia,4,1061,2145,3197
+Mongolia,5,1327,2682,3997
+Mongolia,6,1592,3218,4796
+Mongolia,7,1857,3754,5595
+Mongolia,8,2122,4290,6394
+Mongolia,9,2388,4826,7193
+Mongolia,10,2653,5363,7993
+Mongolia,11,2918,5899,8792
+Mongolia,12,3183,6435,9591
+Mongolia,13,3449,6971,10390
+Mongolia,14,3714,7508,11190
+Mongolia,15,3979,8044,11989
+Mongolia,16,4244,8580,12788
+Mongolia,17,4510,9116,13587
+Mongolia,18,4775,9652,14386
+Mongolia,19,5040,10189,15186
+Mongolia,20,5305,10725,15985
+Mongolia,21,5571,11261,16784
+Mongolia,22,5836,11797,17583
+Mongolia,23,6101,12334,18383
+Mongolia,24,6366,12870,19182
+Montenegro,1,135,272,405
+Montenegro,2,269,543,809
+Montenegro,3,403,814,1213
+Montenegro,4,537,1085,1617
+Montenegro,5,671,1356,2021
+Montenegro,6,805,1627,2425
+Montenegro,7,939,1898,2829
+Montenegro,8,1073,2169,3233
+Montenegro,9,1207,2440,3637
+Montenegro,10,1341,2711,4041
+Montenegro,11,1475,2982,4445
+Montenegro,12,1610,3253,4849
+Montenegro,13,1744,3524,5253
+Montenegro,14,1878,3795,5657
+Montenegro,15,2012,4067,6061
+Montenegro,16,2146,4338,6465
+Montenegro,17,2280,4609,6869
+Montenegro,18,2414,4880,7273
+Montenegro,19,2548,5151,7677
+Montenegro,20,2682,5422,8081
+Montenegro,21,2816,5693,8485
+Montenegro,22,2950,5964,8889
+Montenegro,23,3085,6235,9293
+Montenegro,24,3219,6506,9697
+Montserrat,1,178,359,536
+Montserrat,2,356,718,1071
+Montserrat,3,533,1077,1606
+Montserrat,4,711,1436,2141
+Montserrat,5,888,1795,2676
+Montserrat,6,1066,2154,3211
+Montserrat,7,1244,2513,3746
+Montserrat,8,1421,2872,4281
+Montserrat,9,1599,3231,4816
+Montserrat,10,1776,3590,5351
+Montserrat,11,1954,3949,5886
+Montserrat,12,2131,4308,6421
+Montserrat,13,2309,4667,6956
+Montserrat,14,2487,5026,7491
+Montserrat,15,2664,5385,8026
+Montserrat,16,2842,5744,8562
+Montserrat,17,3019,6103,9097
+Montserrat,18,3197,6462,9632
+Montserrat,19,3375,6821,10167
+Montserrat,20,3552,7180,10702
+Montserrat,21,3730,7539,11237
+Montserrat,22,3907,7898,11772
+Montserrat,23,4085,8257,12307
+Montserrat,24,4262,8616,12842
+Morocco,1,8,16,23
+Morocco,2,16,31,46
+Morocco,3,23,46,68
+Morocco,4,31,61,91
+Morocco,5,38,76,114
+Morocco,6,46,92,136
+Morocco,7,53,107,159
+Morocco,8,61,122,181
+Morocco,9,68,137,204
+Morocco,10,76,152,227
+Morocco,11,83,167,249
+Morocco,12,91,183,272
+Morocco,13,98,198,294
+Morocco,14,106,213,317
+Morocco,15,113,228,340
+Morocco,16,121,243,362
+Morocco,17,128,258,385
+Morocco,18,136,274,407
+Morocco,19,143,289,430
+Morocco,20,151,304,453
+Morocco,21,158,319,475
+Morocco,22,166,334,498
+Morocco,23,173,349,521
+Morocco,24,181,365,543
+Namibia,1,63,128,190
+Namibia,2,126,255,380
+Namibia,3,189,382,569
+Namibia,4,252,510,759
+Namibia,5,315,637,949
+Namibia,6,378,764,1138
+Namibia,7,441,891,1328
+Namibia,8,504,1019,1518
+Namibia,9,567,1146,1707
+Namibia,10,630,1273,1897
+Namibia,11,693,1400,2087
+Namibia,12,756,1528,2276
+Namibia,13,819,1655,2466
+Namibia,14,882,1782,2656
+Namibia,15,945,1909,2845
+Namibia,16,1008,2037,3035
+Namibia,17,1071,2164,3225
+Namibia,18,1134,2291,3414
+Namibia,19,1196,2418,3604
+Namibia,20,1259,2546,3794
+Namibia,21,1322,2673,3983
+Namibia,22,1385,2800,4173
+Namibia,23,1448,2927,4363
+Namibia,24,1511,3055,4552
+Nauru,1,178,359,536
+Nauru,2,356,718,1071
+Nauru,3,533,1077,1606
+Nauru,4,711,1436,2141
+Nauru,5,888,1795,2676
+Nauru,6,1066,2154,3211
+Nauru,7,1244,2513,3746
+Nauru,8,1421,2872,4281
+Nauru,9,1599,3231,4816
+Nauru,10,1776,3590,5351
+Nauru,11,1954,3949,5886
+Nauru,12,2131,4308,6421
+Nauru,13,2309,4667,6956
+Nauru,14,2487,5026,7491
+Nauru,15,2664,5385,8026
+Nauru,16,2842,5744,8562
+Nauru,17,3019,6103,9097
+Nauru,18,3197,6462,9632
+Nauru,19,3375,6821,10167
+Nauru,20,3552,7180,10702
+Nauru,21,3730,7539,11237
+Nauru,22,3907,7898,11772
+Nauru,23,4085,8257,12307
+Nauru,24,4262,8616,12842
+Nepal,1,4,8,12
+Nepal,2,8,16,24
+Nepal,3,12,24,35
+Nepal,4,16,32,47
+Nepal,5,20,39,58
+Nepal,6,24,47,70
+Nepal,7,27,55,81
+Nepal,8,31,63,93
+Nepal,9,35,70,105
+Nepal,10,39,78,116
+Nepal,11,43,86,128
+Nepal,12,47,94,139
+Nepal,13,50,101,151
+Nepal,14,54,109,162
+Nepal,15,58,117,174
+Nepal,16,62,125,185
+Nepal,17,66,132,197
+Nepal,18,70,140,209
+Nepal,19,73,148,220
+Nepal,20,77,156,232
+Nepal,21,81,163,243
+Nepal,22,85,171,255
+Nepal,23,89,179,266
+Nepal,24,93,187,278
+Netherlands,1,177,358,533
+Netherlands,2,354,715,1066
+Netherlands,3,531,1072,1598
+Netherlands,4,708,1430,2131
+Netherlands,5,884,1787,2663
+Netherlands,6,1061,2144,3196
+Netherlands,7,1238,2502,3729
+Netherlands,8,1415,2859,4261
+Netherlands,9,1591,3216,4794
+Netherlands,10,1768,3574,5326
+Netherlands,11,1945,3931,5859
+Netherlands,12,2122,4288,6392
+Netherlands,13,2298,4646,6924
+Netherlands,14,2475,5003,7457
+Netherlands,15,2652,5360,7989
+Netherlands,16,2829,5718,8522
+Netherlands,17,3005,6075,9055
+Netherlands,18,3182,6432,9587
+Netherlands,19,3359,6790,10120
+Netherlands,20,3536,7147,10652
+Netherlands,21,3712,7504,11185
+Netherlands,22,3889,7862,11718
+Netherlands,23,4066,8219,12250
+Netherlands,24,4243,8576,12783
+New Zealand,1,88,177,263
+New Zealand,2,175,353,526
+New Zealand,3,262,530,789
+New Zealand,4,350,706,1052
+New Zealand,5,437,883,1315
+New Zealand,6,524,1059,1578
+New Zealand,7,611,1236,1841
+New Zealand,8,699,1412,2104
+New Zealand,9,786,1588,2367
+New Zealand,10,873,1765,2630
+New Zealand,11,961,1941,2893
+New Zealand,12,1048,2118,3156
+New Zealand,13,1135,2294,3419
+New Zealand,14,1222,2471,3682
+New Zealand,15,1310,2647,3945
+New Zealand,16,1397,2823,4208
+New Zealand,17,1484,3000,4471
+New Zealand,18,1571,3176,4734
+New Zealand,19,1659,3353,4997
+New Zealand,20,1746,3529,5260
+New Zealand,21,1833,3706,5523
+New Zealand,22,1921,3882,5786
+New Zealand,23,2008,4059,6049
+New Zealand,24,2095,4235,6312
+Nicaragua,1,158,319,475
+Nicaragua,2,316,638,950
+Nicaragua,3,473,956,1425
+Nicaragua,4,631,1275,1900
+Nicaragua,5,788,1593,2375
+Nicaragua,6,946,1912,2849
+Nicaragua,7,1104,2230,3324
+Nicaragua,8,1261,2549,3799
+Nicaragua,9,1419,2868,4274
+Nicaragua,10,1576,3186,4749
+Nicaragua,11,1734,3505,5224
+Nicaragua,12,1892,3823,5698
+Nicaragua,13,2049,4142,6173
+Nicaragua,14,2207,4460,6648
+Nicaragua,15,2364,4779,7123
+Nicaragua,16,2522,5098,7598
+Nicaragua,17,2679,5416,8072
+Nicaragua,18,2837,5735,8547
+Nicaragua,19,2995,6053,9022
+Nicaragua,20,3152,6372,9497
+Nicaragua,21,3310,6690,9972
+Nicaragua,22,3467,7009,10447
+Nicaragua,23,3625,7328,10921
+Nicaragua,24,3783,7646,11396
+Niger,1,182,367,547
+Niger,2,364,734,1094
+Niger,3,545,1101,1641
+Niger,4,727,1468,2188
+Niger,5,908,1835,2735
+Niger,6,1090,2202,3282
+Niger,7,1271,2569,3829
+Niger,8,1453,2936,4376
+Niger,9,1634,3303,4923
+Niger,10,1816,3670,5470
+Niger,11,1997,4037,6017
+Niger,12,2179,4404,6564
+Niger,13,2360,4771,7111
+Niger,14,2542,5138,7658
+Niger,15,2724,5505,8205
+Niger,16,2905,5872,8752
+Niger,17,3087,6239,9299
+Niger,18,3268,6606,9846
+Niger,19,3450,6973,10393
+Niger,20,3631,7340,10940
+Niger,21,3813,7707,11487
+Niger,22,3994,8074,12034
+Niger,23,4176,8441,12581
+Niger,24,4357,8808,13128
+Nigeria,1,132,266,396
+Nigeria,2,263,531,791
+Nigeria,3,394,796,1187
+Nigeria,4,525,1062,1582
+Nigeria,5,657,1327,1977
+Nigeria,6,788,1592,2373
+Nigeria,7,919,1857,2768
+Nigeria,8,1050,2123,3163
+Nigeria,9,1181,2388,3559
+Nigeria,10,1313,2653,3954
+Nigeria,11,1444,2918,4350
+Nigeria,12,1575,3184,4745
+Nigeria,13,1706,3449,5140
+Nigeria,14,1838,3714,5536
+Nigeria,15,1969,3980,5931
+Nigeria,16,2100,4245,6326
+Nigeria,17,2231,4510,6722
+Nigeria,18,2362,4775,7117
+Nigeria,19,2494,5041,7513
+Nigeria,20,2625,5306,7908
+Nigeria,21,2756,5571,8303
+Nigeria,22,2887,5836,8699
+Nigeria,23,3019,6102,9094
+Nigeria,24,3150,6367,9489
+Non-OECD (EI),1,198,400,596
+Non-OECD (EI),2,396,800,1192
+Non-OECD (EI),3,594,1200,1788
+Non-OECD (EI),4,792,1600,2384
+Non-OECD (EI),5,989,1999,2980
+Non-OECD (EI),6,1187,2399,3576
+Non-OECD (EI),7,1385,2799,4171
+Non-OECD (EI),8,1583,3199,4767
+Non-OECD (EI),9,1780,3598,5363
+Non-OECD (EI),10,1978,3998,5959
+Non-OECD (EI),11,2176,4398,6555
+Non-OECD (EI),12,2374,4798,7151
+Non-OECD (EI),13,2571,5198,7747
+Non-OECD (EI),14,2769,5597,8342
+Non-OECD (EI),15,2967,5997,8938
+Non-OECD (EI),16,3165,6397,9534
+Non-OECD (EI),17,3362,6797,10130
+Non-OECD (EI),18,3560,7196,10726
+Non-OECD (EI),19,3758,7596,11322
+Non-OECD (EI),20,3956,7996,11917
+Non-OECD (EI),21,4153,8396,12513
+Non-OECD (EI),22,4351,8795,13109
+Non-OECD (EI),23,4549,9195,13705
+Non-OECD (EI),24,4747,9595,14301
+North America,1,197,397,591
+North America,2,393,793,1182
+North America,3,589,1189,1772
+North America,4,785,1586,2363
+North America,5,981,1982,2954
+North America,6,1177,2378,3544
+North America,7,1373,2774,4135
+North America,8,1569,3171,4726
+North America,9,1765,3567,5316
+North America,10,1961,3963,5907
+North America,11,2157,4360,6498
+North America,12,2353,4756,7088
+North America,13,2549,5152,7679
+North America,14,2745,5548,8269
+North America,15,2941,5945,8860
+North America,16,3137,6341,9451
+North America,17,3333,6737,10041
+North America,18,3529,7133,10632
+North America,19,3725,7530,11223
+North America,20,3921,7926,11813
+North America,21,4117,8322,12404
+North America,22,4313,8719,12995
+North America,23,4509,9115,13585
+North America,24,4705,9511,14176
+North America (EI),1,200,403,601
+North America (EI),2,399,806,1201
+North America (EI),3,598,1208,1801
+North America (EI),4,797,1611,2401
+North America (EI),5,996,2014,3001
+North America (EI),6,1196,2416,3601
+North America (EI),7,1395,2819,4201
+North America (EI),8,1594,3222,4802
+North America (EI),9,1793,3624,5402
+North America (EI),10,1992,4027,6002
+North America (EI),11,2191,4430,6602
+North America (EI),12,2391,4832,7202
+North America (EI),13,2590,5235,7802
+North America (EI),14,2789,5638,8402
+North America (EI),15,2988,6040,9002
+North America (EI),16,3187,6443,9603
+North America (EI),17,3386,6845,10203
+North America (EI),18,3586,7248,10803
+North America (EI),19,3785,7651,11403
+North America (EI),20,3984,8053,12003
+North America (EI),21,4183,8456,12603
+North America (EI),22,4382,8859,13203
+North America (EI),23,4581,9261,13803
+North America (EI),24,4781,9664,14404
+North America (Ember),1,205,413,616
+North America (Ember),2,409,826,1232
+North America (Ember),3,613,1239,1847
+North America (Ember),4,818,1652,2463
+North America (Ember),5,1022,2065,3078
+North America (Ember),6,1226,2478,3694
+North America (Ember),7,1431,2891,4309
+North America (Ember),8,1635,3304,4925
+North America (Ember),9,1839,3717,5540
+North America (Ember),10,2043,4130,6156
+North America (Ember),11,2248,4543,6771
+North America (Ember),12,2452,4956,7387
+North America (Ember),13,2656,5369,8002
+North America (Ember),14,2861,5782,8618
+North America (Ember),15,3065,6195,9234
+North America (Ember),16,3269,6608,9849
+North America (Ember),17,3473,7021,10465
+North America (Ember),18,3678,7434,11080
+North America (Ember),19,3882,7847,11696
+North America (Ember),20,4086,8260,12311
+North America (Ember),21,4291,8673,12927
+North America (Ember),22,4495,9086,13542
+North America (Ember),23,4699,9499,14158
+North America (Ember),24,4903,9912,14773
+North Korea,1,31,61,91
+North Korea,2,61,122,182
+North Korea,3,91,183,273
+North Korea,4,121,244,364
+North Korea,5,151,305,455
+North Korea,6,182,366,546
+North Korea,7,212,427,637
+North Korea,8,242,488,728
+North Korea,9,272,549,819
+North Korea,10,302,610,909
+North Korea,11,332,671,1000
+North Korea,12,363,732,1091
+North Korea,13,393,793,1182
+North Korea,14,423,854,1273
+North Korea,15,453,915,1364
+North Korea,16,483,976,1455
+North Korea,17,513,1037,1546
+North Korea,18,544,1098,1637
+North Korea,19,574,1159,1728
+North Korea,20,604,1220,1818
+North Korea,21,634,1281,1909
+North Korea,22,664,1342,2000
+North Korea,23,694,1403,2091
+North Korea,24,725,1464,2182
+North Macedonia,1,188,380,566
+North Macedonia,2,376,760,1132
+North Macedonia,3,564,1139,1698
+North Macedonia,4,752,1519,2263
+North Macedonia,5,939,1898,2829
+North Macedonia,6,1127,2278,3395
+North Macedonia,7,1315,2658,3961
+North Macedonia,8,1503,3037,4526
+North Macedonia,9,1690,3417,5092
+North Macedonia,10,1878,3796,5658
+North Macedonia,11,2066,4176,6224
+North Macedonia,12,2254,4555,6789
+North Macedonia,13,2441,4935,7355
+North Macedonia,14,2629,5315,7921
+North Macedonia,15,2817,5694,8487
+North Macedonia,16,3005,6074,9052
+North Macedonia,17,3192,6453,9618
+North Macedonia,18,3380,6833,10184
+North Macedonia,19,3568,7212,10750
+North Macedonia,20,3756,7592,11315
+North Macedonia,21,3943,7972,11881
+North Macedonia,22,4131,8351,12447
+North Macedonia,23,4319,8731,13013
+North Macedonia,24,4507,9110,13578
+Norway,1,3,6,8
+Norway,2,6,11,16
+Norway,3,8,16,24
+Norway,4,11,21,31
+Norway,5,13,26,39
+Norway,6,16,32,47
+Norway,7,18,37,55
+Norway,8,21,42,62
+Norway,9,24,47,70
+Norway,10,26,52,78
+Norway,11,29,58,85
+Norway,12,31,63,93
+Norway,13,34,68,101
+Norway,14,36,73,109
+Norway,15,39,78,116
+Norway,16,42,83,124
+Norway,17,44,89,132
+Norway,18,47,94,140
+Norway,19,49,99,147
+Norway,20,52,104,155
+Norway,21,54,109,163
+Norway,22,57,115,170
+Norway,23,59,120,178
+Norway,24,62,125,186
+OECD (EI),1,194,391,583
+OECD (EI),2,387,782,1166
+OECD (EI),3,581,1173,1749
+OECD (EI),4,774,1564,2331
+OECD (EI),5,967,1955,2914
+OECD (EI),6,1161,2346,3497
+OECD (EI),7,1354,2737,4079
+OECD (EI),8,1548,3128,4662
+OECD (EI),9,1741,3519,5245
+OECD (EI),10,1934,3910,5827
+OECD (EI),11,2128,4301,6410
+OECD (EI),12,2321,4692,6993
+OECD (EI),13,2514,5083,7575
+OECD (EI),14,2708,5474,8158
+OECD (EI),15,2901,5864,8741
+OECD (EI),16,3095,6255,9323
+OECD (EI),17,3288,6646,9906
+OECD (EI),18,3481,7037,10489
+OECD (EI),19,3675,7428,11071
+OECD (EI),20,3868,7819,11654
+OECD (EI),21,4061,8210,12237
+OECD (EI),22,4255,8601,12819
+OECD (EI),23,4448,8992,13402
+OECD (EI),24,4642,9383,13985
+OECD (Ember),1,204,413,615
+OECD (Ember),2,408,825,1229
+OECD (Ember),3,612,1237,1843
+OECD (Ember),4,816,1649,2458
+OECD (Ember),5,1020,2061,3072
+OECD (Ember),6,1224,2473,3686
+OECD (Ember),7,1428,2886,4301
+OECD (Ember),8,1631,3298,4915
+OECD (Ember),9,1835,3710,5529
+OECD (Ember),10,2039,4122,6143
+OECD (Ember),11,2243,4534,6758
+OECD (Ember),12,2447,4946,7372
+OECD (Ember),13,2651,5358,7986
+OECD (Ember),14,2855,5771,8601
+OECD (Ember),15,3059,6183,9215
+OECD (Ember),16,3262,6595,9829
+OECD (Ember),17,3466,7007,10443
+OECD (Ember),18,3670,7419,11058
+OECD (Ember),19,3874,7831,11672
+OECD (Ember),20,4078,8243,12286
+OECD (Ember),21,4282,8656,12901
+OECD (Ember),22,4486,9068,13515
+OECD (Ember),23,4690,9480,14129
+OECD (Ember),24,4893,9892,14743
+Oceania,1,144,292,434
+Oceania,2,288,583,868
+Oceania,3,432,874,1302
+Oceania,4,576,1165,1736
+Oceania,5,720,1456,2170
+Oceania,6,864,1747,2604
+Oceania,7,1008,2038,3038
+Oceania,8,1152,2329,3471
+Oceania,9,1296,2620,3905
+Oceania,10,1440,2911,4339
+Oceania,11,1584,3203,4773
+Oceania,12,1728,3494,5207
+Oceania,13,1872,3785,5641
+Oceania,14,2016,4076,6075
+Oceania,15,2160,4367,6509
+Oceania,16,2304,4658,6942
+Oceania,17,2448,4949,7376
+Oceania,18,2592,5240,7810
+Oceania,19,2736,5531,8244
+Oceania,20,2880,5822,8678
+Oceania,21,3024,6114,9112
+Oceania,22,3168,6405,9546
+Oceania,23,3312,6696,9980
+Oceania,24,3456,6987,10413
+Oceania (Ember),1,187,377,561
+Oceania (Ember),2,373,753,1122
+Oceania (Ember),3,559,1130,1683
+Oceania (Ember),4,745,1506,2244
+Oceania (Ember),5,931,1882,2805
+Oceania (Ember),6,1117,2259,3366
+Oceania (Ember),7,1304,2635,3927
+Oceania (Ember),8,1490,3011,4488
+Oceania (Ember),9,1676,3388,5049
+Oceania (Ember),10,1862,3764,5610
+Oceania (Ember),11,2048,4140,6171
+Oceania (Ember),12,2234,4517,6732
+Oceania (Ember),13,2421,4893,7293
+Oceania (Ember),14,2607,5269,7854
+Oceania (Ember),15,2793,5646,8414
+Oceania (Ember),16,2979,6022,8975
+Oceania (Ember),17,3165,6398,9536
+Oceania (Ember),18,3351,6775,10097
+Oceania (Ember),19,3538,7151,10658
+Oceania (Ember),20,3724,7527,11219
+Oceania (Ember),21,3910,7904,11780
+Oceania (Ember),22,4096,8280,12341
+Oceania (Ember),23,4282,8656,12902
+Oceania (Ember),24,4468,9033,13463
+Oman,1,178,360,536
+Oman,2,356,719,1072
+Oman,3,534,1078,1607
+Oman,4,711,1438,2143
+Oman,5,889,1797,2678
+Oman,6,1067,2156,3214
+Oman,7,1245,2516,3749
+Oman,8,1422,2875,4285
+Oman,9,1600,3234,4820
+Oman,10,1778,3593,5356
+Oman,11,1956,3953,5891
+Oman,12,2133,4312,6427
+Oman,13,2311,4671,6962
+Oman,14,2489,5031,7498
+Oman,15,2666,5390,8033
+Oman,16,2844,5749,8569
+Oman,17,3022,6109,9104
+Oman,18,3200,6468,9640
+Oman,19,3377,6827,10176
+Oman,20,3555,7186,10711
+Oman,21,3733,7546,11247
+Oman,22,3911,7905,11782
+Oman,23,4088,8264,12318
+Oman,24,4266,8624,12853
+Pakistan,1,180,364,542
+Pakistan,2,360,728,1084
+Pakistan,3,540,1091,1626
+Pakistan,4,720,1455,2168
+Pakistan,5,900,1818,2710
+Pakistan,6,1080,2182,3252
+Pakistan,7,1260,2546,3794
+Pakistan,8,1439,2909,4336
+Pakistan,9,1619,3273,4878
+Pakistan,10,1799,3636,5420
+Pakistan,11,1979,4000,5962
+Pakistan,12,2159,4364,6504
+Pakistan,13,2339,4727,7046
+Pakistan,14,2519,5091,7588
+Pakistan,15,2698,5454,8130
+Pakistan,16,2878,5818,8671
+Pakistan,17,3058,6182,9213
+Pakistan,18,3238,6545,9755
+Pakistan,19,3418,6909,10297
+Pakistan,20,3598,7272,10839
+Pakistan,21,3778,7636,11381
+Pakistan,22,3957,8000,11923
+Pakistan,23,4137,8363,12465
+Pakistan,24,4317,8727,13007
+Palestine,1,186,376,561
+Palestine,2,372,752,1121
+Palestine,3,558,1128,1681
+Palestine,4,744,1504,2241
+Palestine,5,930,1879,2801
+Palestine,6,1116,2255,3361
+Palestine,7,1302,2631,3921
+Palestine,8,1488,3007,4481
+Palestine,9,1673,3382,5041
+Palestine,10,1859,3758,5601
+Palestine,11,2045,4134,6161
+Palestine,12,2231,4510,6721
+Palestine,13,2417,4885,7281
+Palestine,14,2603,5261,7841
+Palestine,15,2789,5637,8401
+Palestine,16,2975,6013,8961
+Palestine,17,3160,6388,9522
+Palestine,18,3346,6764,10082
+Palestine,19,3532,7140,10642
+Palestine,20,3718,7516,11202
+Palestine,21,3904,7891,11762
+Palestine,22,4090,8267,12322
+Palestine,23,4276,8643,12882
+Palestine,24,4462,9019,13442
+Panama,1,57,115,170
+Panama,2,113,229,340
+Panama,3,170,343,510
+Panama,4,226,457,680
+Panama,5,282,571,850
+Panama,6,339,685,1020
+Panama,7,395,799,1190
+Panama,8,452,913,1360
+Panama,9,508,1027,1530
+Panama,10,564,1141,1700
+Panama,11,621,1255,1870
+Panama,12,677,1369,2040
+Panama,13,734,1483,2210
+Panama,14,790,1597,2380
+Panama,15,846,1711,2550
+Panama,16,903,1825,2719
+Panama,17,959,1939,2889
+Panama,18,1016,2053,3059
+Panama,19,1072,2167,3229
+Panama,20,1128,2281,3399
+Panama,21,1185,2395,3569
+Panama,22,1241,2509,3739
+Panama,23,1298,2623,3909
+Panama,24,1354,2737,4079
+Paraguay,1,1,2,2
+Paraguay,2,2,3,4
+Paraguay,3,2,4,6
+Paraguay,4,3,6,8
+Paraguay,5,4,7,10
+Paraguay,6,4,8,12
+Paraguay,7,5,10,14
+Paraguay,8,6,11,16
+Paraguay,9,6,12,18
+Paraguay,10,7,14,20
+Paraguay,11,8,15,22
+Paraguay,12,8,16,24
+Paraguay,13,9,18,26
+Paraguay,14,10,19,28
+Paraguay,15,10,20,30
+Paraguay,16,11,22,32
+Paraguay,17,12,23,34
+Paraguay,18,12,24,36
+Paraguay,19,13,26,38
+Paraguay,20,14,27,40
+Paraguay,21,14,28,42
+Paraguay,22,15,30,44
+Paraguay,23,16,31,46
+Paraguay,24,16,32,48
+Peru,1,87,175,260
+Peru,2,173,349,520
+Peru,3,259,524,780
+Peru,4,346,698,1040
+Peru,5,432,873,1300
+Peru,6,518,1047,1560
+Peru,7,604,1221,1820
+Peru,8,691,1396,2080
+Peru,9,777,1570,2340
+Peru,10,863,1745,2600
+Peru,11,950,1919,2860
+Peru,12,1036,2094,3120
+Peru,13,1122,2268,3380
+Peru,14,1208,2442,3640
+Peru,15,1295,2617,3900
+Peru,16,1381,2791,4160
+Peru,17,1467,2966,4420
+Peru,18,1554,3140,4680
+Peru,19,1640,3315,4940
+Peru,20,1726,3489,5200
+Peru,21,1812,3663,5460
+Peru,22,1899,3838,5720
+Peru,23,1985,4012,5980
+Peru,24,2071,4187,6240
+Philippines,1,240,484,721
+Philippines,2,479,968,1442
+Philippines,3,718,1452,2163
+Philippines,4,958,1935,2884
+Philippines,5,1197,2419,3605
+Philippines,6,1436,2903,4326
+Philippines,7,1675,3386,5047
+Philippines,8,1915,3870,5768
+Philippines,9,2154,4354,6489
+Philippines,10,2393,4837,7210
+Philippines,11,2632,5321,7931
+Philippines,12,2872,5805,8652
+Philippines,13,3111,6289,9373
+Philippines,14,3350,6772,10094
+Philippines,15,3589,7256,10815
+Philippines,16,3829,7740,11535
+Philippines,17,4068,8223,12256
+Philippines,18,4307,8707,12977
+Philippines,19,4547,9191,13698
+Philippines,20,4786,9674,14419
+Philippines,21,5025,10158,15140
+Philippines,22,5264,10642,15861
+Philippines,23,5504,11125,16582
+Philippines,24,5743,11609,17303
+Poland,1,235,475,708
+Poland,2,470,950,1415
+Poland,3,705,1424,2122
+Poland,4,939,1899,2830
+Poland,5,1174,2373,3537
+Poland,6,1409,2848,4244
+Poland,7,1644,3322,4952
+Poland,8,1878,3797,5659
+Poland,9,2113,4272,6366
+Poland,10,2348,4746,7074
+Poland,11,2583,5221,7781
+Poland,12,2817,5695,8488
+Poland,13,3052,6170,9196
+Poland,14,3287,6644,9903
+Poland,15,3522,7119,10610
+Poland,16,3756,7593,11318
+Poland,17,3991,8068,12025
+Poland,18,4226,8543,12732
+Poland,19,4461,9017,13440
+Poland,20,4695,9492,14147
+Poland,21,4930,9966,14854
+Poland,22,5165,10441,15562
+Poland,23,5400,10915,16269
+Poland,24,5634,11390,16976
+Portugal,1,106,213,318
+Portugal,2,211,426,635
+Portugal,3,316,639,952
+Portugal,4,421,851,1269
+Portugal,5,527,1064,1586
+Portugal,6,632,1277,1903
+Portugal,7,737,1489,2220
+Portugal,8,842,1702,2537
+Portugal,9,947,1915,2854
+Portugal,10,1053,2127,3171
+Portugal,11,1158,2340,3488
+Portugal,12,1263,2553,3805
+Portugal,13,1368,2766,4122
+Portugal,14,1474,2978,4439
+Portugal,15,1579,3191,4756
+Portugal,16,1684,3404,5073
+Portugal,17,1789,3616,5390
+Portugal,18,1894,3829,5707
+Portugal,19,2000,4042,6024
+Portugal,20,2105,4254,6341
+Portugal,21,2210,4467,6658
+Portugal,22,2315,4680,6975
+Portugal,23,2420,4893,7292
+Portugal,24,2526,5105,7609
+Puerto Rico,1,195,394,587
+Puerto Rico,2,389,787,1173
+Puerto Rico,3,584,1180,1759
+Puerto Rico,4,778,1573,2345
+Puerto Rico,5,973,1966,2931
+Puerto Rico,6,1167,2360,3517
+Puerto Rico,7,1362,2753,4103
+Puerto Rico,8,1556,3146,4689
+Puerto Rico,9,1751,3539,5275
+Puerto Rico,10,1945,3932,5861
+Puerto Rico,11,2140,4325,6447
+Puerto Rico,12,2334,4719,7033
+Puerto Rico,13,2529,5112,7619
+Puerto Rico,14,2723,5505,8205
+Puerto Rico,15,2918,5898,8791
+Puerto Rico,16,3112,6291,9377
+Puerto Rico,17,3307,6685,9963
+Puerto Rico,18,3501,7078,10549
+Puerto Rico,19,3696,7471,11135
+Puerto Rico,20,3890,7864,11721
+Puerto Rico,21,4085,8257,12307
+Puerto Rico,22,4279,8650,12893
+Puerto Rico,23,4474,9044,13479
+Puerto Rico,24,4668,9437,14065
+Qatar,1,178,360,536
+Qatar,2,356,719,1071
+Qatar,3,533,1078,1606
+Qatar,4,711,1437,2141
+Qatar,5,889,1796,2676
+Qatar,6,1066,2155,3212
+Qatar,7,1244,2514,3747
+Qatar,8,1421,2873,4282
+Qatar,9,1599,3232,4817
+Qatar,10,1777,3591,5352
+Qatar,11,1954,3950,5887
+Qatar,12,2132,4309,6423
+Qatar,13,2309,4668,6958
+Qatar,14,2487,5027,7493
+Qatar,15,2665,5386,8028
+Qatar,16,2842,5745,8563
+Qatar,17,3020,6105,9098
+Qatar,18,3198,6464,9634
+Qatar,19,3375,6823,10169
+Qatar,20,3553,7182,10704
+Qatar,21,3730,7541,11239
+Qatar,22,3908,7900,11774
+Qatar,23,4086,8259,12309
+Qatar,24,4263,8618,12845
+Romania,1,185,373,556
+Romania,2,369,746,1112
+Romania,3,554,1119,1668
+Romania,4,738,1492,2224
+Romania,5,923,1865,2780
+Romania,6,1107,2238,3335
+Romania,7,1292,2611,3891
+Romania,8,1476,2984,4447
+Romania,9,1661,3357,5003
+Romania,10,1845,3730,5559
+Romania,11,2030,4103,6114
+Romania,12,2214,4475,6670
+Romania,13,2399,4848,7226
+Romania,14,2583,5221,7782
+Romania,15,2767,5594,8338
+Romania,16,2952,5967,8893
+Romania,17,3136,6340,9449
+Romania,18,3321,6713,10005
+Romania,19,3505,7086,10561
+Romania,20,3690,7459,11117
+Romania,21,3874,7832,11673
+Romania,22,4059,8205,12228
+Romania,23,4243,8577,12784
+Romania,24,4428,8950,13340
+Russia,1,216,435,648
+Russia,2,431,870,1296
+Russia,3,646,1304,1944
+Russia,4,861,1739,2592
+Russia,5,1076,2174,3240
+Russia,6,1291,2608,3888
+Russia,7,1506,3043,4535
+Russia,8,1721,3478,5183
+Russia,9,1936,3912,5831
+Russia,10,2151,4347,6479
+Russia,11,2366,4782,7127
+Russia,12,2581,5216,7775
+Russia,13,2796,5651,8422
+Russia,14,3011,6086,9070
+Russia,15,3226,6520,9718
+Russia,16,3441,6955,10366
+Russia,17,3656,7390,11014
+Russia,18,3871,7824,11662
+Russia,19,4086,8259,12310
+Russia,20,4301,8694,12957
+Russia,21,4516,9128,13605
+Russia,22,4731,9563,14253
+Russia,23,4946,9998,14901
+Russia,24,5161,10432,15549
+Rwanda,1,87,175,260
+Rwanda,2,173,349,519
+Rwanda,3,259,523,779
+Rwanda,4,345,697,1038
+Rwanda,5,431,871,1297
+Rwanda,6,517,1045,1557
+Rwanda,7,603,1219,1816
+Rwanda,8,689,1393,2075
+Rwanda,9,775,1567,2335
+Rwanda,10,861,1741,2594
+Rwanda,11,947,1915,2854
+Rwanda,12,1033,2089,3113
+Rwanda,13,1120,2263,3372
+Rwanda,14,1206,2437,3632
+Rwanda,15,1292,2611,3891
+Rwanda,16,1378,2785,4150
+Rwanda,17,1464,2959,4410
+Rwanda,18,1550,3133,4669
+Rwanda,19,1636,3307,4929
+Rwanda,20,1722,3481,5188
+Rwanda,21,1808,3655,5447
+Rwanda,22,1894,3829,5707
+Rwanda,23,1980,4003,5966
+Rwanda,24,2066,4177,6225
+Saint Kitts and Nevis,1,170,343,511
+Saint Kitts and Nevis,2,339,686,1022
+Saint Kitts and Nevis,3,509,1028,1533
+Saint Kitts and Nevis,4,678,1371,2043
+Saint Kitts and Nevis,5,848,1714,2554
+Saint Kitts and Nevis,6,1017,2056,3065
+Saint Kitts and Nevis,7,1187,2399,3576
+Saint Kitts and Nevis,8,1356,2742,4086
+Saint Kitts and Nevis,9,1526,3084,4597
+Saint Kitts and Nevis,10,1695,3427,5108
+Saint Kitts and Nevis,11,1865,3770,5618
+Saint Kitts and Nevis,12,2034,4112,6129
+Saint Kitts and Nevis,13,2204,4455,6640
+Saint Kitts and Nevis,14,2373,4798,7151
+Saint Kitts and Nevis,15,2543,5140,7661
+Saint Kitts and Nevis,16,2712,5483,8172
+Saint Kitts and Nevis,17,2882,5826,8683
+Saint Kitts and Nevis,18,3051,6168,9193
+Saint Kitts and Nevis,19,3221,6511,9704
+Saint Kitts and Nevis,20,3390,6854,10215
+Saint Kitts and Nevis,21,3560,7196,10726
+Saint Kitts and Nevis,22,3729,7539,11236
+Saint Kitts and Nevis,23,3899,7882,11747
+Saint Kitts and Nevis,24,4068,8224,12258
+Saint Lucia,1,178,359,536
+Saint Lucia,2,356,718,1071
+Saint Lucia,3,533,1077,1606
+Saint Lucia,4,711,1436,2141
+Saint Lucia,5,888,1795,2676
+Saint Lucia,6,1066,2154,3211
+Saint Lucia,7,1244,2513,3746
+Saint Lucia,8,1421,2872,4281
+Saint Lucia,9,1599,3231,4816
+Saint Lucia,10,1776,3590,5351
+Saint Lucia,11,1954,3949,5886
+Saint Lucia,12,2131,4308,6421
+Saint Lucia,13,2309,4667,6956
+Saint Lucia,14,2487,5026,7491
+Saint Lucia,15,2664,5385,8026
+Saint Lucia,16,2842,5744,8562
+Saint Lucia,17,3019,6103,9097
+Saint Lucia,18,3197,6462,9632
+Saint Lucia,19,3375,6821,10167
+Saint Lucia,20,3552,7180,10702
+Saint Lucia,21,3730,7539,11237
+Saint Lucia,22,3907,7898,11772
+Saint Lucia,23,4085,8257,12307
+Saint Lucia,24,4262,8616,12842
+Saint Pierre and Miquelon,1,178,359,536
+Saint Pierre and Miquelon,2,356,718,1071
+Saint Pierre and Miquelon,3,533,1077,1606
+Saint Pierre and Miquelon,4,711,1436,2141
+Saint Pierre and Miquelon,5,888,1795,2676
+Saint Pierre and Miquelon,6,1066,2154,3211
+Saint Pierre and Miquelon,7,1244,2513,3746
+Saint Pierre and Miquelon,8,1421,2872,4281
+Saint Pierre and Miquelon,9,1599,3231,4816
+Saint Pierre and Miquelon,10,1776,3590,5351
+Saint Pierre and Miquelon,11,1954,3949,5886
+Saint Pierre and Miquelon,12,2131,4308,6421
+Saint Pierre and Miquelon,13,2309,4667,6956
+Saint Pierre and Miquelon,14,2487,5026,7491
+Saint Pierre and Miquelon,15,2664,5385,8026
+Saint Pierre and Miquelon,16,2842,5744,8562
+Saint Pierre and Miquelon,17,3019,6103,9097
+Saint Pierre and Miquelon,18,3197,6462,9632
+Saint Pierre and Miquelon,19,3375,6821,10167
+Saint Pierre and Miquelon,20,3552,7180,10702
+Saint Pierre and Miquelon,21,3730,7539,11237
+Saint Pierre and Miquelon,22,3907,7898,11772
+Saint Pierre and Miquelon,23,4085,8257,12307
+Saint Pierre and Miquelon,24,4262,8616,12842
+Saint Vincent and the Grenadines,1,134,270,402
+Saint Vincent and the Grenadines,2,267,539,803
+Saint Vincent and the Grenadines,3,400,808,1204
+Saint Vincent and the Grenadines,4,533,1077,1606
+Saint Vincent and the Grenadines,5,666,1347,2007
+Saint Vincent and the Grenadines,6,800,1616,2408
+Saint Vincent and the Grenadines,7,933,1885,2810
+Saint Vincent and the Grenadines,8,1066,2154,3211
+Saint Vincent and the Grenadines,9,1199,2424,3612
+Saint Vincent and the Grenadines,10,1332,2693,4013
+Saint Vincent and the Grenadines,11,1466,2962,4415
+Saint Vincent and the Grenadines,12,1599,3231,4816
+Saint Vincent and the Grenadines,13,1732,3501,5217
+Saint Vincent and the Grenadines,14,1865,3770,5619
+Saint Vincent and the Grenadines,15,1998,4039,6020
+Saint Vincent and the Grenadines,16,2131,4308,6421
+Saint Vincent and the Grenadines,17,2265,4578,6823
+Saint Vincent and the Grenadines,18,2398,4847,7224
+Saint Vincent and the Grenadines,19,2531,5116,7625
+Saint Vincent and the Grenadines,20,2664,5385,8026
+Saint Vincent and the Grenadines,21,2797,5655,8428
+Saint Vincent and the Grenadines,22,2931,5924,8829
+Saint Vincent and the Grenadines,23,3064,6193,9230
+Saint Vincent and the Grenadines,24,3197,6462,9632
+Samoa,1,140,283,422
+Samoa,2,280,566,844
+Samoa,3,420,849,1266
+Samoa,4,560,1132,1688
+Samoa,5,700,1415,2109
+Samoa,6,840,1698,2531
+Samoa,7,980,1981,2953
+Samoa,8,1120,2264,3375
+Samoa,9,1260,2547,3796
+Samoa,10,1400,2830,4218
+Samoa,11,1540,3113,4640
+Samoa,12,1680,3396,5062
+Samoa,13,1820,3679,5484
+Samoa,14,1960,3962,5905
+Samoa,15,2100,4245,6327
+Samoa,16,2240,4528,6749
+Samoa,17,2380,4811,7171
+Samoa,18,2520,5094,7592
+Samoa,19,2660,5377,8014
+Samoa,20,2800,5660,8436
+Samoa,21,2940,5943,8858
+Samoa,22,3080,6226,9280
+Samoa,23,3220,6509,9701
+Samoa,24,3360,6792,10123
+Sao Tome and Principe,1,160,324,482
+Sao Tome and Principe,2,320,647,964
+Sao Tome and Principe,3,480,970,1445
+Sao Tome and Principe,4,640,1293,1927
+Sao Tome and Principe,5,800,1616,2408
+Sao Tome and Principe,6,959,1939,2890
+Sao Tome and Principe,7,1119,2262,3371
+Sao Tome and Principe,8,1279,2585,3853
+Sao Tome and Principe,9,1439,2908,4335
+Sao Tome and Principe,10,1599,3231,4816
+Sao Tome and Principe,11,1759,3555,5298
+Sao Tome and Principe,12,1918,3878,5779
+Sao Tome and Principe,13,2078,4201,6261
+Sao Tome and Principe,14,2238,4524,6742
+Sao Tome and Principe,15,2398,4847,7224
+Sao Tome and Principe,16,2558,5170,7705
+Sao Tome and Principe,17,2717,5493,8187
+Sao Tome and Principe,18,2877,5816,8669
+Sao Tome and Principe,19,3037,6139,9150
+Sao Tome and Principe,20,3197,6462,9632
+Sao Tome and Principe,21,3357,6785,10113
+Sao Tome and Principe,22,3517,7109,10595
+Sao Tome and Principe,23,3676,7432,11076
+Sao Tome and Principe,24,3836,7755,11558
+Saudi Arabia,1,178,360,536
+Saudi Arabia,2,356,719,1071
+Saudi Arabia,3,533,1078,1606
+Saudi Arabia,4,711,1437,2142
+Saudi Arabia,5,889,1796,2677
+Saudi Arabia,6,1066,2155,3212
+Saudi Arabia,7,1244,2514,3748
+Saudi Arabia,8,1422,2874,4283
+Saudi Arabia,9,1599,3233,4818
+Saudi Arabia,10,1777,3592,5353
+Saudi Arabia,11,1955,3951,5889
+Saudi Arabia,12,2132,4310,6424
+Saudi Arabia,13,2310,4669,6959
+Saudi Arabia,14,2488,5028,7495
+Saudi Arabia,15,2665,5388,8030
+Saudi Arabia,16,2843,5747,8565
+Saudi Arabia,17,3021,6106,9100
+Saudi Arabia,18,3198,6465,9636
+Saudi Arabia,19,3376,6824,10171
+Saudi Arabia,20,3554,7183,10706
+Saudi Arabia,21,3731,7542,11242
+Saudi Arabia,22,3909,7902,11777
+Saudi Arabia,23,4087,8261,12312
+Saudi Arabia,24,4264,8620,12847
+Senegal,1,175,353,525
+Senegal,2,349,705,1050
+Senegal,3,523,1057,1575
+Senegal,4,697,1409,2100
+Senegal,5,872,1761,2625
+Senegal,6,1046,2114,3150
+Senegal,7,1220,2466,3675
+Senegal,8,1394,2818,4200
+Senegal,9,1568,3170,4725
+Senegal,10,1743,3522,5250
+Senegal,11,1917,3875,5775
+Senegal,12,2091,4227,6300
+Senegal,13,2265,4579,6824
+Senegal,14,2439,4931,7349
+Senegal,15,2614,5283,7874
+Senegal,16,2788,5635,8399
+Senegal,17,2962,5988,8924
+Senegal,18,3136,6340,9449
+Senegal,19,3311,6692,9974
+Senegal,20,3485,7044,10499
+Senegal,21,3659,7396,11024
+Senegal,22,3833,7749,11549
+Senegal,23,4007,8101,12074
+Senegal,24,4182,8453,12599
+Serbia,1,203,410,610
+Serbia,2,405,819,1220
+Serbia,3,608,1228,1830
+Serbia,4,810,1637,2440
+Serbia,5,1013,2046,3050
+Serbia,6,1215,2456,3660
+Serbia,7,1417,2865,4269
+Serbia,8,1620,3274,4879
+Serbia,9,1822,3683,5489
+Serbia,10,2025,4092,6099
+Serbia,11,2227,4501,6709
+Serbia,12,2429,4911,7319
+Serbia,13,2632,5320,7929
+Serbia,14,2834,5729,8538
+Serbia,15,3037,6138,9148
+Serbia,16,3239,6547,9758
+Serbia,17,3441,6956,10368
+Serbia,18,3644,7366,10978
+Serbia,19,3846,7775,11588
+Serbia,20,4049,8184,12198
+Serbia,21,4251,8593,12807
+Serbia,22,4453,9002,13417
+Serbia,23,4656,9411,14027
+Serbia,24,4858,9821,14637
+Seychelles,1,179,362,539
+Seychelles,2,358,723,1077
+Seychelles,3,537,1084,1616
+Seychelles,4,715,1445,2154
+Seychelles,5,894,1807,2692
+Seychelles,6,1073,2168,3231
+Seychelles,7,1251,2529,3769
+Seychelles,8,1430,2890,4307
+Seychelles,9,1609,3251,4846
+Seychelles,10,1787,3613,5384
+Seychelles,11,1966,3974,5923
+Seychelles,12,2145,4335,6461
+Seychelles,13,2323,4696,6999
+Seychelles,14,2502,5057,7538
+Seychelles,15,2681,5419,8076
+Seychelles,16,2859,5780,8614
+Seychelles,17,3038,6141,9153
+Seychelles,18,3217,6502,9691
+Seychelles,19,3395,6864,10230
+Seychelles,20,3574,7225,10768
+Seychelles,21,3753,7586,11306
+Seychelles,22,3931,7947,11845
+Seychelles,23,4110,8308,12383
+Seychelles,24,4289,8670,12921
+Sierra Leone,1,28,55,82
+Sierra Leone,2,55,110,164
+Sierra Leone,3,82,165,245
+Sierra Leone,4,109,219,327
+Sierra Leone,5,136,274,408
+Sierra Leone,6,163,329,490
+Sierra Leone,7,190,383,571
+Sierra Leone,8,217,438,653
+Sierra Leone,9,244,493,734
+Sierra Leone,10,271,547,816
+Sierra Leone,11,298,602,897
+Sierra Leone,12,325,657,979
+Sierra Leone,13,352,711,1060
+Sierra Leone,14,379,766,1142
+Sierra Leone,15,406,821,1223
+Sierra Leone,16,433,876,1305
+Sierra Leone,17,460,930,1386
+Sierra Leone,18,487,985,1468
+Sierra Leone,19,514,1040,1549
+Sierra Leone,20,542,1094,1631
+Sierra Leone,21,569,1149,1712
+Sierra Leone,22,596,1204,1794
+Sierra Leone,23,623,1258,1875
+Sierra Leone,24,650,1313,1957
+Singapore,1,179,361,538
+Singapore,2,358,722,1076
+Singapore,3,536,1083,1614
+Singapore,4,715,1444,2152
+Singapore,5,893,1805,2690
+Singapore,6,1072,2166,3228
+Singapore,7,1250,2526,3765
+Singapore,8,1429,2887,4303
+Singapore,9,1607,3248,4841
+Singapore,10,1786,3609,5379
+Singapore,11,1964,3970,5917
+Singapore,12,2143,4331,6455
+Singapore,13,2321,4692,6992
+Singapore,14,2500,5052,7530
+Singapore,15,2678,5413,8068
+Singapore,16,2857,5774,8606
+Singapore,17,3035,6135,9144
+Singapore,18,3214,6496,9682
+Singapore,19,3392,6857,10219
+Singapore,20,3571,7218,10757
+Singapore,21,3749,7578,11295
+Singapore,22,3928,7939,11833
+Singapore,23,4106,8300,12371
+Singapore,24,4285,8661,12909
+Slovakia,1,318,643,959
+Slovakia,2,636,1286,1917
+Slovakia,3,954,1929,2875
+Slovakia,4,1272,2572,3833
+Slovakia,5,1590,3214,4791
+Slovakia,6,1908,3857,5749
+Slovakia,7,2226,4500,6707
+Slovakia,8,2544,5143,7665
+Slovakia,9,2862,5785,8623
+Slovakia,10,3180,6428,9581
+Slovakia,11,3498,7071,10539
+Slovakia,12,3816,7714,11497
+Slovakia,13,4134,8356,12455
+Slovakia,14,4452,8999,13413
+Slovakia,15,4770,9642,14371
+Slovakia,16,5088,10285,15329
+Slovakia,17,5406,10928,16287
+Slovakia,18,5724,11570,17245
+Slovakia,19,6042,12213,18203
+Slovakia,20,6360,12856,19161
+Slovakia,21,6678,13499,20119
+Slovakia,22,6995,14141,21077
+Slovakia,23,7313,14784,22035
+Slovakia,24,7631,15427,22993
+Slovenia,1,274,552,823
+Slovenia,2,547,1104,1646
+Slovenia,3,820,1656,2468
+Slovenia,4,1093,2208,3291
+Slovenia,5,1366,2760,4114
+Slovenia,6,1639,3312,4936
+Slovenia,7,1912,3864,5759
+Slovenia,8,2185,4416,6582
+Slovenia,9,2458,4968,7404
+Slovenia,10,2731,5520,8227
+Slovenia,11,3004,6072,9050
+Slovenia,12,3277,6624,9872
+Slovenia,13,3550,7176,10695
+Slovenia,14,3823,7728,11518
+Slovenia,15,4096,8280,12340
+Slovenia,16,4369,8832,13163
+Slovenia,17,4642,9383,13986
+Slovenia,18,4915,9935,14808
+Slovenia,19,5188,10487,15631
+Slovenia,20,5461,11039,16454
+Slovenia,21,5734,11591,17276
+Slovenia,22,6007,12143,18099
+Slovenia,23,6280,12695,18921
+Slovenia,24,6553,13247,19744
+Solomon Islands,1,178,359,536
+Solomon Islands,2,356,718,1071
+Solomon Islands,3,533,1077,1606
+Solomon Islands,4,711,1436,2141
+Solomon Islands,5,888,1795,2676
+Solomon Islands,6,1066,2154,3211
+Solomon Islands,7,1244,2513,3746
+Solomon Islands,8,1421,2872,4281
+Solomon Islands,9,1599,3231,4816
+Solomon Islands,10,1776,3590,5351
+Solomon Islands,11,1954,3949,5886
+Solomon Islands,12,2131,4308,6421
+Solomon Islands,13,2309,4667,6956
+Solomon Islands,14,2487,5026,7491
+Solomon Islands,15,2664,5385,8026
+Solomon Islands,16,2842,5744,8562
+Solomon Islands,17,3019,6103,9097
+Solomon Islands,18,3197,6462,9632
+Solomon Islands,19,3375,6821,10167
+Solomon Islands,20,3552,7180,10702
+Solomon Islands,21,3730,7539,11237
+Solomon Islands,22,3907,7898,11772
+Solomon Islands,23,4085,8257,12307
+Solomon Islands,24,4262,8616,12842
+Somalia,1,176,356,530
+Somalia,2,352,711,1060
+Somalia,3,528,1067,1590
+Somalia,4,704,1422,2120
+Somalia,5,880,1778,2650
+Somalia,6,1056,2133,3180
+Somalia,7,1231,2489,3710
+Somalia,8,1407,2844,4239
+Somalia,9,1583,3200,4769
+Somalia,10,1759,3555,5299
+Somalia,11,1935,3911,5829
+Somalia,12,2111,4266,6359
+Somalia,13,2287,4622,6889
+Somalia,14,2462,4977,7419
+Somalia,15,2638,5333,7948
+Somalia,16,2814,5688,8478
+Somalia,17,2990,6044,9008
+Somalia,18,3166,6399,9538
+Somalia,19,3342,6755,10068
+Somalia,20,3518,7110,10598
+Somalia,21,3693,7466,11128
+Somalia,22,3869,7821,11657
+Somalia,23,4045,8177,12187
+Somalia,24,4221,8532,12717
+South Africa,1,273,551,822
+South Africa,2,546,1102,1643
+South Africa,3,818,1653,2464
+South Africa,4,1091,2204,3285
+South Africa,5,1363,2755,4106
+South Africa,6,1636,3306,4927
+South Africa,7,1908,3857,5748
+South Africa,8,2181,4408,6569
+South Africa,9,2453,4958,7390
+South Africa,10,2726,5509,8211
+South Africa,11,2998,6060,9032
+South Africa,12,3271,6611,9853
+South Africa,13,3543,7162,10674
+South Africa,14,3816,7713,11496
+South Africa,15,4088,8264,12317
+South Africa,16,4361,8815,13138
+South Africa,17,4633,9365,13959
+South Africa,18,4906,9916,14780
+South Africa,19,5178,10467,15601
+South Africa,20,5451,11018,16422
+South Africa,21,5723,11569,17243
+South Africa,22,5996,12120,18064
+South Africa,23,6268,12671,18885
+South Africa,24,6541,13222,19706
+South America,1,61,123,183
+South America,2,121,245,365
+South America,3,182,367,547
+South America,4,242,489,729
+South America,5,303,611,911
+South America,6,363,733,1093
+South America,7,423,856,1275
+South America,8,484,978,1457
+South America,9,544,1100,1639
+South America,10,605,1222,1821
+South America,11,665,1344,2003
+South America,12,726,1466,2185
+South America,13,786,1588,2367
+South America,14,846,1711,2549
+South America,15,907,1833,2731
+South America,16,967,1955,2913
+South America,17,1028,2077,3095
+South America,18,1088,2199,3277
+South America,19,1148,2321,3459
+South America,20,1209,2443,3642
+South America,21,1269,2566,3824
+South America,22,1330,2688,4006
+South America,23,1390,2810,4188
+South America,24,1451,2932,4370
+South Korea,1,289,583,869
+South Korea,2,577,1165,1737
+South Korea,3,865,1748,2605
+South Korea,4,1153,2330,3473
+South Korea,5,1441,2913,4341
+South Korea,6,1729,3495,5209
+South Korea,7,2017,4078,6077
+South Korea,8,2305,4660,6946
+South Korea,9,2594,5243,7814
+South Korea,10,2882,5825,8682
+South Korea,11,3170,6407,9550
+South Korea,12,3458,6990,10418
+South Korea,13,3746,7572,11286
+South Korea,14,4034,8155,12154
+South Korea,15,4322,8737,13022
+South Korea,16,4610,9320,13891
+South Korea,17,4899,9902,14759
+South Korea,18,5187,10485,15627
+South Korea,19,5475,11067,16495
+South Korea,20,5763,11650,17363
+South Korea,21,6051,12232,18231
+South Korea,22,6339,12814,19099
+South Korea,23,6627,13397,19968
+South Korea,24,6915,13979,20836
+South and Central America (EI),1,69,138,206
+South and Central America (EI),2,137,276,411
+South and Central America (EI),3,205,413,616
+South and Central America (EI),4,273,551,821
+South and Central America (EI),5,341,689,1026
+South and Central America (EI),6,409,826,1231
+South and Central America (EI),7,477,964,1437
+South and Central America (EI),8,545,1102,1642
+South and Central America (EI),9,613,1239,1847
+South and Central America (EI),10,681,1377,2052
+South and Central America (EI),11,749,1515,2257
+South and Central America (EI),12,818,1652,2462
+South and Central America (EI),13,886,1790,2668
+South and Central America (EI),14,954,1928,2873
+South and Central America (EI),15,1022,2065,3078
+South and Central America (EI),16,1090,2203,3283
+South and Central America (EI),17,1158,2340,3488
+South and Central America (EI),18,1226,2478,3693
+South and Central America (EI),19,1294,2616,3898
+South and Central America (EI),20,1362,2753,4104
+South and Central America (EI),21,1430,2891,4309
+South and Central America (EI),22,1498,3029,4514
+South and Central America (EI),23,1567,3166,4719
+South and Central America (EI),24,1635,3304,4924
+Spain,1,189,382,570
+Spain,2,378,764,1139
+Spain,3,567,1146,1708
+Spain,4,756,1528,2277
+Spain,5,945,1910,2846
+Spain,6,1134,2292,3415
+Spain,7,1323,2673,3984
+Spain,8,1512,3055,4554
+Spain,9,1700,3437,5123
+Spain,10,1889,3819,5692
+Spain,11,2078,4201,6261
+Spain,12,2267,4583,6830
+Spain,13,2456,4965,7399
+Spain,14,2645,5346,7968
+Spain,15,2834,5728,8538
+Spain,16,3023,6110,9107
+Spain,17,3212,6492,9676
+Spain,18,3400,6874,10245
+Spain,19,3589,7256,10814
+Spain,20,3778,7637,11383
+Spain,21,3967,8019,11952
+Spain,22,4156,8401,12521
+Spain,23,4345,8783,13091
+Spain,24,4534,9165,13660
+Sri Lanka,1,13,26,39
+Sri Lanka,2,26,52,77
+Sri Lanka,3,39,78,116
+Sri Lanka,4,52,104,154
+Sri Lanka,5,64,130,193
+Sri Lanka,6,77,155,231
+Sri Lanka,7,90,181,270
+Sri Lanka,8,103,207,308
+Sri Lanka,9,115,233,347
+Sri Lanka,10,128,259,385
+Sri Lanka,11,141,284,424
+Sri Lanka,12,154,310,462
+Sri Lanka,13,166,336,501
+Sri Lanka,14,179,362,539
+Sri Lanka,15,192,388,578
+Sri Lanka,16,205,414,616
+Sri Lanka,17,218,439,655
+Sri Lanka,18,230,465,693
+Sri Lanka,19,243,491,731
+Sri Lanka,20,256,517,770
+Sri Lanka,21,269,543,808
+Sri Lanka,22,281,568,847
+Sri Lanka,23,294,594,885
+Sri Lanka,24,307,620,924
+Suriname,1,91,182,272
+Suriname,2,181,364,543
+Suriname,3,271,546,814
+Suriname,4,361,728,1085
+Suriname,5,451,910,1357
+Suriname,6,541,1092,1628
+Suriname,7,631,1274,1899
+Suriname,8,721,1456,2170
+Suriname,9,811,1638,2441
+Suriname,10,901,1820,2713
+Suriname,11,991,2002,2984
+Suriname,12,1081,2184,3255
+Suriname,13,1171,2366,3526
+Suriname,14,1261,2548,3798
+Suriname,15,1351,2730,4069
+Suriname,16,1441,2912,4340
+Suriname,17,1531,3094,4611
+Suriname,18,1621,3276,4882
+Suriname,19,1711,3458,5154
+Suriname,20,1801,3640,5425
+Suriname,21,1891,3822,5696
+Suriname,22,1981,4004,5967
+Suriname,23,2071,4186,6238
+Suriname,24,2161,4368,6510
+Sweden,1,154,310,462
+Sweden,2,307,620,924
+Sweden,3,460,930,1386
+Sweden,4,613,1240,1847
+Sweden,5,767,1549,2309
+Sweden,6,920,1859,2771
+Sweden,7,1073,2169,3233
+Sweden,8,1226,2479,3694
+Sweden,9,1380,2789,4156
+Sweden,10,1533,3098,4618
+Sweden,11,1686,3408,5080
+Sweden,12,1839,3718,5541
+Sweden,13,1993,4028,6003
+Sweden,14,2146,4338,6465
+Sweden,15,2299,4647,6927
+Sweden,16,2452,4957,7388
+Sweden,17,2606,5267,7850
+Sweden,18,2759,5577,8312
+Sweden,19,2912,5887,8774
+Sweden,20,3065,6196,9235
+Sweden,21,3219,6506,9697
+Sweden,22,3372,6816,10159
+Sweden,23,3525,7126,10621
+Sweden,24,3678,7436,11082
+Switzerland,1,196,396,590
+Switzerland,2,391,791,1179
+Switzerland,3,587,1186,1768
+Switzerland,4,782,1581,2357
+Switzerland,5,978,1976,2946
+Switzerland,6,1173,2372,3535
+Switzerland,7,1369,2767,4124
+Switzerland,8,1564,3162,4713
+Switzerland,9,1760,3557,5302
+Switzerland,10,1955,3952,5891
+Switzerland,11,2151,4348,6480
+Switzerland,12,2346,4743,7069
+Switzerland,13,2542,5138,7658
+Switzerland,14,2737,5533,8247
+Switzerland,15,2933,5928,8836
+Switzerland,16,3128,6324,9425
+Switzerland,17,3324,6719,10014
+Switzerland,18,3519,7114,10603
+Switzerland,19,3715,7509,11192
+Switzerland,20,3910,7904,11781
+Switzerland,21,4106,8300,12370
+Switzerland,22,4301,8695,12959
+Switzerland,23,4497,9090,13548
+Switzerland,24,4692,9485,14137
+Taiwan,1,242,489,729
+Taiwan,2,484,978,1457
+Taiwan,3,726,1466,2185
+Taiwan,4,967,1955,2914
+Taiwan,5,1209,2444,3642
+Taiwan,6,1451,2932,4370
+Taiwan,7,1692,3421,5099
+Taiwan,8,1934,3910,5827
+Taiwan,9,2176,4398,6555
+Taiwan,10,2418,4887,7283
+Taiwan,11,2659,5375,8012
+Taiwan,12,2901,5864,8740
+Taiwan,13,3143,6353,9468
+Taiwan,14,3384,6841,10197
+Taiwan,15,3626,7330,10925
+Taiwan,16,3868,7819,11653
+Taiwan,17,4110,8307,12382
+Taiwan,18,4351,8796,13110
+Taiwan,19,4593,9285,13838
+Taiwan,20,4835,9773,14566
+Taiwan,21,5076,10262,15295
+Taiwan,22,5318,10750,16023
+Taiwan,23,5560,11239,16751
+Taiwan,24,5802,11728,17480
+Tajikistan,1,22,45,66
+Tajikistan,2,44,89,132
+Tajikistan,3,66,133,198
+Tajikistan,4,88,177,264
+Tajikistan,5,110,221,330
+Tajikistan,6,132,266,396
+Tajikistan,7,154,310,462
+Tajikistan,8,175,354,527
+Tajikistan,9,197,398,593
+Tajikistan,10,219,442,659
+Tajikistan,11,241,487,725
+Tajikistan,12,263,531,791
+Tajikistan,13,285,575,857
+Tajikistan,14,307,619,923
+Tajikistan,15,328,663,988
+Tajikistan,16,350,708,1054
+Tajikistan,17,372,752,1120
+Tajikistan,18,394,796,1186
+Tajikistan,19,416,840,1252
+Tajikistan,20,438,884,1318
+Tajikistan,21,460,929,1384
+Tajikistan,22,481,973,1450
+Tajikistan,23,503,1017,1515
+Tajikistan,24,525,1061,1581
+Tanzania,1,116,234,349
+Tanzania,2,232,468,698
+Tanzania,3,348,702,1046
+Tanzania,4,463,936,1395
+Tanzania,5,579,1170,1744
+Tanzania,6,695,1404,2092
+Tanzania,7,810,1638,2441
+Tanzania,8,926,1872,2790
+Tanzania,9,1042,2106,3138
+Tanzania,10,1158,2340,3487
+Tanzania,11,1273,2574,3836
+Tanzania,12,1389,2807,4184
+Tanzania,13,1505,3041,4533
+Tanzania,14,1620,3275,4882
+Tanzania,15,1736,3509,5230
+Tanzania,16,1852,3743,5579
+Tanzania,17,1968,3977,5927
+Tanzania,18,2083,4211,6276
+Tanzania,19,2199,4445,6625
+Tanzania,20,2315,4679,6973
+Tanzania,21,2430,4913,7322
+Tanzania,22,2546,5147,7671
+Tanzania,23,2662,5381,8019
+Tanzania,24,2778,5614,8368
+Thailand,1,195,394,586
+Thailand,2,389,787,1172
+Thailand,3,584,1180,1758
+Thailand,4,778,1573,2344
+Thailand,5,973,1966,2930
+Thailand,6,1167,2359,3516
+Thailand,7,1362,2752,4102
+Thailand,8,1556,3145,4688
+Thailand,9,1751,3538,5274
+Thailand,10,1945,3932,5860
+Thailand,11,2140,4325,6446
+Thailand,12,2334,4718,7031
+Thailand,13,2528,5111,7617
+Thailand,14,2723,5504,8203
+Thailand,15,2917,5897,8789
+Thailand,16,3112,6290,9375
+Thailand,17,3306,6683,9961
+Thailand,18,3501,7076,10547
+Thailand,19,3695,7469,11133
+Thailand,20,3890,7863,11719
+Thailand,21,4084,8256,12305
+Thailand,22,4279,8649,12891
+Thailand,23,4473,9042,13476
+Thailand,24,4667,9435,14062
+Togo,1,137,276,412
+Togo,2,273,552,823
+Togo,3,410,828,1234
+Togo,4,546,1104,1645
+Togo,5,683,1379,2056
+Togo,6,819,1655,2467
+Togo,7,955,1931,2878
+Togo,8,1092,2207,3289
+Togo,9,1228,2482,3700
+Togo,10,1365,2758,4111
+Togo,11,1501,3034,4522
+Togo,12,1637,3310,4933
+Togo,13,1774,3585,5344
+Togo,14,1910,3861,5755
+Togo,15,2047,4137,6166
+Togo,16,2183,4413,6577
+Togo,17,2319,4688,6988
+Togo,18,2456,4964,7399
+Togo,19,2592,5240,7810
+Togo,20,2729,5516,8221
+Togo,21,2865,5791,8632
+Togo,22,3001,6067,9043
+Togo,23,3138,6343,9454
+Togo,24,3274,6619,9865
+Tonga,1,183,368,549
+Tonga,2,365,736,1097
+Tonga,3,547,1104,1646
+Tonga,4,729,1472,2194
+Tonga,5,911,1840,2743
+Tonga,6,1093,2208,3291
+Tonga,7,1275,2576,3840
+Tonga,8,1457,2944,4388
+Tonga,9,1639,3312,4937
+Tonga,10,1821,3680,5485
+Tonga,11,2003,4048,6034
+Tonga,12,2185,4416,6582
+Tonga,13,2367,4784,7131
+Tonga,14,2549,5152,7679
+Tonga,15,2731,5520,8228
+Tonga,16,2913,5888,8776
+Tonga,17,3095,6256,9324
+Tonga,18,3277,6624,9873
+Tonga,19,3459,6992,10421
+Tonga,20,3641,7360,10970
+Tonga,21,3823,7728,11518
+Tonga,22,4005,8096,12067
+Tonga,23,4187,8464,12615
+Tonga,24,4369,8832,13164
+Trinidad and Tobago,1,1,1,1
+Trinidad and Tobago,2,1,1,1
+Trinidad and Tobago,3,1,1,2
+Trinidad and Tobago,4,1,2,2
+Trinidad and Tobago,5,1,2,2
+Trinidad and Tobago,6,1,2,3
+Trinidad and Tobago,7,1,2,3
+Trinidad and Tobago,8,2,3,4
+Trinidad and Tobago,9,2,3,4
+Trinidad and Tobago,10,2,3,4
+Trinidad and Tobago,11,2,3,5
+Trinidad and Tobago,12,2,4,5
+Trinidad and Tobago,13,2,4,6
+Trinidad and Tobago,14,2,4,6
+Trinidad and Tobago,15,2,4,6
+Trinidad and Tobago,16,3,5,7
+Trinidad and Tobago,17,3,5,7
+Trinidad and Tobago,18,3,5,7
+Trinidad and Tobago,19,3,5,8
+Trinidad and Tobago,20,3,6,8
+Trinidad and Tobago,21,3,6,9
+Trinidad and Tobago,22,3,6,9
+Trinidad and Tobago,23,3,6,9
+Trinidad and Tobago,24,4,7,10
+Tunisia,1,175,352,525
+Tunisia,2,349,704,1050
+Tunisia,3,523,1056,1574
+Tunisia,4,697,1408,2099
+Tunisia,5,871,1760,2623
+Tunisia,6,1045,2112,3148
+Tunisia,7,1219,2464,3672
+Tunisia,8,1393,2816,4197
+Tunisia,9,1567,3168,4721
+Tunisia,10,1741,3520,5246
+Tunisia,11,1915,3872,5771
+Tunisia,12,2090,4224,6295
+Tunisia,13,2264,4576,6820
+Tunisia,14,2438,4928,7344
+Tunisia,15,2612,5280,7869
+Tunisia,16,2786,5631,8393
+Tunisia,17,2960,5983,8918
+Tunisia,18,3134,6335,9442
+Tunisia,19,3308,6687,9967
+Tunisia,20,3482,7039,10492
+Tunisia,21,3656,7391,11016
+Tunisia,22,3830,7743,11541
+Tunisia,23,4005,8095,12065
+Tunisia,24,4179,8447,12590
+Turkey,1,166,336,500
+Turkey,2,332,671,1000
+Turkey,3,498,1007,1500
+Turkey,4,664,1342,2000
+Turkey,5,830,1677,2500
+Turkey,6,996,2013,2999
+Turkey,7,1162,2348,3499
+Turkey,8,1328,2683,3999
+Turkey,9,1493,3019,4499
+Turkey,10,1659,3354,4999
+Turkey,11,1825,3689,5498
+Turkey,12,1991,4025,5998
+Turkey,13,2157,4360,6498
+Turkey,14,2323,4695,6998
+Turkey,15,2489,5031,7498
+Turkey,16,2655,5366,7998
+Turkey,17,2820,5701,8497
+Turkey,18,2986,6037,8997
+Turkey,19,3152,6372,9497
+Turkey,20,3318,6707,9997
+Turkey,21,3484,7043,10497
+Turkey,22,3650,7378,10996
+Turkey,23,3816,7713,11496
+Turkey,24,3982,8049,11996
+Turkmenistan,1,1,1,1
+Turkmenistan,2,1,1,1
+Turkmenistan,3,1,1,1
+Turkmenistan,4,1,1,1
+Turkmenistan,5,1,1,1
+Turkmenistan,6,1,1,1
+Turkmenistan,7,1,1,1
+Turkmenistan,8,1,1,2
+Turkmenistan,9,1,1,2
+Turkmenistan,10,1,1,2
+Turkmenistan,11,1,1,2
+Turkmenistan,12,1,2,2
+Turkmenistan,13,1,2,2
+Turkmenistan,14,1,2,2
+Turkmenistan,15,1,2,2
+Turkmenistan,16,1,2,3
+Turkmenistan,17,1,2,3
+Turkmenistan,18,1,2,3
+Turkmenistan,19,1,2,3
+Turkmenistan,20,1,2,3
+Turkmenistan,21,1,2,3
+Turkmenistan,22,1,2,3
+Turkmenistan,23,1,2,3
+Turkmenistan,24,2,3,4
+Turks and Caicos Islands,1,178,359,536
+Turks and Caicos Islands,2,356,718,1071
+Turks and Caicos Islands,3,533,1077,1606
+Turks and Caicos Islands,4,711,1436,2141
+Turks and Caicos Islands,5,888,1795,2676
+Turks and Caicos Islands,6,1066,2154,3211
+Turks and Caicos Islands,7,1244,2513,3746
+Turks and Caicos Islands,8,1421,2872,4281
+Turks and Caicos Islands,9,1599,3231,4816
+Turks and Caicos Islands,10,1776,3590,5351
+Turks and Caicos Islands,11,1954,3949,5886
+Turks and Caicos Islands,12,2131,4308,6421
+Turks and Caicos Islands,13,2309,4667,6956
+Turks and Caicos Islands,14,2487,5026,7491
+Turks and Caicos Islands,15,2664,5385,8026
+Turks and Caicos Islands,16,2842,5744,8562
+Turks and Caicos Islands,17,3019,6103,9097
+Turks and Caicos Islands,18,3197,6462,9632
+Turks and Caicos Islands,19,3375,6821,10167
+Turks and Caicos Islands,20,3552,7180,10702
+Turks and Caicos Islands,21,3730,7539,11237
+Turks and Caicos Islands,22,3907,7898,11772
+Turks and Caicos Islands,23,4085,8257,12307
+Turks and Caicos Islands,24,4262,8616,12842
+Uganda,1,19,38,56
+Uganda,2,38,76,112
+Uganda,3,56,113,168
+Uganda,4,75,151,224
+Uganda,5,93,188,280
+Uganda,6,112,226,336
+Uganda,7,131,263,392
+Uganda,8,149,301,448
+Uganda,9,168,338,504
+Uganda,10,186,376,560
+Uganda,11,205,414,616
+Uganda,12,223,451,672
+Uganda,13,242,489,728
+Uganda,14,261,526,784
+Uganda,15,279,564,840
+Uganda,16,298,601,896
+Uganda,17,316,639,952
+Uganda,18,335,676,1008
+Uganda,19,353,714,1064
+Uganda,20,372,752,1120
+Uganda,21,391,789,1176
+Uganda,22,409,827,1232
+Uganda,23,428,864,1288
+Uganda,24,446,902,1344
+Ukraine,1,332,670,998
+Ukraine,2,663,1339,1996
+Ukraine,3,994,2009,2994
+Ukraine,4,1325,2678,3992
+Ukraine,5,1656,3348,4990
+Ukraine,6,1987,4017,5988
+Ukraine,7,2319,4687,6985
+Ukraine,8,2650,5356,7983
+Ukraine,9,2981,6026,8981
+Ukraine,10,3312,6695,9979
+Ukraine,11,3643,7365,10977
+Ukraine,12,3974,8034,11975
+Ukraine,13,4306,8704,12972
+Ukraine,14,4637,9373,13970
+Ukraine,15,4968,10043,14968
+Ukraine,16,5299,10712,15966
+Ukraine,17,5630,11382,16964
+Ukraine,18,5961,12051,17962
+Ukraine,19,6293,12721,18959
+Ukraine,20,6624,13390,19957
+Ukraine,21,6955,14059,20955
+Ukraine,22,7286,14729,21953
+Ukraine,23,7617,15398,22951
+Ukraine,24,7948,16068,23949
+United Arab Emirates,1,214,431,642
+United Arab Emirates,2,427,862,1284
+United Arab Emirates,3,640,1293,1926
+United Arab Emirates,4,853,1723,2568
+United Arab Emirates,5,1066,2154,3210
+United Arab Emirates,6,1279,2585,3852
+United Arab Emirates,7,1492,3015,4494
+United Arab Emirates,8,1705,3446,5136
+United Arab Emirates,9,1918,3877,5778
+United Arab Emirates,10,2131,4307,6420
+United Arab Emirates,11,2344,4738,7062
+United Arab Emirates,12,2557,5169,7704
+United Arab Emirates,13,2770,5600,8346
+United Arab Emirates,14,2983,6030,8988
+United Arab Emirates,15,3196,6461,9630
+United Arab Emirates,16,3409,6892,10272
+United Arab Emirates,17,3622,7322,10914
+United Arab Emirates,18,3835,7753,11555
+United Arab Emirates,19,4048,8184,12197
+United Arab Emirates,20,4261,8614,12839
+United Arab Emirates,21,4475,9045,13481
+United Arab Emirates,22,4688,9476,14123
+United Arab Emirates,23,4901,9907,14765
+United Arab Emirates,24,5114,10337,15407
+United Kingdom,1,178,359,535
+United Kingdom,2,355,717,1069
+United Kingdom,3,532,1076,1603
+United Kingdom,4,710,1434,2138
+United Kingdom,5,887,1793,2672
+United Kingdom,6,1064,2151,3206
+United Kingdom,7,1242,2510,3741
+United Kingdom,8,1419,2868,4275
+United Kingdom,9,1596,3227,4809
+United Kingdom,10,1774,3585,5344
+United Kingdom,11,1951,3944,5878
+United Kingdom,12,2128,4302,6412
+United Kingdom,13,2306,4661,6946
+United Kingdom,14,2483,5019,7481
+United Kingdom,15,2660,5378,8015
+United Kingdom,16,2838,5736,8549
+United Kingdom,17,3015,6095,9084
+United Kingdom,18,3192,6453,9618
+United Kingdom,19,3370,6812,10152
+United Kingdom,20,3547,7170,10687
+United Kingdom,21,3724,7529,11221
+United Kingdom,22,3902,7887,11755
+United Kingdom,23,4079,8246,12290
+United Kingdom,24,4256,8604,12824
+United States,1,221,445,663
+United States,2,441,890,1326
+United States,3,661,1335,1989
+United States,4,881,1780,2652
+United States,5,1101,2225,3315
+United States,6,1321,2669,3978
+United States,7,1541,3114,4641
+United States,8,1761,3559,5304
+United States,9,1981,4004,5967
+United States,10,2201,4449,6630
+United States,11,2421,4893,7293
+United States,12,2641,5338,7956
+United States,13,2861,5783,8619
+United States,14,3081,6228,9282
+United States,15,3301,6673,9945
+United States,16,3521,7117,10608
+United States,17,3741,7562,11271
+United States,18,3961,8007,11934
+United States,19,4181,8452,12597
+United States,20,4401,8897,13260
+United States,21,4621,9342,13923
+United States,22,4841,9786,14586
+United States,23,5061,10231,15249
+United States,24,5281,10676,15912
+United States Virgin Islands,1,179,362,539
+United States Virgin Islands,2,358,723,1077
+United States Virgin Islands,3,536,1084,1615
+United States Virgin Islands,4,715,1445,2153
+United States Virgin Islands,5,893,1806,2691
+United States Virgin Islands,6,1072,2167,3229
+United States Virgin Islands,7,1251,2528,3767
+United States Virgin Islands,8,1429,2889,4306
+United States Virgin Islands,9,1608,3250,4844
+United States Virgin Islands,10,1786,3611,5382
+United States Virgin Islands,11,1965,3972,5920
+United States Virgin Islands,12,2144,4333,6458
+United States Virgin Islands,13,2322,4694,6996
+United States Virgin Islands,14,2501,5055,7534
+United States Virgin Islands,15,2679,5416,8072
+United States Virgin Islands,16,2858,5777,8611
+United States Virgin Islands,17,3037,6138,9149
+United States Virgin Islands,18,3215,6499,9687
+United States Virgin Islands,19,3394,6860,10225
+United States Virgin Islands,20,3572,7221,10763
+United States Virgin Islands,21,3751,7583,11301
+United States Virgin Islands,22,3930,7944,11839
+United States Virgin Islands,23,4108,8305,12378
+United States Virgin Islands,24,4287,8666,12916
+Upper-middle-income countries,1,192,387,577
+Upper-middle-income countries,2,383,774,1154
+Upper-middle-income countries,3,575,1161,1730
+Upper-middle-income countries,4,766,1548,2307
+Upper-middle-income countries,5,957,1935,2884
+Upper-middle-income countries,6,1149,2322,3460
+Upper-middle-income countries,7,1340,2709,4037
+Upper-middle-income countries,8,1532,3096,4614
+Upper-middle-income countries,9,1723,3483,5190
+Upper-middle-income countries,10,1914,3869,5767
+Upper-middle-income countries,11,2106,4256,6344
+Upper-middle-income countries,12,2297,4643,6920
+Upper-middle-income countries,13,2488,5030,7497
+Upper-middle-income countries,14,2680,5417,8074
+Upper-middle-income countries,15,2871,5804,8650
+Upper-middle-income countries,16,3063,6191,9227
+Upper-middle-income countries,17,3254,6578,9804
+Upper-middle-income countries,18,3445,6965,10380
+Upper-middle-income countries,19,3637,7351,10957
+Upper-middle-income countries,20,3828,7738,11534
+Upper-middle-income countries,21,4019,8125,12110
+Upper-middle-income countries,22,4211,8512,12687
+Upper-middle-income countries,23,4402,8899,13263
+Upper-middle-income countries,24,4594,9286,13840
+Uruguay,1,69,139,207
+Uruguay,2,137,277,413
+Uruguay,3,206,416,619
+Uruguay,4,274,554,826
+Uruguay,5,343,693,1032
+Uruguay,6,411,831,1238
+Uruguay,7,480,969,1445
+Uruguay,8,548,1108,1651
+Uruguay,9,617,1246,1857
+Uruguay,10,685,1385,2064
+Uruguay,11,754,1523,2270
+Uruguay,12,822,1662,2476
+Uruguay,13,891,1800,2683
+Uruguay,14,959,1938,2889
+Uruguay,15,1028,2077,3095
+Uruguay,16,1096,2215,3302
+Uruguay,17,1165,2354,3508
+Uruguay,18,1233,2492,3714
+Uruguay,19,1301,2631,3920
+Uruguay,20,1370,2769,4127
+Uruguay,21,1438,2907,4333
+Uruguay,22,1507,3046,4539
+Uruguay,23,1575,3184,4746
+Uruguay,24,1644,3323,4952
+Uzbekistan,1,1,2,2
+Uzbekistan,2,2,3,4
+Uzbekistan,3,2,4,6
+Uzbekistan,4,3,5,7
+Uzbekistan,5,3,6,9
+Uzbekistan,6,4,7,11
+Uzbekistan,7,4,8,12
+Uzbekistan,8,5,9,14
+Uzbekistan,9,5,11,16
+Uzbekistan,10,6,12,17
+Uzbekistan,11,7,13,19
+Uzbekistan,12,7,14,21
+Uzbekistan,13,8,15,22
+Uzbekistan,14,8,16,24
+Uzbekistan,15,9,17,26
+Uzbekistan,16,9,18,27
+Uzbekistan,17,10,20,29
+Uzbekistan,18,10,21,31
+Uzbekistan,19,11,22,32
+Uzbekistan,20,12,23,34
+Uzbekistan,21,12,24,36
+Uzbekistan,22,13,25,37
+Uzbekistan,23,13,26,39
+Uzbekistan,24,14,27,41
+Vanuatu,1,190,383,570
+Vanuatu,2,379,765,1140
+Vanuatu,3,568,1147,1710
+Vanuatu,4,757,1529,2279
+Vanuatu,5,946,1912,2849
+Vanuatu,6,1135,2294,3419
+Vanuatu,7,1324,2676,3988
+Vanuatu,8,1513,3058,4558
+Vanuatu,9,1702,3441,5128
+Vanuatu,10,1891,3823,5698
+Vanuatu,11,2080,4205,6267
+Vanuatu,12,2269,4587,6837
+Vanuatu,13,2458,4970,7407
+Vanuatu,14,2648,5352,7976
+Vanuatu,15,2837,5734,8546
+Vanuatu,16,3026,6116,9116
+Vanuatu,17,3215,6498,9686
+Vanuatu,18,3404,6881,10255
+Vanuatu,19,3593,7263,10825
+Vanuatu,20,3782,7645,11395
+Vanuatu,21,3971,8027,11964
+Vanuatu,22,4160,8410,12534
+Vanuatu,23,4349,8792,13104
+Vanuatu,24,4538,9174,13673
+Venezuela,1,0,0,0
+Venezuela,2,0,0,0
+Venezuela,3,0,0,0
+Venezuela,4,0,0,0
+Venezuela,5,0,0,0
+Venezuela,6,0,0,0
+Venezuela,7,0,0,0
+Venezuela,8,0,0,0
+Venezuela,9,0,0,0
+Venezuela,10,0,0,0
+Venezuela,11,0,0,0
+Venezuela,12,0,0,0
+Venezuela,13,0,0,0
+Venezuela,14,0,0,0
+Venezuela,15,0,0,0
+Venezuela,16,0,0,0
+Venezuela,17,0,0,0
+Venezuela,18,0,0,0
+Venezuela,19,0,0,0
+Venezuela,20,0,0,0
+Venezuela,21,0,0,0
+Venezuela,22,0,0,0
+Venezuela,23,0,0,0
+Venezuela,24,0,0,0
+Vietnam,1,153,308,460
+Vietnam,2,305,616,919
+Vietnam,3,458,924,1378
+Vietnam,4,610,1232,1837
+Vietnam,5,762,1540,2296
+Vietnam,6,915,1848,2755
+Vietnam,7,1067,2156,3214
+Vietnam,8,1219,2464,3673
+Vietnam,9,1372,2772,4132
+Vietnam,10,1524,3080,4591
+Vietnam,11,1676,3388,5050
+Vietnam,12,1829,3696,5509
+Vietnam,13,1981,4004,5968
+Vietnam,14,2133,4312,6427
+Vietnam,15,2286,4620,6886
+Vietnam,16,2438,4928,7345
+Vietnam,17,2591,5236,7804
+Vietnam,18,2743,5544,8264
+Vietnam,19,2895,5852,8723
+Vietnam,20,3048,6160,9182
+Vietnam,21,3200,6468,9641
+Vietnam,22,3352,6776,10100
+Vietnam,23,3505,7084,10559
+Vietnam,24,3657,7392,11018
+Western Africa (EI),1,3,6,9
+Western Africa (EI),2,6,12,18
+Western Africa (EI),3,9,18,27
+Western Africa (EI),4,12,24,36
+Western Africa (EI),5,15,30,44
+Western Africa (EI),6,18,36,53
+Western Africa (EI),7,21,42,62
+Western Africa (EI),8,24,48,71
+Western Africa (EI),9,27,54,80
+Western Africa (EI),10,30,60,88
+Western Africa (EI),11,33,65,97
+Western Africa (EI),12,36,71,106
+Western Africa (EI),13,38,77,115
+Western Africa (EI),14,41,83,124
+Western Africa (EI),15,44,89,132
+Western Africa (EI),16,47,95,141
+Western Africa (EI),17,50,101,150
+Western Africa (EI),18,53,107,159
+Western Africa (EI),19,56,113,168
+Western Africa (EI),20,59,119,176
+Western Africa (EI),21,62,124,185
+Western Africa (EI),22,65,130,194
+Western Africa (EI),23,68,136,203
+Western Africa (EI),24,71,142,212
+World,1,204,412,614
+World,2,408,824,1228
+World,3,612,1236,1842
+World,4,816,1648,2456
+World,5,1019,2060,3070
+World,6,1223,2472,3684
+World,7,1427,2884,4298
+World,8,1631,3296,4912
+World,9,1834,3708,5526
+World,10,2038,4120,6140
+World,11,2242,4532,6754
+World,12,2446,4944,7368
+World,13,2649,5356,7982
+World,14,2853,5767,8596
+World,15,3057,6179,9210
+World,16,3261,6591,9824
+World,17,3465,7003,10438
+World,18,3668,7415,11052
+World,19,3872,7827,11666
+World,20,4076,8239,12280
+World,21,4280,8651,12894
+World,22,4483,9063,13508
+World,23,4687,9475,14122
+World,24,4891,9887,14736

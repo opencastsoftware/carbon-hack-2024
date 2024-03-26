@@ -13,13 +13,12 @@ tree:
     - swi
   config:
     swi:
-      country: Brazil
-      year: 2022
   inputs:
     - timestamp: 2024-04-01T00:00 
       duration: 100
+      country: Brazil
       serverUtilization: 10
-      numberOfHours: 10
-      numberOfCores: 10
+      numberOfHours: 1
+      numberOfCores: 2
       tdp: 10
-      tdpCoefficient: 10
+      tdpCoefficient: 0.4
