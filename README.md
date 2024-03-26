@@ -26,8 +26,8 @@ npm link risk-scorecard
 2. Use the linked model in impl by specifying `name`, `method`, `path` in initialize models section. 
 
 ```yaml
-name: risk-scorecard
-description: simple demo invoking risk-scorecard plugin
+name: risk-scorecard-manifest
+description: example risk-scorecard plugin
 tags:
 initialize:
   plugins:
@@ -37,17 +37,16 @@ initialize:
       global-config:
         keep-exisiting: true
 tree:
-  children:
-    child:
-      pipeline:
-        - risk-scorecard
-      config:
-      inputs:
-        - timestamp: 2023-07-06T00:00
-          cloud/vendor: aws
-          cloud/instance-type: m5n.large
-          duration: 100
-          cpu/utilization: 10
+  pipeline:
+    - risk-scorecard
+  config:
+    risk-scorecard:
+  inputs:
+    - timestamp: 2024-04-01T00:00 
+      country: Brazil
+      duration: 100
+      numberOfHours: 1
+      waterConsumption: 167.24706060235152
 ...
 ```
 Make sure you have installed impact-framework by running 
