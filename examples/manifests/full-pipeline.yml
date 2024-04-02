@@ -24,23 +24,43 @@ initialize:
       verbose: false
       method: SciO
       path: "@grnsft/if-plugins"
+    boavizta-cloud:
+      method: BoaviztaCloudOutput
+      path: "@grnsft/if-unofficial-plugins"
+      global-config:
+        allocation: LINEAR
+        verbose: true
+    sci-m: # a model that calculates m from te, tir, el, rr and rtor
+      method: SciM
+      verbose: false
+      path: "@grnsft/if-plugins"
+    sci:
+      kind: plugin
+      method: Sci
+      path: "@grnsft/if-plugins"
 tree:
   children:
     child-0:
       defaults:
-        cpu/thermal-design-power: 100
-
+        device/emissions-embodied: 1533.120 # gCO2eq
+        # time-reserved: 3600 # 1hr in seconds
+        device/expected-lifespan: 94608000 # 3 years in seconds
       config:
         group-by:
           group:
             - cloud/region
+        sci:
+          functional-unit-time: 1 sec
+          functional-unit: requests # factor to convert per time to per f.unit
       pipeline:
         - group-by
-        - teads-curve
         - cloud-metadata
+        - teads-curve
         - watt-time
         - sci-e
         - sci-o
+        - sci-m
+        - sci
       inputs:
         - timestamp: 2024-04-02T00:00
           duration: 30
@@ -48,15 +68,19 @@ tree:
           cloud/instance-type: Standard_A1_v2
           cloud/vendor: azure
           cloud/region: westus3
+          requests: 12
         - timestamp: 2024-04-02T00:30
           duration: 30
           cpu/utilization: 80
           cloud/instance-type: Standard_A1_v2
           cloud/region: westus3
           cloud/vendor: azure
+          requests: 5
         - timestamp: 2024-04-02T01:00
           duration: 30
           cpu/utilization: 20
           cloud/instance-type: Standard_A1_v2
           cloud/region: westus3
           cloud/vendor: azure
+          requests: 29
+        
