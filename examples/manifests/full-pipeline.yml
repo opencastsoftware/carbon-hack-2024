@@ -24,12 +24,6 @@ initialize:
       verbose: false
       method: SciO
       path: "@grnsft/if-plugins"
-    boavizta-cloud:
-      method: BoaviztaCloudOutput
-      path: "@grnsft/if-unofficial-plugins"
-      global-config:
-        allocation: LINEAR
-        verbose: true
     sci-m: # a model that calculates m from te, tir, el, rr and rtor
       method: SciM
       verbose: false
@@ -38,12 +32,20 @@ initialize:
       kind: plugin
       method: Sci
       path: "@grnsft/if-plugins"
+    swi:
+      method: SWI
+      path: "swi"
+    # risk-scorecard:
+    #   method: RiskScorecard
+    #   path: 'risk-scorecard'
+    #   global-config:
+    #     keep-exisiting: true
 tree:
   children:
     child-0:
       defaults:
         device/emissions-embodied: 1533.120 # gCO2eq
-        # time-reserved: 3600 # 1hr in seconds
+        country: United States
         device/expected-lifespan: 94608000 # 3 years in seconds
       config:
         group-by:
@@ -61,6 +63,8 @@ tree:
         - sci-o
         - sci-m
         - sci
+        # - swi
+        # - risk-scorecard
       inputs:
         - timestamp: 2024-04-02T00:00
           duration: 30
