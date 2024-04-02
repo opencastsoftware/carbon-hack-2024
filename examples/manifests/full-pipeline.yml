@@ -20,6 +20,7 @@ initialize:
     watt-time:
       method: WattTimeGridEmissions
       path: '@grnsft/if-unofficial-plugins'
+      verbose: true
     sci-o:
       verbose: false
       method: SciO
@@ -45,11 +46,9 @@ initialize:
     swi:
       method: SWI
       path: "swi"
-    # risk-scorecard:
-    #   method: RiskScorecard
-    #   path: 'risk-scorecard'
-    #   global-config:
-    #     keep-exisiting: true
+    rag-rating:
+      method: RagRating
+      path: 'rag-rating'
 tree:
   children:
     child-0:
@@ -58,25 +57,21 @@ tree:
         country: United States
         device/expected-lifespan: 94608000 # 3 years in seconds
       config:
-        group-by:
-          group:
-            - cloud/region
         sci:
           functional-unit-time: 1 sec
           functional-unit: requests # factor to convert per time to per f.unit
       pipeline:
-        - group-by
         - cloud-metadata
         - teads-curve
         - watt-time
-        - sci-e
-        - sci-o
-        - sci-m
-        - sci
-         - water-cloud
+        # - sci-e
+        # - sci-o
+        # - sci-m
+        # - sci
+        # - water-cloud
         # - water-generation
         # - swi
-        # - risk-scorecard
+        # - rag-rating
       inputs:
         - timestamp: 2024-04-02T00:00
           duration: 30
@@ -92,7 +87,7 @@ tree:
           cloud/region: westus3
           cloud/vendor: azure
           requests: 5
-        - timestamp: 2024-04-02T01:00
+        - timestamp: 2024-04-02T01:10
           duration: 30
           cpu/utilization: 20
           cloud/instance-type: Standard_A1_v2
