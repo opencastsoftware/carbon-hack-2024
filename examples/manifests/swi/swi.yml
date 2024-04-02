@@ -16,9 +16,5 @@ tree:
   inputs:
     - timestamp: 2024-04-01T00:00 
       duration: 100
-      country: Brazil
-      serverUtilization: 10
-      numberOfHours: 1
-      numberOfCores: 2
-      tdp: 10
-      tdpCoefficient: 0.4
+      waterCloud: 10
+      waterPower: 10

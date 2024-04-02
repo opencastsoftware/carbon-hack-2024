@@ -15,8 +15,6 @@
   "license": "MIT",
   "dependencies": {
     "@grnsft/if": "^0.3.1",
-    "@grnsft/if-plugins": "^0.3.0",
-    "csv-parser": "^3.0.0",
-    "pandas-js": "^0.2.4"
+    "@grnsft/if-plugins": "^0.3.0"
   }
 }
