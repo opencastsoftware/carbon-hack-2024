@@ -1,0 +1,62 @@
+name: full-pipeline
+description: test starting from observations
+tags:
+initialize:
+  plugins:
+    teads-curve: 
+      path: '@grnsft/if-unofficial-plugins'
+      method: TeadsCurve
+      global-config:
+        interpolation: spline
+    group-by:
+      path: "builtin"
+      method: GroupBy
+    cloud-metadata:
+      method: CloudMetadata
+      path: "@grnsft/if-plugins"   
+    sci-e:
+      method: SciE
+      path: "@grnsft/if-plugins"
+    watt-time:
+      method: WattTimeGridEmissions
+      path: '@grnsft/if-unofficial-plugins'
+    sci-o:
+      verbose: false
+      method: SciO
+      path: "@grnsft/if-plugins"
+tree:
+  children:
+    child-0:
+      defaults:
+        cpu/thermal-design-power: 100
+
+      config:
+        group-by:
+          group:
+            - cloud/region
+      pipeline:
+        - group-by
+        - teads-curve
+        - cloud-metadata
+        - watt-time
+        - sci-e
+        - sci-o
+      inputs:
+        - timestamp: 2024-04-02T00:00
+          duration: 1
+          cpu/utilization: 20
+          cloud/instance-type: Standard_A1_v2
+          cloud/vendor: azure
+          cloud/region: westus3
+        - timestamp: 2024-04-02T00:01
+          duration: 1
+          cpu/utilization: 80
+          cloud/instance-type: Standard_A1_v2
+          cloud/region: westus3
+          cloud/vendor: azure
+        - timestamp: 2024-04-02T00:02
+          duration: 1
+          cpu/utilization: 20
+          cloud/instance-type: Standard_A1_v2
+          cloud/region: westus3
+          cloud/vendor: azure
