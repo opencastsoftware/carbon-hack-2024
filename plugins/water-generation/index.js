@@ -1,13 +1,8 @@
+const { fetchPowerConsumption } = require('./electricityMap');
+
 const WaterGeneration = (globalConfig) => {
   const metadata = {
     kind: "execute",
-  };
-
-  const getWaterConsumption = (location) => {
-    if(location == 'GB'){
-      return 10;
-    }
-    return 0;
   };
 
   const execute = async (inputs, config) => {
@@ -16,9 +11,10 @@ const WaterGeneration = (globalConfig) => {
     var energy = inputs[0].energy;
     var location = inputs[0].location;
 
-    var warerConsumption = getWaterConsumption(location);
+    const totalConsumption = await fetchPowerConsumption(location);
+    console.log(totalConsumption);
 
-    var waterConsumption = energy * warerConsumption;
+    var waterConsumption = energy * totalConsumption;
 
     return [
       {
