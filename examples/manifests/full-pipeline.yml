@@ -32,6 +32,16 @@ initialize:
       kind: plugin
       method: Sci
       path: "@grnsft/if-plugins"
+    water-cloud:
+      method: WaterCloud
+      path: 'water-cloud'
+      global-config:
+        keep-exisiting: true
+    water-generation:
+      method: WaterGeneration
+      path: 'water-generation'
+      global-config:
+        keep-exisiting: true
     swi:
       method: SWI
       path: "swi"
@@ -63,6 +73,8 @@ tree:
         - sci-o
         - sci-m
         - sci
+        # - water-cloud
+        # - water-generation
         # - swi
         # - risk-scorecard
       inputs:
