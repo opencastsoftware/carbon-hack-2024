@@ -73,7 +73,7 @@ tree:
         - sci-o
         - sci-m
         - sci
-        # - water-cloud
+         - water-cloud
         # - water-generation
         # - swi
         # - risk-scorecard
