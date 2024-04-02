@@ -16,5 +16,5 @@ tree:
   inputs:
     - timestamp: 2024-04-01T00:00 
       duration: 100
-      waterCloud: 10
-      waterPower: 10
+      water-cloud: 10
+      water-power: 10

@@ -2,7 +2,6 @@ const fs = require('fs');
 const csv = require('csv-parser');
 
 const RagRating = (globalConfig) => {
-    console.log(globalConfig);
     const metadata = {
         kind: 'execute',
     };
@@ -125,8 +124,8 @@ const RagRating = (globalConfig) => {
 
             return [
                 {
-                  ["swiRating"]: riskColorForWater,
-                  ["sciRating"]: riskColorForCarbon
+                  ["swi-rating"]: riskColorForWater,
+                  ["sci-rating"]: riskColorForCarbon
                 }];
         } catch (error) {
             console.error(error);

@@ -1,5 +1,4 @@
 const WaterGeneration = (globalConfig) => {
-  console.log(globalConfig);
   const metadata = {
     kind: "execute",
   };
@@ -23,7 +22,7 @@ const WaterGeneration = (globalConfig) => {
 
     return [
       {
-        ["waterPower"]: waterConsumption
+        ...inputs[0], ["water-power"]: waterConsumption
       }
     ];
   };

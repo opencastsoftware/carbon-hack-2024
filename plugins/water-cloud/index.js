@@ -1,5 +1,4 @@
 const WaterCloud = (globalConfig) => {
-  console.log(globalConfig);
   const metadata = {
     kind: "execute",
   };
@@ -13,7 +12,7 @@ const WaterCloud = (globalConfig) => {
 
     return [
       {
-        ["waterCloud"]: cloudWaterConsumption
+        ...inputs[0], ["water-cloud"]: cloudWaterConsumption
       }
     ];
   };

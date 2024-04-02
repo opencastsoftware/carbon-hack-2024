@@ -1,21 +1,18 @@
 const SWI = (globalConfig) => {
-  console.log(globalConfig);
+  const METRICS = ['water-cloud', 'water-power'];
   const metadata = {
     kind: "execute",
   };
 
   const execute = async (inputs, config) => {
-
-    console.log(inputs);
-
-    var waterCloud = inputs[0].waterCloud;
-    var waterPower = inputs[0].waterPower;
+    var waterCloud = inputs[0][METRICS[0]];
+    var waterPower = inputs[0][METRICS[1]];
 
     var totalWaterConsumption = waterCloud + waterPower;
 
       return [
         {
-          ["swi"]: totalWaterConsumption
+          ...inputs[0], ["swi"]: totalWaterConsumption
         },
       ];
   };
