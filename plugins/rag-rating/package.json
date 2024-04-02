@@ -1,5 +1,5 @@
 {
-  "name": "risk-scorecard",
+  "name": "rag-rating",
   "version": "1.0.0",
   "description": "We plan to create a YAML or possibly an exhaust plugin that produces a rating for processes or services running on known cloud VMs.",
   "main": "index.js",
@@ -15,7 +15,6 @@
   "license": "MIT",
   "dependencies": {
     "@grnsft/if": "^0.3.1",
-    "@grnsft/if-plugins": "^0.3.0",
-    "csv-parser": "^3.0.0"
+    "@grnsft/if-plugins": "^0.3.0"
   }
 }

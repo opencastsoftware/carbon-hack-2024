@@ -3,19 +3,19 @@ description: example impl invoking Cloud Instance Metadata plugin
 tags:
 initialize:
   plugins:
-    risk-scorecard:
-      method: RiskScorecard
-      path: 'risk-scorecard'
+    rag-rating:
+      method: RagRating
+      path: 'rag-rating'
       global-config:
         keep-exisiting: true
 tree:
   pipeline:
-    - risk-scorecard
+    - rag-rating
   config:
-    risk-scorecard:
+    rag-rating:
   inputs:
     - timestamp: 2024-04-01T00:00 
+      duration: 3000
       country: Brazil
-      duration: 100
-      numberOfHours: 1
-      waterConsumption: 167.24706060235152
+      swi: 1
+      sci: 10
