@@ -12,7 +12,8 @@ const WaterCloud = (globalConfig) => {
 
     return [
       {
-        ...inputs[0], ["water-cloud"]: cloudWaterConsumption
+        ...inputs[0], 
+        ["water-cloud"]: cloudWaterConsumption
       }
     ];
   };

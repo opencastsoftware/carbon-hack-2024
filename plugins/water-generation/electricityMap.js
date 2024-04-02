@@ -1,19 +1,16 @@
 const axios = require("axios");
+const fs = require('fs');
 
-async function fetchPowerConsumption(location) {
+async function fetchPowerConsumption(latitude, longitude) {
 
-  var zone = "GB";
-  if(location){
-    zone = location;
-  }
-  const base_url =
-  "https://api.electricitymap.org/v3/power-breakdown/history?zone="+zone;
+  const base_url = "https://api.electricitymap.org/v3/power-breakdown/history?lat=" + latitude + "&lon=" + longitude;
 
   try {
     const response = await axios.get(base_url);
     if (response.status === 200) {
       const total_consumption = getPowerConsumption(response.data);
-      return total_consumption;
+      var country = getCountry(response.data.zone);
+      return { totalConsumption: total_consumption, country: country };
     } else {
       console.log("Failed to retrieve data. Status code:", response.status);
       return null;
@@ -70,6 +67,16 @@ function getPowerConsumption(data) {
   total_consumption = myArray.reduce((sum, value) => sum + value.value, 0);
 
   return total_consumption;
+}
+
+function getCountry(zone) {
+
+  console.log(zone);
+  const jsonData = fs.readFileSync('data/zone-country.json', 'utf8');
+  const data = JSON.parse(jsonData);
+
+  country = data[zone]["countryName"];
+  return country;
 }
 
 module.exports = { fetchPowerConsumption };

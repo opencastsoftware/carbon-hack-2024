@@ -12,7 +12,8 @@ const SWI = (globalConfig) => {
 
       return [
         {
-          ...inputs[0], ["swi"]: totalWaterConsumption
+          ...inputs[0], 
+          ["swi"]: totalWaterConsumption
         },
       ];
   };

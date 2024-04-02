@@ -9,16 +9,16 @@ const WaterGeneration = (globalConfig) => {
     const WATER_AVARAGE = 1.8;
 
     var energy = inputs[0].energy;
-    var location = inputs[0].location;
+    const [latitude, longitude] = inputs[0].geolocation.split(',');
 
-    const totalConsumption = await fetchPowerConsumption(location);
-    console.log(totalConsumption);
-
-    var waterConsumption = energy * totalConsumption;
+    const result = await fetchPowerConsumption(latitude, longitude);
+    var waterConsumption = energy * result.totalConsumption;
 
     return [
       {
-        ...inputs[0], ["water-power"]: waterConsumption
+        ...inputs[0], 
+        ["water-power"]: waterConsumption,
+        ["country"]: result.country
       }
     ];
   };

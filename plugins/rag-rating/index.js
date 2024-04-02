@@ -124,6 +124,7 @@ const RagRating = (globalConfig) => {
 
             return [
                 {
+                  ...inputs[0],
                   ["swi-rating"]: riskColorForWater,
                   ["sci-rating"]: riskColorForCarbon
                 }];
