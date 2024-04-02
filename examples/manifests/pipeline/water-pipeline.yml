@@ -78,3 +78,19 @@ tree:
           memory/energy: 0.0005
           network/energy: 0.0005
           requests: 100
+        - timestamp: 2023-07-06T00:00
+          duration: 45000
+          cloud/region-wt-id: CAISO_NORTH
+          geolocation: 36.778259,-119.417931
+          cpu/energy: 0.001
+          memory/energy: 0.001
+          network/energy: 0.001
+          requests: 200
+        - timestamp: 2023-07-06T00:00
+          duration: 55000
+          cloud/region-wt-id: CAISO_NORTH
+          geolocation: 36.778259,-119.417931
+          cpu/energy: 0.0015
+          memory/energy: 0.0015
+          network/energy: 0.0015
+          requests: 300

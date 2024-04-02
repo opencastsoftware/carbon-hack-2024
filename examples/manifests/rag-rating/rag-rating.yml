@@ -15,7 +15,17 @@ tree:
     rag-rating:
   inputs:
     - timestamp: 2024-04-01T00:00 
-      duration: 3000
-      country: Brazil
+      duration: 1000
+      country: USA
       swi: 1
       sci: 10
+    - timestamp: 2024-04-01T00:00 
+      duration: 2000
+      country: Brazil
+      swi: 2
+      sci: 20
+    - timestamp: 2024-04-01T00:00 
+      duration: 3000
+      country: Denmark
+      swi: 3
+      sci: 30
