@@ -1,0 +1,96 @@
+const axios = require("axios");
+const fs = require("fs");
+const { DateTime } = require("luxon");
+
+const base_url =
+  "https://api.electricitymap.org/v3/power-breakdown/history?zone=GB";
+
+axios
+  .get(base_url)
+  .then((response) => {
+    if (response.status === 200) {
+      getPowerConsumption(response.data);
+      fs.writeFile("Energy_Data.json", JSON.stringify(response.data), (err) => {
+        if (err) throw err;
+        console.log("Data successfully saved to Energy_Data.json");
+      });
+    } else {
+      console.log("Failed to retrieve data. Status code:", response.status);
+    }
+  })
+  .catch((error) => {
+    console.log("Error:", error);
+  });
+
+function getPowerConsumption(data) {
+  const json_data = data;
+  const zone = json_data.zone;
+  const history = json_data.history[0];
+  const created_at = history.createdAt;
+  const breakdown = history.powerConsumptionBreakdown;
+  const created_at_datetime = new Date(created_at);
+  const created_at_readable = created_at_datetime
+    .toISOString()
+    .slice(0, 19)
+    .replace("T", " ");
+
+  var total_consumption = Object.values(breakdown).reduce(
+    (sum, value) => sum + value,
+    0
+  );
+  const rows_to_add = [];
+  for (const [source, value] of Object.entries(breakdown)) {
+    const percentage = (value / total_consumption) * 100;
+    rows_to_add.push({
+      zone: zone,
+      created: created_at_readable,
+      energy_source: source,
+      value: value,
+    });
+  }
+  rows_to_add.forEach(function (dfs) {
+    if (dfs.energy_source == "biomass") {
+      dfs.energy_source = "biofuel";
+    }
+    if (dfs.energy_source == "geothermal") {
+      dfs.energy_source = "other_renewable_exc_biofuel";
+    }
+  });
+
+  var myArray = rows_to_add.filter(
+    (x) =>
+      x.energy_source != "hydro" &&
+      x.energy_source != "hydro discharge" &&
+      x.energy_source != "battery discharge" &&
+      x.energy_source != "unknown"
+  );
+
+  total_consumption = myArray.reduce((sum, value) => sum + value.value, 0);
+  console.log("total consumption : " + total_consumption);
+
+  var result = myArray.reduce(function (acc, v) {
+    acc[v.energy_source] = (acc[v.energy_source] || 0) + v.value;
+    return acc;
+  }, {});
+
+  const new_rows_to_add = [];
+  for (const [source, value] of Object.entries(result)) {
+    const percentage = (value / total_consumption) * 100;
+    new_rows_to_add.push({
+      zone: zone,
+      created: created_at_readable,
+      energy_source: source,
+      value: value,
+      percentage: percentage,
+    });
+  }
+  console.log(new_rows_to_add);
+  fs.writeFile(
+    "Latest_Energy_Data.json",
+    JSON.stringify(new_rows_to_add),
+    (err) => {
+      if (err) throw err;
+      console.log("Data successfully saved to Latest_Energy_Data.json");
+    }
+  );
+}
