@@ -4,17 +4,28 @@ const SWI = (globalConfig) => {
     kind: "execute",
   };
 
+  const validateInput = (input) => {
+    if (typeof input[METRICS[0]] !== 'number' || typeof input[METRICS[1]] !== 'number') {
+        throw new Error('water-cloud and water-power must be numbers.');
+    }
+
+    return input;
+  };
+
   const execute = async (inputs, config) => {
     var result = [];
 
     for(i=0; i<inputs.length; i++){
-      var waterCloud = inputs[i][METRICS[0]];
-      var waterPower = inputs[i][METRICS[1]];
+
+      var safeInput = validateInput(inputs[i]);
+
+      var waterCloud = safeInput[METRICS[0]];
+      var waterPower = safeInput[METRICS[1]];
 
       var totalWaterConsumption = waterCloud + waterPower;
 
       result[i] = {
-        ...inputs[i], 
+        ...safeInput, 
         ["swi"]: totalWaterConsumption
       }
     }
