@@ -3,15 +3,29 @@ const WaterCloud = (globalConfig) => {
     kind: "execute",
   };
 
+  const validateInput = (input) => {
+    if (typeof input.energy !== 'number') {
+        throw new Error('energy must be numbers.');
+    }
+
+    return input;
+  };
+
   const execute = async (inputs, config) => {
     const WATER_AVARAGE = 1.8;
 
     var result = [];
     
     for(i=0; i<inputs.length; i++){
-      var energy = inputs[i].energy;
+
+      var safeInput = validateInput(inputs[i]);
+
+      var energy = safeInput.energy;
       var cloudWaterConsumption = energy * WATER_AVARAGE;
-      result[i] = { ... inputs[i], ["water-cloud"]: cloudWaterConsumption };
+      result[i] = { 
+                    ...safeInput, 
+                    ["water-cloud"]: cloudWaterConsumption 
+                  };
     }
     return result;
   };
