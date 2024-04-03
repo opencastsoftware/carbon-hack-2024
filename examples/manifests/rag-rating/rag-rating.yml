@@ -1,5 +1,5 @@
-name: test-manifest
-description: example impl invoking Cloud Instance Metadata plugin
+name: RagRating
+description: example impl invoking RagRating plugin
 tags:
 initialize:
   plugins:
