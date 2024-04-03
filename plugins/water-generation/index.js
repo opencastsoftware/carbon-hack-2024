@@ -6,21 +6,22 @@ const WaterGeneration = (globalConfig) => {
   };
 
   const execute = async (inputs, config) => {
-    const WATER_AVARAGE = 1.8;
+    var result = [];
 
-    var energy = inputs[0].energy;
-    const [latitude, longitude] = inputs[0].geolocation.split(',');
+    for(i=0; i<inputs.length; i++){
+      var energy = inputs[i].energy;
+      const [latitude, longitude] = inputs[i].geolocation.split(',');
+      const consumptionResult = await fetchPowerConsumption(latitude, longitude);
+      var waterConsumption = energy * consumptionResult.totalConsumption;
 
-    const result = await fetchPowerConsumption(latitude, longitude);
-    var waterConsumption = energy * result.totalConsumption;
-
-    return [
-      {
-        ...inputs[0], 
+      result[i] = {
+        ...inputs[i], 
         ["water-power"]: waterConsumption,
-        ["country"]: result.country
+        ["country"]: consumptionResult.country
       }
-    ];
+    }
+
+    return result;
   };
 
   return {

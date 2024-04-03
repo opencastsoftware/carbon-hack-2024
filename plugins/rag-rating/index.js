@@ -5,22 +5,16 @@ const RagRating = (globalConfig) => {
     const metadata = {
         kind: 'execute',
     };
-
-    var lower_value = 'lower-value';
-    var upper_value = 'upper-value';
-
     
-    const validateInput = (config) => {
-        // Example validation: Check if upper-value and lower-value are numbers
-        if (typeof config[upper_value] !== 'number' || typeof config[lower_value] !== 'number') {
-            throw new Error('upper-value and lower-value must be numbers');
+    const validateInput = (input) => {
+        if (typeof input.swi !== 'number' || typeof input.swi !== 'number') {
+            throw new Error('SWI and SCI must be numbers.');
         }
-        // check if lower value is greater than upper value
-        if ( config[lower_value] >= config[upper_value]) {
-            throw new Error('lower-value can not be greater than or equal to upper value');
+        if (input.country === null || typeof input.country === 'undefined') {
+            throw new Error('Country is not provided.');
         }
 
-        return config;
+        return input;
     };
 
     const getBandsForSwi = (country) => {
@@ -92,42 +86,51 @@ const RagRating = (globalConfig) => {
     const execute = async (inputs, config) => {
         try {
 
-            // RAG Rating for Water
-            const swiBand = await getBandsForSwi(inputs[0].country);
-            var waterConsumption = inputs.swi;
-            var riskColorForWater = '';
-            if(waterConsumption < parseFloat(swiBand.low_upper_band)){
-                riskColorForWater = 'green';
-            }
-            else if(waterConsumption < parseFloat(swiBand.medium_upper_band)) {
-                riskColorForWater = "amber";
-            }
-            else
-            {
-                riskColorForWater = 'red';
-            }
+            var result = [];
 
-            // RAG Rating for Energy
-            const sciBands = await getBandsForSci(inputs[0].country);
-            var carbonConsumption = inputs.sci;
-            var riskColorForCarbon = '';
-            if(carbonConsumption < parseFloat(sciBands.low_upper_band)){
-                riskColorForCarbon = 'green';
-            }
-            else if(carbonConsumption < parseFloat(sciBands.medium_upper_band)) {
-                riskColorForCarbon = "amber";
-            }
-            else
-            {
-                riskColorForCarbon = 'red';
-            }
+            for(i=0; i<inputs.length; i++){
 
-            return [
+                var safeInput = validateInput(inputs[i]);
+
+                var country = safeInput.country;
+                // RAG Rating for Water
+                const swiBand = await getBandsForSwi(country);
+                var waterConsumption = safeInput.swi;
+                var riskColorForWater = '';
+                if(waterConsumption < parseFloat(swiBand.low_upper_band)){
+                    riskColorForWater = 'green';
+                }
+                else if(waterConsumption < parseFloat(swiBand.medium_upper_band)) {
+                    riskColorForWater = "amber";
+                }
+                else
                 {
-                  ...inputs[0],
-                  ["swi-rating"]: riskColorForWater,
-                  ["sci-rating"]: riskColorForCarbon
-                }];
+                    riskColorForWater = 'red';
+                }
+
+                // RAG Rating for Energy
+                const sciBands = await getBandsForSci(country);
+                var carbonConsumption = safeInput.sci;
+                var riskColorForCarbon = '';
+                if(carbonConsumption < parseFloat(sciBands.low_upper_band)){
+                    riskColorForCarbon = 'green';
+                }
+                else if(carbonConsumption < parseFloat(sciBands.medium_upper_band)) {
+                    riskColorForCarbon = "amber";
+                }
+                else
+                {
+                    riskColorForCarbon = 'red';
+                }
+
+                result[i] = {
+                    ...safeInput,
+                    ["swi-rating"]: riskColorForWater,
+                    ["sci-rating"]: riskColorForCarbon
+                  };
+            }
+
+            return result;
         } catch (error) {
             console.error(error);
             return { error: error.message };

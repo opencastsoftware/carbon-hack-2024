@@ -71,7 +71,6 @@ function getPowerConsumption(data) {
 
 function getCountry(zone) {
 
-  console.log(zone);
   const jsonData = fs.readFileSync('data/zone-country.json', 'utf8');
   const data = JSON.parse(jsonData);
 
