@@ -7,7 +7,7 @@ const WaterGeneration = (globalConfig) => {
 
   const validateInput = (input) => {
     if (typeof input.energy !== 'number') {
-      throw new Error('energy must be a numbers');
+      throw new Error('energy must be a number');
     }
 
     var regex = new RegExp('^\\-?\\d{1,3}\\.\\d+,-?\\d{1,3}\\.\\d+$');
