@@ -7,7 +7,7 @@ const SWI = (globalConfig) => {
 
   const validateInput = (input, config) => {
     if (typeof input[METRICS[0]] !== 'number' || typeof input[METRICS[1]] !== 'number') {
-        throw new Error('water-cloud and water-power must be numbers.');
+      throw new Error('water-cloud and water-power must be numbers.');
     }
     if (typeof input[config[CONF[0]]] !== 'number' || typeof input[config[CONF[0]]] !== 'number') {
       throw new Error(config[CONF[0]] + ' is missing or must be a number.');
@@ -26,9 +26,6 @@ const SWI = (globalConfig) => {
 
   const execute = async (inputs, config) => {
     var result = [];
-
-    console.log(config);
-    console.log(config[CONF[0]]);
 
     var safeConfig = validateConfig(config);
 
