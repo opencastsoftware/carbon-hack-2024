@@ -1,0 +1,4 @@
+timestamp,duration,country,swi,sci,swi-rating,sci-rating
+2024-04-01T00:00,1000,USA,1,10,green,green
+2024-04-01T00:00,2000,Brazil,2,20,green,green
+2024-04-01T00:00,3000,Denmark,3,30,green,green
