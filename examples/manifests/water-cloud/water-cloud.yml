@@ -1,5 +1,5 @@
-name: test-manifest-for-swi
-description: example impl invoking Cloud Instance Metadata plugin
+name: water-cloud manifest
+description: example impl invoking water cloud plugin
 tags:
 initialize:
   plugins:

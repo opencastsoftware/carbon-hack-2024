@@ -41,6 +41,9 @@ initialize:
       path: 'rag-rating'
       global-config:
         keep-exisiting: true
+    csv-exporter:
+      method: CsvExport
+      path: '@grnsft/if-plugins'
 tree:
   children:
     child:
@@ -54,6 +57,7 @@ tree:
         - water-cloud
         - swi
         - rag-rating
+        - csv-exporter
       defaults:
         device/emissions-embodied: 1533.120 # gCO2eq
         time-reserved: 3600 # 1hr in seconds
@@ -71,6 +75,8 @@ tree:
           functional-unit-time: 1 hours
           functional-unit: anyUnit
         rag-rating:
+        csv-exporter:
+          output-path: ./../../examples/manifests/pipeline/water-pipeline-output.csv
       inputs:
         - timestamp: 2023-07-06T00:00
           duration: 36000

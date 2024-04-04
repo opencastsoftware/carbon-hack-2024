@@ -8,7 +8,7 @@ describe('WaterCloud', () => {
         test('should throw error if input energy is invalid', async () => {
             const inputs = [{ energy: "test" }];
             const config = [];
-            await expect(waterCloud.execute(inputs, config)).rejects.toThrow('energy must be a number.');
+            await expect(waterCloud.execute(inputs, config)).rejects.toThrow('energy must be a number');
         });
 
         test('should  return valid output if input is valid', async () => {

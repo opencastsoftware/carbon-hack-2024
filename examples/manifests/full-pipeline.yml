@@ -60,35 +60,38 @@ tree:
         sci:
           functional-unit-time: 1 sec
           functional-unit: requests # factor to convert per time to per f.unit
+        swi:
+          functional-unit-time: 1 sec
+          functional-unit: requests
       pipeline:
         - cloud-metadata
         - teads-curve
         - watt-time
-        # - sci-e
-        # - sci-o
-        # - sci-m
-        # - sci
-        # - water-cloud
-        # - water-generation
-        # - swi
-        # - rag-rating
+        - sci-e
+        - sci-o
+        - sci-m
+        - sci
+        - water-cloud
+        - water-generation
+        - swi
+        - rag-rating
       inputs:
         - timestamp: 2024-04-02T00:00
-          duration: 30
+          duration: 600
           cpu/utilization: 20
           cloud/instance-type: Standard_A1_v2
           cloud/vendor: azure
           cloud/region: westus3
           requests: 12
         - timestamp: 2024-04-02T00:30
-          duration: 30
+          duration: 600
           cpu/utilization: 80
           cloud/instance-type: Standard_A1_v2
           cloud/region: westus3
           cloud/vendor: azure
           requests: 5
-        - timestamp: 2024-04-02T01:10
-          duration: 30
+        - timestamp: 2024-04-02T01:00
+          duration: 600
           cpu/utilization: 20
           cloud/instance-type: Standard_A1_v2
           cloud/region: westus3
