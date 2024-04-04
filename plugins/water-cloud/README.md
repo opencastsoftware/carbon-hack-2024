@@ -8,18 +8,20 @@
 
 ### Plugin config
 
-Two parameters are required in global config: `input-parameters` and `output-parameter`.
-
-`input-parameters`: an array of strings. Each string should match an existing key in the `inputs` array
-`output-parameter`: a string defining the name to use to add the product of the input parameters to the output array.
+Not required.
 
 ### Inputs
 
-All of `input-parameters` must be available in the input array.
+- `energy`: energy used.
+
+and:
+
+- `timestamp`: a timestamp for the input
+- `duration`: the amount of time, in seconds, that the input covers.
 
 ## Returns
 
-- `output-parameter`: the product of all `input-parameters` with the parameter name defined by `output-parameter` in global config.
+- `water-cloud`: the amount of water used.
 
 ## Calculation
 
@@ -34,47 +36,18 @@ output = energy * WATER_AVARAGE
 To run the plugin, you must first create an instance of `water-cloud`. Then, you can call `execute()`.
 
 ```javascript
-const WaterCloud = (globalConfig) => {
-  const metadata = {
-    kind: "execute",
-  };
+const { WaterCloud } = require('./index.js');
 
-  const validateInput = (input) => {
-    if (typeof input.energy !== 'number') {
-        throw new Error('energy must be numbers.');
-    }
+const waterCloudPlugin = WaterCloud({});
 
-    return input;
-  };
+const inputs = [
+    { energy: 10 },
+    { energy: 15 }
+];
 
-  const execute = async (inputs, config) => {
-    const WATER_AVARAGE = 1.8;
+const result = waterCloudPlugin.execute(inputs, {});
 
-    var result = [];
-    
-    for(i=0; i<inputs.length; i++){
-
-      var safeInput = validateInput(inputs[i]);
-
-      var energy = safeInput.energy;
-      var cloudWaterConsumption = energy * WATER_AVARAGE;
-      result[i] = { 
-                    ...safeInput, 
-                    ["water-cloud"]: cloudWaterConsumption 
-                  };
-    }
-    return result;
-  };
-
-  return {
-    metadata,
-    execute,
-  };
-};
-
-exports.WaterCloud = WaterCloud;
-
-
+console.log(result);
 ```
 
 ## Example manifest
