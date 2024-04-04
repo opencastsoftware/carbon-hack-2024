@@ -16,8 +16,8 @@
 
 ### Inputs
 
-- `swi`: 
-- `sci`: 
+- `swi`: swi value
+- `sci`: sci value
 
 and:
 
@@ -45,7 +45,8 @@ lower-band > Amber < upper-band
 To run the plugin, you must first create an instance of `rag-rating`. Then, you can call `execute()`.
 
 ```javascript
-const { RagRating } = require('./RagRating.js');
+const { RagRating } = require('./index.js');
+
 const ragRatingPlugin = RagRating({});
 
 const inputs = [
