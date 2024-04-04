@@ -1,6 +1,6 @@
 # rag-rating - RED AMBER GREEN RATING
 
-`rag-rating` is a generic plugin for outputing color representation ....
+`rag-rating` is a generic plugin for outputing color representation
 
 ## Parameters
 
@@ -87,17 +87,14 @@ tree:
   inputs:
     - timestamp: 2024-04-01T00:00 
       duration: 1000
-      country: USA
       swi: 1
       sci: 10
     - timestamp: 2024-04-01T00:00 
       duration: 2000
-      country: Brazil
       swi: 2
       sci: 20
     - timestamp: 2024-04-01T00:00 
       duration: 3000
-      country: Denmark
       swi: 3
       sci: 30
 ```
