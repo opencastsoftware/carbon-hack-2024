@@ -68,6 +68,7 @@ tree:
         water-generation:
         water-cloud:
         swi:
+          functional-unit-time: 1 hours
           functional-unit: anyUnit
         rag-rating:
       inputs:

@@ -1,3 +1,6 @@
+//import { TIME_UNITS_IN_SECONDS } from './config.js';
+const { TIME_UNITS_IN_SECONDS } = require('./config.js');
+
 const SWI = (globalConfig) => {
   const METRICS = ['water-cloud', 'water-power'];
   const CONF = ['functional-unit'];
@@ -24,6 +27,15 @@ const SWI = (globalConfig) => {
     return config;
   };
 
+  // Mapping functional-unit-time to seconds
+  const convertSciToTimeUnit =  (unit) => {
+    const conversionFactor = TIME_UNITS_IN_SECONDS[unit];
+    if(typeof conversionFactor === 'undefined'){
+      throw new Error('functional-unit-time is not in recognized unit of time');
+    }
+    return conversionFactor;
+  }; 
+
   const execute = async (inputs, config) => {
     var result = [];
 
@@ -36,13 +48,26 @@ const SWI = (globalConfig) => {
       var waterCloud = safeInput[METRICS[0]];
       var waterPower = safeInput[METRICS[1]];
 
-      var totalWaterConsumption = waterCloud + waterPower;
-      var totalConsumptionPerUnit = totalWaterConsumption/safeInput[safeConfig[CONF[0]]]
+      var swiValue = waterCloud + waterPower;
+      var swiPerSecond = swiValue/safeInput.duration;
 
-      result[i] = {
-        ...safeInput, 
-        ["swi"]: totalConsumptionPerUnit
+      if(typeof config['functional-unit-time'] === 'undefined'){
+        result[i] = {
+          ...safeInput, 
+          ["swi"]: swiPerSecond/1
+        }
       }
+      else {
+        const splits = config['functional-unit-time'].split(/[-_ ]/);
+
+        swiPerSecond = swiValue * convertSciToTimeUnit(splits[1]); 
+
+        result[i] = {
+          ...safeInput, 
+          ["swi"]: swiPerSecond/inputs[i][config['functional-unit']]
+        }
+      }
+      
     }
     
     return result;
