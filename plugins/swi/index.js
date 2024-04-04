@@ -28,7 +28,7 @@ const SWI = (globalConfig) => {
   };
 
   // Mapping functional-unit-time to seconds
-  const convertSciToTimeUnit =  (unit) => {
+  const convertSwiToTimeUnit =  (unit) => {
     const conversionFactor = TIME_UNITS_IN_SECONDS[unit];
     if(typeof conversionFactor === 'undefined'){
       throw new Error('functional-unit-time is not in recognized unit of time');
@@ -60,7 +60,7 @@ const SWI = (globalConfig) => {
       else {
         const splits = config['functional-unit-time'].split(/[-_ ]/);
 
-        swiPerSecond = swiValue * convertSciToTimeUnit(splits[1]); 
+        swiPerSecond = swiValue * convertSwiToTimeUnit(splits[1]); 
 
         result[i] = {
           ...safeInput, 
