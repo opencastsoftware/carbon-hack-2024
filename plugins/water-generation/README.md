@@ -3,7 +3,6 @@
 `water-generation` is a generic plugin for calculating the water consumption for power generation
 
 
-
 ## Parameters
 
 ### Plugin config
@@ -15,11 +14,17 @@ Two parameters are required in global config: `input-parameters` and `output-par
 
 ### Inputs
 
-All of `input-parameters` must be available in the input array.
+`energy`: total energy in kwh
+`timestamp`: a timestamp for the input
+`duration`: the amount of time, in seconds, that the input covers.
+
 
 ## Returns
 
 - `output-parameter`: the product of all `input-parameters` with the parameter name defined by `output-parameter` in global config.
+
+- water-power: It returns the water use per location.
+
 
 ## Calculation
 
