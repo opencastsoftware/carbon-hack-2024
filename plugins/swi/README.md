@@ -1,25 +1,27 @@
 # swi - Software Water intensity
 
-`swi` is a generic plugin for outputing color representation ....
-
-
+`swi` is a plugin that can output the Software Water Intensity value
 
 ## Parameters
 
 ### Plugin config
 
-Two parameters are required in global config: `input-parameters` and `output-parameter`.
-
-`input-parameters`: an array of strings. Each string should match an existing key in the `inputs` array
-`output-parameter`: a string defining the name to use to add the product of the input parameters to the output array.
+- `functional-unit`: the functional unit in which to express the water impact
+- `functional-unit-time`: the time to be used for functional unit conversions, as a string composed of a value and a unit separated with a space, hyphen or underscore, e.g. `2 mins`, `5-days`, `3_years`
 
 ### Inputs
 
-All of `input-parameters` must be available in the input array.
+- `water-cloud`: water-cloud value
+- `water-power`: water-power value
+
+and:
+
+- `timestamp`: a timestamp for the input
+- `duration`: the amount of time, in seconds, that the input covers.
 
 ## Returns
 
-- `output-parameter`: the product of all `input-parameters` with the parameter name defined by `output-parameter` in global config.
+- `swi`: value
 
 SWI = ((E*(I1+I2)) +M) per R
 where 
@@ -42,20 +44,23 @@ output = waterCloud + waterPower
 To run the plugin, you must first create an instance of `swi`. Then, you can call `execute()`.
 
 ```javascript
-const SWI = (globalConfig) => {
-  const METRICS = ['water-cloud', 'water-power'];
-  const metadata = {
-    kind: "execute",
-  };
+const { SWI } = require('./index.js');
 
-  const validateInput = (input) => {
-    if (typeof input[METRICS[0]] !== 'number' || typeof input[METRICS[1]] !== 'number') {
-        throw new Error('water-cloud and water-power must be numbers.');
-    }
+const swiPlugin = SWI({});
 
-    return input;
-  };
-  
+const config = {
+    'functional-unit': 'deployments',
+    'functional-unit-time': '1 hour'
+};
+
+const inputs = [
+    { 'water-cloud': 10, 'water-power': 20, duration: 60, 'deployments': 5 },
+    { 'water-cloud': 15, 'water-power': 25, duration: 60, 'deployments': 8 }
+];
+
+const result = swiPlugin.execute(inputs, config);
+
+console.log(result);
 ```
 
 ## Example manifest
