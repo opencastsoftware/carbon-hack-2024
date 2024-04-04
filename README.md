@@ -1,62 +1,8 @@
-# if-risk-scorecard
+# Water Pipeline - Plugins
 
-`risk-scorecard` is an ........(Description goes here)
+## Implementations
 
-## Implementation
-
-We plan to create a YAML or possibly an exhaust plugin that produces a rating for processes or services running on known cloud VMs.
-
-
-## Testing model integration
-
-### Using local links
-
-For using locally developed model in `IF Framework` please follow these steps: 
-
-1. On the root level of a locally developed model run `npm link`, which will create global package. It uses `package.json` file's `name` field as a package name. Additionally name can be checked by running `npm ls -g --depth=0 --link=true`.
-
-```
-npm link
-```
-
-```
-npm link risk-scorecard
-```
-
-2. Use the linked model in impl by specifying `name`, `method`, `path` in initialize models section. 
-
-```yaml
-name: risk-scorecard-manifest
-description: example risk-scorecard plugin
-tags:
-initialize:
-  plugins:
-    risk-scorecard:
-      method: RiskScorecard
-      path: 'risk-scorecard'
-      global-config:
-        keep-exisiting: true
-tree:
-  pipeline:
-    - risk-scorecard
-  config:
-    risk-scorecard:
-  inputs:
-    - timestamp: 2024-04-01T00:00 
-      country: Brazil
-      duration: 100
-      numberOfHours: 1
-      waterConsumption: 167.24706060235152
-...
-```
-Make sure you have installed impact-framework by running 
-
-```
-npm install -g "@grnsft/if"
-```
-
-Now, when you run the `manifest` using the IF CLI, it will load the model automatically. Run using:
-
-```sh
-ie --manifest ./risk-scorecard/risk-swi.yml
-```
+- [water-cloud](./plugins/water-cloud/README.md)
+- [water-generation](./plugins/water-generation/README.md)
+- [swi](./plugins/swi/README.md)
+- [rag-rating](./plugins/rag-rating/README.md)
