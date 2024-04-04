@@ -78,19 +78,24 @@ tree:
     - swi
   config:
     swi:
+      functional-unit: requests
+      functional-unit-time: 1 hours
   inputs:
     - timestamp: 2024-04-01T00:00 
       duration: 100
       water-cloud: 10
       water-power: 10
+      requests: 100
     - timestamp: 2024-04-01T00:00 
       duration: 200
       water-cloud: 20
       water-power: 20
+      requests: 100
     - timestamp: 2024-04-01T00:00 
       duration: 300
       water-cloud: 30
       water-power: 30
+      requests: 100
 ```
 
 You can run this example by saving it as `./examples/manifests/swi.yml` and executing the following command from the project root:
