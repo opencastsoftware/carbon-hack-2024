@@ -2,30 +2,42 @@
 
 `rag-rating` is a generic plugin for outputing color representation ....
 
-
-
 ## Parameters
 
 ### Plugin config
 
-Two parameters are required in global config: `input-parameters` and `output-parameter`.
+### Plugin node config
 
-`input-parameters`: an array of strings. Each string should match an existing key in the `inputs` array
-`output-parameter`: a string defining the name to use to add the product of the input parameters to the output array.
+- `swi-lower-band`: This represents the lower threshold or band for the SWI. It defines the boundary below which the SWI value is considered low risk.
+- `swi-upper-band`: This represents the upper threshold or band for the SWI. It defines the boundary above which the SWI value is considered high risk.
+- `sci-lower-band`: This represents the lower threshold or band for the SCI. It defines the boundary below which the SCI value is considered low risk.
+- `sci-upper-band`: This represents the upper threshold or band for the SCI. It defines the boundary above which the SCI value is considered high risk.
+
 
 ### Inputs
 
-All of `input-parameters` must be available in the input array.
+- `swi`: 
+- `sci`: 
+
+and:
+
+- `timestamp`: a timestamp for the input
+- `duration`: the amount of time, in seconds, that the input covers.
+
 
 ## Returns
 
-- `output-parameter`: the product of all `input-parameters` with the parameter name defined by `output-parameter` in global config.
+- `swi-rating`: SWI Red, Amber or Green rating
+- `sci-rating`: SCI Red, Amber or Green rating
 
 ## Calculation
 
-```pseudocode
+Rating is calculated as:
 
-output = ........
+```pseudocode
+Green < lower-band
+Red > upper-band
+lower-band > Amber < upper-band
 ```
 
 ## Implementation
@@ -33,11 +45,23 @@ output = ........
 To run the plugin, you must first create an instance of `rag-rating`. Then, you can call `execute()`.
 
 ```javascript
-const RagRating = (globalConfig) => {
-    const metadata = {
-        kind: 'execute',
-    }; 
-  
+const { RagRating } = require('./RagRating.js');
+const ragRatingPlugin = RagRating({});
+
+const inputs = [
+    { swi: 10, sci: 20 },
+    { swi: 15, sci: 25 }
+];
+const config = {
+    'swi-lower-band': 5,
+    'swi-upper-band': 15,
+    'sci-lower-band': 10,
+    'sci-upper-band': 20
+};
+
+const result = ragRatingPlugin.execute(inputs, config);
+
+console.log(result);
 ```
 
 ## Example manifest
