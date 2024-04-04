@@ -2,6 +2,7 @@ const fs = require('fs');
 const csv = require('csv-parser');
 
 const RagRating = (globalConfig) => {
+    const CONF = ['swi-lower-band', 'swi-upper-band', 'sci-lower-band', 'sci-upper-band'];
     const metadata = {
         kind: 'execute',
     };
@@ -10,14 +11,22 @@ const RagRating = (globalConfig) => {
         if (typeof input.swi !== 'number' || typeof input.swi !== 'number') {
             throw new Error('SWI and SCI must be numbers.');
         }
-        if (input.country === null || typeof input.country === 'undefined') {
-            throw new Error('Country is not provided.');
-        }
 
         return input;
     };
 
-    const getBandsForSwi = (country) => {
+    const validateConfig = (config) => {
+        if (typeof config[CONF[0]] !== 'number' || typeof config[CONF[1]] !== 'number') {
+            throw new Error('swi-lower-band and swi-upper-band must be numbers.');
+        }
+        if (typeof config[CONF[2]] !== 'number' || typeof config[CONF[3]] !== 'number') {
+            throw new Error('sci-lower-band and sci-upper-band must be numbers.');
+        }
+
+        return config;
+    };
+
+    /*const getBandsForSwi = (country) => {
         return new Promise((resolve, reject) => {
             const csvFilePath = 'data/rag_bands_ranges_for_water.csv';
             const data = [];
@@ -81,60 +90,54 @@ const RagRating = (globalConfig) => {
                     reject(new Error('Sci band record not found')); // Reject promise if record is not found
                 });
         });
-    };
+    };*/
     
     const execute = async (inputs, config) => {
-        try {
 
-            var result = [];
+        var result = [];
 
-            for(i=0; i<inputs.length; i++){
+        for(i=0; i<inputs.length; i++){
 
-                var safeInput = validateInput(inputs[i]);
+            var safeInput = validateInput(inputs[i]);
 
-                var country = safeInput.country;
-                // RAG Rating for Water
-                const swiBand = await getBandsForSwi(country);
-                var waterConsumption = safeInput.swi;
-                var riskColorForWater = '';
-                if(waterConsumption < parseFloat(swiBand.low_upper_band)){
-                    riskColorForWater = 'green';
-                }
-                else if(waterConsumption < parseFloat(swiBand.medium_upper_band)) {
-                    riskColorForWater = "amber";
-                }
-                else
-                {
-                    riskColorForWater = 'red';
-                }
+            var safeConfig = validateConfig(config);
 
-                // RAG Rating for Energy
-                const sciBands = await getBandsForSci(country);
-                var carbonConsumption = safeInput.sci;
-                var riskColorForCarbon = '';
-                if(carbonConsumption < parseFloat(sciBands.low_upper_band)){
-                    riskColorForCarbon = 'green';
-                }
-                else if(carbonConsumption < parseFloat(sciBands.medium_upper_band)) {
-                    riskColorForCarbon = "amber";
-                }
-                else
-                {
-                    riskColorForCarbon = 'red';
-                }
-
-                result[i] = {
-                    ...safeInput,
-                    ["swi-rating"]: riskColorForWater,
-                    ["sci-rating"]: riskColorForCarbon
-                  };
+            // RAG Rating for Water
+            var waterConsumption = safeInput.swi;
+            var riskColorForWater = '';
+            if(waterConsumption < safeConfig[CONF[0]] !== 'number'){
+                riskColorForWater = 'green';
+            }
+            else if(waterConsumption < safeConfig[CONF[1]] !== 'number') {
+                riskColorForWater = "amber";
+            }
+            else
+            {
+                riskColorForWater = 'red';
             }
 
-            return result;
-        } catch (error) {
-            console.error(error);
-            return { error: error.message };
+            // RAG Rating for Energy
+            var carbonConsumption = safeInput.sci;
+            var riskColorForCarbon = '';
+            if(carbonConsumption < safeConfig[CONF[2]] !== 'number'){
+                riskColorForCarbon = 'green';
+            }
+            else if(carbonConsumption < safeConfig[CONF[3]] !== 'number') {
+                riskColorForCarbon = "amber";
+            }
+            else
+            {
+                riskColorForCarbon = 'red';
+            }
+
+            result[i] = {
+                ...safeInput,
+                ["swi-rating"]: riskColorForWater,
+                ["sci-rating"]: riskColorForCarbon
+                };
         }
+
+        return result;
     }
 
     return {
