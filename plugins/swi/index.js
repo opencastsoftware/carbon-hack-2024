@@ -54,7 +54,7 @@ const SWI = (globalConfig) => {
       if(typeof config['functional-unit-time'] === 'undefined'){
         result[i] = {
           ...safeInput, 
-          ["swi"]: swiPerSecond/1
+          ["swi"]: swiPerSecond/inputs[i][config['functional-unit']]
         }
       }
       else {
