@@ -75,10 +75,14 @@ tree:
           functional-unit-time: 1 hours
           functional-unit: anyUnit
         rag-rating:
+          swi-lower-band: .5
+          swi-upper-band: 1.5
+          sci-lower-band: 10
+          sci-upper-band: 20
         csv-exporter:
           output-path: ./../../examples/manifests/pipeline/water-pipeline-output.csv
       inputs:
-        - timestamp: 2023-07-06T00:00
+        - timestamp: 2024-04-01T00:00
           duration: 36000
           cloud/region-wt-id: CAISO_NORTH
           geolocation: 36.778259,-119.417931
@@ -87,7 +91,7 @@ tree:
           network/energy: 0.0005
           requests: 100
           anyUnit: 100
-        - timestamp: 2023-07-06T00:00
+        - timestamp: 2024-04-02T00:00
           duration: 45000
           cloud/region-wt-id: CAISO_NORTH
           geolocation: 36.778259,-119.417931
@@ -96,7 +100,7 @@ tree:
           network/energy: 0.001
           requests: 200
           anyUnit: 100
-        - timestamp: 2023-07-06T00:00
+        - timestamp: 2024-04-03T00:00
           duration: 55000
           cloud/region-wt-id: CAISO_NORTH
           geolocation: 36.778259,-119.417931
