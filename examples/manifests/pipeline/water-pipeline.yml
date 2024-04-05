@@ -1,0 +1,107 @@
+name: water
+description: simple demo invoking water
+tags:
+initialize:
+  plugins:
+    watt-time:
+      method: WattTimeGridEmissions
+      path: '@grnsft/if-unofficial-plugins'
+    "sci-e":
+      method: SciE
+      path: "@grnsft/if-plugins"
+    sci-o:
+      verbose: false
+      method: SciO
+      path: "@grnsft/if-plugins"
+    "sci-m": # a model that calculates m from te, tir, el, rr and rtor
+      method: SciM
+      verbose: false
+      path: "@grnsft/if-plugins"
+    sci:
+      kind: plugin
+      method: Sci
+      path: "@grnsft/if-plugins"
+    water-generation:
+      method: WaterGeneration
+      path: 'water-generation'
+      global-config:
+        keep-exisiting: true
+    water-cloud:
+      method: WaterCloud
+      path: 'water-cloud'
+      global-config:
+        keep-exisiting: true
+    swi:
+      method: SWI
+      path: 'swi'
+      global-config:
+        keep-exisiting: true
+    rag-rating:
+      method: RagRating
+      path: 'rag-rating'
+      global-config:
+        keep-exisiting: true
+    csv-exporter:
+      method: CsvExport
+      path: '@grnsft/if-plugins'
+tree:
+  children:
+    child:
+      pipeline:
+        - watt-time
+        - sci-e
+        - sci-o
+        - sci-m
+        - sci
+        - water-generation
+        - water-cloud
+        - swi
+        - rag-rating
+        - csv-exporter
+      defaults:
+        device/emissions-embodied: 1533.120 # gCO2eq
+        time-reserved: 3600 # 1hr in seconds
+        device/expected-lifespan: 94608000 # 3 years in seconds
+        resources-reserved: 1
+        resources-total: 8
+      config:
+        sci-e:
+        sci:
+          functional-unit-time: 1 sec
+          functional-unit: requests # factor to convert per time to per f.unit
+        water-generation:
+        water-cloud:
+        swi:
+          functional-unit-time: 1 hours
+          functional-unit: anyUnit
+        rag-rating:
+        csv-exporter:
+          output-path: ./../../examples/manifests/pipeline/water-pipeline-output.csv
+      inputs:
+        - timestamp: 2023-07-06T00:00
+          duration: 36000
+          cloud/region-wt-id: CAISO_NORTH
+          geolocation: 36.778259,-119.417931
+          cpu/energy: 0.001
+          memory/energy: 0.0005
+          network/energy: 0.0005
+          requests: 100
+          anyUnit: 100
+        - timestamp: 2023-07-06T00:00
+          duration: 45000
+          cloud/region-wt-id: CAISO_NORTH
+          geolocation: 36.778259,-119.417931
+          cpu/energy: 0.001
+          memory/energy: 0.001
+          network/energy: 0.001
+          requests: 200
+          anyUnit: 100
+        - timestamp: 2023-07-06T00:00
+          duration: 55000
+          cloud/region-wt-id: CAISO_NORTH
+          geolocation: 36.778259,-119.417931
+          cpu/energy: 0.0015
+          memory/energy: 0.0015
+          network/energy: 0.0015
+          requests: 300
+          anyUnit: 100

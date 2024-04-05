@@ -1,0 +1,32 @@
+name: RagRating
+description: example impl invoking RagRating plugin
+tags:
+initialize:
+  plugins:
+    rag-rating:
+      method: RagRating
+      path: 'rag-rating'
+      global-config:
+        keep-exisiting: true
+tree:
+  pipeline:
+    - rag-rating
+  config:
+    rag-rating:
+      swi-lower-band: .5
+      swi-upper-band: 1.5
+      sci-lower-band: 10
+      sci-upper-band: 20
+  inputs:
+    - timestamp: 2024-04-01T00:00 
+      duration: 1000
+      swi: 1
+      sci: 10
+    - timestamp: 2024-04-03T00:00 
+      duration: 2000
+      swi: 2
+      sci: 20
+    - timestamp: 2024-04-02T00:00 
+      duration: 3000
+      swi: 3
+      sci: 30

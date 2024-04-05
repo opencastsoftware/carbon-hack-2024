@@ -1,0 +1,100 @@
+name: full-pipeline
+description: test starting from observations
+tags:
+initialize:
+  plugins:
+    teads-curve: 
+      path: '@grnsft/if-unofficial-plugins'
+      method: TeadsCurve
+      global-config:
+        interpolation: spline
+    group-by:
+      path: "builtin"
+      method: GroupBy
+    cloud-metadata:
+      method: CloudMetadata
+      path: "@grnsft/if-plugins"   
+    sci-e:
+      method: SciE
+      path: "@grnsft/if-plugins"
+    watt-time:
+      method: WattTimeGridEmissions
+      path: '@grnsft/if-unofficial-plugins'
+      verbose: true
+    sci-o:
+      verbose: false
+      method: SciO
+      path: "@grnsft/if-plugins"
+    sci-m: # a model that calculates m from te, tir, el, rr and rtor
+      method: SciM
+      verbose: false
+      path: "@grnsft/if-plugins"
+    sci:
+      kind: plugin
+      method: Sci
+      path: "@grnsft/if-plugins"
+    water-cloud:
+      method: WaterCloud
+      path: 'water-cloud'
+      global-config:
+        keep-exisiting: true
+    water-generation:
+      method: WaterGeneration
+      path: 'water-generation'
+      global-config:
+        keep-exisiting: true
+    swi:
+      method: SWI
+      path: "swi"
+    rag-rating:
+      method: RagRating
+      path: 'rag-rating'
+tree:
+  children:
+    child-0:
+      defaults:
+        device/emissions-embodied: 1533.120 # gCO2eq
+        country: United States
+        device/expected-lifespan: 94608000 # 3 years in seconds
+      config:
+        sci:
+          functional-unit-time: 1 sec
+          functional-unit: requests # factor to convert per time to per f.unit
+        swi:
+          functional-unit-time: 1 sec
+          functional-unit: requests
+      pipeline:
+        - cloud-metadata
+        - teads-curve
+        - watt-time
+        - sci-e
+        - sci-o
+        - sci-m
+        - sci
+        - water-cloud
+        - water-generation
+        - swi
+        - rag-rating
+      inputs:
+        - timestamp: 2024-04-02T00:00
+          duration: 600
+          cpu/utilization: 20
+          cloud/instance-type: Standard_A1_v2
+          cloud/vendor: azure
+          cloud/region: westus3
+          requests: 12
+        - timestamp: 2024-04-02T00:30
+          duration: 600
+          cpu/utilization: 80
+          cloud/instance-type: Standard_A1_v2
+          cloud/region: westus3
+          cloud/vendor: azure
+          requests: 5
+        - timestamp: 2024-04-02T01:00
+          duration: 600
+          cpu/utilization: 20
+          cloud/instance-type: Standard_A1_v2
+          cloud/region: westus3
+          cloud/vendor: azure
+          requests: 29
+        

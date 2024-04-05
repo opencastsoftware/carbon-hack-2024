@@ -1,0 +1,25 @@
+name: water-cloud manifest
+description: example impl invoking water cloud plugin
+tags:
+initialize:
+  plugins:
+    water-cloud:
+      method: WaterCloud
+      path: 'water-cloud'
+      global-config:
+        keep-exisiting: true
+tree:
+  pipeline:
+    - water-cloud
+  config:
+    water-cloud:
+  inputs:
+    - timestamp: 2024-04-01T00:00 
+      duration: 100
+      energy: 10
+    - timestamp: 2024-04-01T00:00 
+      duration: 200
+      energy: 20
+    - timestamp: 2024-04-01T00:00 
+      duration: 300
+      energy: 30
